@@ -17,7 +17,6 @@
 
 <!ENTITY https-everywhere.menu.donate_eff_imperative "Donate to EFF">
 <!ENTITY https-everywhere.menu.about "About HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.observatory "SSL Observatory Preferences">
 <!ENTITY https-everywhere.menu.globalEnable "Enable HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.globalDisable "Disable HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.blockUnencryptedRequests "Block all unencrypted requests">

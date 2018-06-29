@@ -15,14 +15,10 @@
   <tabbox flex="1">
     <tabs>
       <tab label="HTTPS Everywhere" />
-      <tab label="SSL Observatory" />
     </tabs>
     <tabpanels flex="1">
       <tabpanel flex="1" orient="vertical">
         <browser src="chrome://https-everywhere/content/preferences.xul" flex="1"/>
-      </tabpanel>
-      <tabpanel flex="1" orient="vertical">
-        <browser src="chrome://https-everywhere/content/observatory-preferences.xul" flex="1"/>
       </tabpanel>
     </tabpanels>
   </tabbox>

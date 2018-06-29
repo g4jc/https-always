@@ -539,14 +539,12 @@ HTTPSEverywhere.prototype = {
             SERVICE_CTRID, false, true);
       }
     } else if (topic == "sessionstore-windows-restored") {
-      this.log(DBUG,"Got sessionstore-windows-restored");
-      if (!this.isMobile) {
-        this.maybeShowObservatoryPopup();
-      } else {
-        this.log(WARN, "Initializing Firefox for Android UI");
-        Cu.import("chrome://https-everywhere/content/code/AndroidUI.jsm");
-        AndroidUI.init();
-      }
+       this.log(DBUG,"Got sessionstore-windows-restored");
+       if (this.isMobile) {
+         this.log(WARN, "Initializing Firefox for Android UI");
+         Cu.import("chrome://https-everywhere/content/code/AndroidUI.jsm");
+         AndroidUI.init();
+       }
       this.browser_initialised = true;
     } else if (topic == "nsPref:changed") {
         // If the user toggles the Mixed Content Blocker settings, reload the rulesets
@@ -572,71 +570,6 @@ HTTPSEverywhere.prototype = {
       HTTPSRules.init();
     }
     return;
-  },
-
-  maybeShowObservatoryPopup: function() {
-    // Show the popup at most once.  Users who enabled the Observatory before
-    // a version that would have shown it to them, don't need to see it
-    // again.
-    var ssl_observatory = CC["@eff.org/ssl-observatory;1"]
-                      .getService(Components.interfaces.nsISupports)
-                      .wrappedJSObject;
-    var shown = ssl_observatory.myGetBoolPref("popup_shown");
-    var enabled = ssl_observatory.myGetBoolPref("enabled");
-    var that = this;
-    var obs_popup_callback = function(result) {
-      if (result) that.log(INFO, "Got positive proxy test.");
-      else        that.log(INFO, "Got negative proxy text.");
-      // We are now ready to show the popup in its most informative state
-      that.chrome_opener("chrome://https-everywhere/content/observatory-popup.xul");
-    };
-    if (!shown && !enabled)
-      ssl_observatory.registerProxyTestNotification(obs_popup_callback);
-
-    if (shown && enabled)
-      this.maybeCleanupObservatoryPrefs(ssl_observatory);
-  },
-
-  maybeCleanupObservatoryPrefs: function(ssl_observatory) {
-    // Recover from a past UI processing bug that would leave the Observatory
-    // accidentally disabled for some users
-    // https://trac.torproject.org/projects/tor/ticket/10728
-    var clean = ssl_observatory.myGetBoolPref("clean_config");
-    if (clean) return;
-
-    // unchanged: returns true if a pref has not been modified
-    var unchanged = function(p){return !ssl_observatory.prefs.prefHasUserValue("extensions.https_everywhere._observatory."+p)};
-    var cleanup_obsprefs_callback = function(tor_avail) {
-      // we only run this once
-      ssl_observatory.prefs.setBoolPref("extensions.https_everywhere._observatory.clean_config", true);
-      if (!tor_avail) {
-        // use_custom_proxy is the variable that is often false when it should be true;
-        if (!ssl_observatory.myGetBoolPref("use_custom_proxy")) {
-           // however don't do anything if any of the prefs have been set by the user
-           if (unchanged("alt_roots") && unchanged("self_signed") && unchanged ("send_asn") && unchanged("priv_dns")) {
-             ssl_observatory.prefs.setBoolPref("extensions.https_everywhere._observatory.use_custom_proxy", true);
-           }
-        }
-      }
-    }
-    ssl_observatory.registerProxyTestNotification(cleanup_obsprefs_callback);
-  },
-
-
-  getExperimentalFeatureCohort: function() {
-    // This variable is used for gradually turning on features for testing and
-    // scalability purposes.  It is a random integer [0,N_COHORTS) generated
-    // once and stored thereafter.
-    // 
-    // This is not currently used/called in the development branch
-    var cohort;
-    try {
-      cohort = this.prefs.getIntPref("experimental_feature_cohort");
-    } catch(e) {
-      cohort = Math.round(Math.random() * N_COHORTS);
-      this.prefs.setIntPref("experimental_feature_cohort", cohort);
-    }
-    return cohort;
   },
 
   get_prefs: function(prefBranch) {
