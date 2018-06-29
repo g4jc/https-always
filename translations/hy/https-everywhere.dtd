@@ -1,0 +1,57 @@
+<!ENTITY https-everywhere.about.title "«HTTPS Everywhere»-ի մասին">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Կոդավորե՛ք Վեբը։ Ավտոմատ օգտագործեք HTTPS անվտանգություն շատ կայքերի վրա։">
+<!ENTITY https-everywhere.about.version "Տարբերակ">
+<!ENTITY https-everywhere.about.created_by "Ստեղծեց՝">
+<!ENTITY https-everywhere.about.and ", և">
+<!ENTITY https-everywhere.about.librarians "Կանոնաշարի գրադարանավարներ">
+<!ENTITY https-everywhere.about.add_new_rule "Ավելացնել կանոն">
+<!ENTITY https-everywhere.about.thanks "Շնորհիվ՝">
+<!ENTITY https-everywhere.about.many_contributors "Շատ-շատ անկախ աջակցողների, ներառյալ՝">
+<!ENTITY https-everywhere.about.noscript "«HTTPS Everywhere»-ի որոշ մաս հիմնված է «NoScript»-ի կոդերի վրա, գրված Giorgio Maone-ի և ուրիշների կողմից։ Շնորհակալ ենք նրանց գերազանց աշխատանքի համար։">
+<!ENTITY https-everywhere.about.contribute  "Եթե սիրում եք օգտագործել «HTTPS Everywhere»-ը, ապա հաշվի առեք">
+<!ENTITY https-everywhere.about.donate_tor "Նվիրաբերում եք Tor-ին">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "կամ">
+<!ENTITY https-everywhere.about.donate_eff "Նվիրաբերում եք EFF-ին">
+
+<!ENTITY https-everywhere.menu.donate_eff_imperative "Նվիրաբերեք EFF-ին">
+<!ENTITY https-everywhere.menu.about "«HTTPS Everywhere»-ի մասին">
+<!ENTITY https-everywhere.menu.observatory "SSL Դիտակետի կարգավորումներ">
+<!ENTITY https-everywhere.menu.globalEnable "Միացնել «HTTPS Everywhere»-ը">
+<!ENTITY https-everywhere.menu.globalDisable "Անջատել «HTTPS Everywhere»-ը">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Արգելափակել բոլոր չկոդավորված միացումները">
+<!ENTITY https-everywhere.menu.showCounter "Ցուցադրել հաշվիչը">
+<!ENTITY https-everywhere.menu.viewAllRules "Դիտել բոլոր կանոնները">
+
+<!ENTITY https-everywhere.prefs.title "«HTTPS Everywhere»-ի կարգավորումներ">
+<!ENTITY https-everywhere.prefs.enable_all "Միացնել բոլորը">
+<!ENTITY https-everywhere.prefs.disable_all "Անջատել բոլորը">
+<!ENTITY https-everywhere.prefs.reset_defaults "Ետ բերել լռելյայնները">
+<!ENTITY https-everywhere.prefs.search "Որոնել">
+<!ENTITY https-everywhere.prefs.site "Կայք">
+<!ENTITY https-everywhere.prefs.notes "Հուշումներ">
+<!ENTITY https-everywhere.prefs.list_caption "Ո՞ր HTTPS վերահասցեավորման կանոնները պետք է գործեն։">
+<!ENTITY https-everywhere.prefs.enabled "Միացված">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Դուք կարող եք սովորել՝ ինչպես գրել Ձեր սեփական կանոնները (և ինչպես ավելացնել այլ կայքերի համար աջակցություն)">
+<!ENTITY https-everywhere.prefs.here_link "այստեղ">
+<!ENTITY https-everywhere.prefs.toggle "Փոխել">
+<!ENTITY https-everywhere.prefs.reset_default "Ետ բերել լռելյայնը">
+<!ENTITY https-everywhere.prefs.view_xml_source "Դիտել XML աղբյուրը">
+
+<!ENTITY https-everywhere.chrome.stable_rules "Կայուն կանոններ">
+<!ENTITY https-everywhere.chrome.stable_rules_description "Ստիպել կոդավորված միացում այս կայքերին.">
+<!ENTITY https-everywhere.chrome.experimental_rules "Փորձարարական կանոններ">
+<!ENTITY https-everywhere.chrome.experimental_rules_description "Կարող է առաջ բերել զգուշացումներ կամ խափանումներ։ Լռելյայն արգելափակված է։">
+<!ENTITY https-everywhere.chrome.add_rule "Ավելացնե կանոն այս կայքի համար">
+<!ENTITY https-everywhere.chrome.add_new_rule "Ավելացնել նոր կանոն այս կայքի համար">
+<!ENTITY https-everywhere.chrome.always_https_for_host "Միշտ օգտագործել https այս հոսթի համար">
+<!ENTITY https-everywhere.chrome.host "Հոսթ. ">
+<!ENTITY https-everywhere.chrome.show_advanced "Ցուցադրել մանրամասները">
+<!ENTITY https-everywhere.chrome.hide_advanced "Թաքցնել մանրամասները">
+<!ENTITY https-everywhere.chrome.rule_name "Կանոնի անվանումը">
+<!ENTITY https-everywhere.chrome.regex "Համընկնող regex">
+<!ENTITY https-everywhere.chrome.redirect_to "Վերահասցեավորել դեպի">
+<!ENTITY https-everywhere.chrome.status_cancel_button "Չեղարկել">
+
+

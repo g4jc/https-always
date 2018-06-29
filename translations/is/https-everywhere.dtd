@@ -1,0 +1,57 @@
+<!ENTITY https-everywhere.about.title "Um HTTPS Allsstaðar">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Allsstaðar">
+<!ENTITY https-everywhere.about.ext_description "Dulkóðaðu vefinn! Notaðu sjálfkrafa HTTPS-öryggi á mörgum vefsvæðum.">
+<!ENTITY https-everywhere.about.version "Útgáfa">
+<!ENTITY https-everywhere.about.created_by "Búið til af">
+<!ENTITY https-everywhere.about.and " og">
+<!ENTITY https-everywhere.about.librarians "&quot;Ruleset Librarians&quot;">
+<!ENTITY https-everywhere.about.add_new_rule "Bæta við nýrri reglu">
+<!ENTITY https-everywhere.about.thanks "Þökk sé">
+<!ENTITY https-everywhere.about.many_contributors "gríðarlega mörgum aðilum, þar á meðal">
+<!ENTITY https-everywhere.about.noscript "Ennfremur má geta bað hlutar HTTPS Everywhere eru byggðir á kóða frá NoScript, eftir Giorgio Maone og fleiri.  Við stöndum í þakkarskuld við þá !">
+<!ENTITY https-everywhere.about.contribute  "Ef þú kannt við HTTPS Allsstaðar ættirðu að íhuga">
+<!ENTITY https-everywhere.about.donate_tor "Framlag til Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "is">
+<!ENTITY https-everywhere.about.or "eða">
+<!ENTITY https-everywhere.about.donate_eff "Framlag til EFF">
+
+<!ENTITY https-everywhere.menu.donate_eff_imperative "Styrkja EFF">
+<!ENTITY https-everywhere.menu.about "Um HTTPS Allsstaðar">
+<!ENTITY https-everywhere.menu.observatory "SSL Observatory valkostir">
+<!ENTITY https-everywhere.menu.globalEnable "Virkja HTTPS Allsstaðar">
+<!ENTITY https-everywhere.menu.globalDisable "Gera HTTPS Allsstaðar óvirkt">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Hindra allar ódulritaðar beiðnir">
+<!ENTITY https-everywhere.menu.showCounter "Birta teljara">
+<!ENTITY https-everywhere.menu.viewAllRules "Skoða allar reglur">
+
+<!ENTITY https-everywhere.prefs.title "HTTPS Allsstaðar valkostir">
+<!ENTITY https-everywhere.prefs.enable_all "Virkja allt">
+<!ENTITY https-everywhere.prefs.disable_all "Gera allt óvirkt">
+<!ENTITY https-everywhere.prefs.reset_defaults "Frumstilla á sjálfgefnar stillingar">
+<!ENTITY https-everywhere.prefs.search "Leita">
+<!ENTITY https-everywhere.prefs.site "Vefsvæði">
+<!ENTITY https-everywhere.prefs.notes "Skýringar">
+<!ENTITY https-everywhere.prefs.list_caption "Hvaða HTTPS endurbeiningarreglur ættu að gilda?">
+<!ENTITY https-everywhere.prefs.enabled "Virkt">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Þú getur lært hvernig á að skrifa eigin reglusett (til að bæta við stuðningi fyrir aðrar vefsíður)">
+<!ENTITY https-everywhere.prefs.here_link "hér">
+<!ENTITY https-everywhere.prefs.toggle "Víxla">
+<!ENTITY https-everywhere.prefs.reset_default "Frumstillaá sjálfgefið">
+<!ENTITY https-everywhere.prefs.view_xml_source "Skoða XML-uppruna">
+
+<!ENTITY https-everywhere.chrome.stable_rules "Stöðugar reglur">
+<!ENTITY https-everywhere.chrome.stable_rules_description "Þvinga dulritaðar tengingar við þessi vefsvæði:">
+<!ENTITY https-everywhere.chrome.experimental_rules "Reglur á tilraunastigi">
+<!ENTITY https-everywhere.chrome.experimental_rules_description "Getur valdið hruni eða viðvörunum. Sjálfgefið óvirkt.">
+<!ENTITY https-everywhere.chrome.add_rule "Bæta við reglu fyrir þetta vefsvæði">
+<!ENTITY https-everywhere.chrome.add_new_rule "Bæta við nýrri reglu fyrir þetta vefsvæði">
+<!ENTITY https-everywhere.chrome.always_https_for_host "Alltaf nota HTTPS fyrir þessa vél">
+<!ENTITY https-everywhere.chrome.host "Hýsilvél:">
+<!ENTITY https-everywhere.chrome.show_advanced "Birta ítalegt">
+<!ENTITY https-everywhere.chrome.hide_advanced "Fela ítalegt">
+<!ENTITY https-everywhere.chrome.rule_name "Heiti reglu">
+<!ENTITY https-everywhere.chrome.regex "Samsvarandi reglulegri segð">
+<!ENTITY https-everywhere.chrome.redirect_to "Endurbeina á">
+<!ENTITY https-everywhere.chrome.status_cancel_button "Hætta við">
+
+

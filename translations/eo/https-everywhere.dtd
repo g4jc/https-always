@@ -1,0 +1,57 @@
+<!ENTITY https-everywhere.about.title "Pri HTTPS-Ĉie">
+<!ENTITY https-everywhere.about.ext_name "HTTPS-Ĉie">
+<!ENTITY https-everywhere.about.ext_description "Ĉifrigu la reton! Aŭtomate uzu HTTPS‐sekurecon ĉe multaj retejoj.">
+<!ENTITY https-everywhere.about.version "Versio">
+<!ENTITY https-everywhere.about.created_by "Kreita de">
+<!ENTITY https-everywhere.about.and ", kaj">
+<!ENTITY https-everywhere.about.librarians "Bibliotekoj de regularo">
+<!ENTITY https-everywhere.about.add_new_rule "Aldoni novan regulon">
+<!ENTITY https-everywhere.about.thanks "Dankojn al">
+<!ENTITY https-everywhere.about.many_contributors "Plej pli da kontribuintoj, inklude">
+<!ENTITY https-everywhere.about.noscript "Krom tio, partoj de HTTPS-Ĉie estas bazitaj sur kodo de NoScript de Giorgio MANOE kaj aliaj. Ni danku por ilia bonega laboro!">
+<!ENTITY https-everywhere.about.contribute  "Se vi ŝatas HTTPS-Ĉie, vi devus konsideri">
+<!ENTITY https-everywhere.about.donate_tor "Donaci al Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "eo">
+<!ENTITY https-everywhere.about.or "aŭ">
+<!ENTITY https-everywhere.about.donate_eff "Donaci al EFF">
+
+<!ENTITY https-everywhere.menu.donate_eff_imperative "Donaci al EFF">
+<!ENTITY https-everywhere.menu.about "Pri HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.observatory "Agordoj de SSL-Observejo">
+<!ENTITY https-everywhere.menu.globalEnable "Enŝalti HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.globalDisable "Malŝalti HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Bloki ĉiujn neĉifritajn petojn">
+<!ENTITY https-everywhere.menu.showCounter "Montri nombrilon">
+<!ENTITY https-everywhere.menu.viewAllRules "Montri ĉiujn regulojn">
+
+<!ENTITY https-everywhere.prefs.title "Agordoj de HTTPS-Ĉie">
+<!ENTITY https-everywhere.prefs.enable_all "Enŝalti ĉiujn">
+<!ENTITY https-everywhere.prefs.disable_all "Malŝalti ĉiujn">
+<!ENTITY https-everywhere.prefs.reset_defaults "Reŝargi al aprioraj">
+<!ENTITY https-everywhere.prefs.search "Serĉi">
+<!ENTITY https-everywhere.prefs.site "Retejo">
+<!ENTITY https-everywhere.prefs.notes "Notoj">
+<!ENTITY https-everywhere.prefs.list_caption "Kiuj reguloj pri HTTPS-alidirektado aplikiĝi?">
+<!ENTITY https-everywhere.prefs.enabled "Enŝaltita">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Vi povas lerni kiel krei viajn proprajn regularojn (por aldoni subtenon por aliaj retejoj)">
+<!ENTITY https-everywhere.prefs.here_link "ĉi tie">
+<!ENTITY https-everywhere.prefs.toggle "Ŝalti">
+<!ENTITY https-everywhere.prefs.reset_default "Restarigi apriorajn">
+<!ENTITY https-everywhere.prefs.view_xml_source "Vidi XML-fonton">
+
+<!ENTITY https-everywhere.chrome.stable_rules "Stabilaj reguloj">
+<!ENTITY https-everywhere.chrome.stable_rules_description "Devigi ĉifritan konekton al tiuj retejoj">
+<!ENTITY https-everywhere.chrome.experimental_rules "Eksperimentaj reguloj">
+<!ENTITY https-everywhere.chrome.experimental_rules_description "Povas kaŭzi avertojn aŭ malfunkciojn. Apriore malŝaltita.">
+<!ENTITY https-everywhere.chrome.add_rule "Aldoni regulon por ĉi tiu retejo">
+<!ENTITY https-everywhere.chrome.add_new_rule "Aldoni novan regulon por ĉi tiu retejo">
+<!ENTITY https-everywhere.chrome.always_https_for_host "Ĉiam uzi https por ĉi tiu retejo">
+<!ENTITY https-everywhere.chrome.host "Servilo">
+<!ENTITY https-everywhere.chrome.show_advanced "Montri altnivelajn">
+<!ENTITY https-everywhere.chrome.hide_advanced "Kaŝi altnivelajn">
+<!ENTITY https-everywhere.chrome.rule_name "Nomo de regulo">
+<!ENTITY https-everywhere.chrome.regex "Kongrua regula esprimo">
+<!ENTITY https-everywhere.chrome.redirect_to "Aldirekti al">
+<!ENTITY https-everywhere.chrome.status_cancel_button "Rezigni">
+
+

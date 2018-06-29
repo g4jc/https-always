@@ -1,0 +1,100 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Informationes minores et informationes abdititudinis">
+<!ENTITY ssl-observatory.popup.later "Roga me postea">
+<!ENTITY ssl-observatory.popup.no "Non">
+
+<!ENTITY ssl-observatory.popup.text "HTTPS In Omnibus Locis temptationes
+contra navem tuam missione certitudinum acceptarum ad Observatorium invenire potest.
+Inirene id?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Usetne HTTPS In Omnibus Locis SSL Observatorium?">
+
+<!ENTITY ssl-observatory.popup.yes "Est">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Id inire certe est, nisi intrissimum
+coniunctionem usas.">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Certe, nisi coniunctionem nominibus abditibus intra-coniunctionis:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Mittere probareque certificationes, quae signum non-saepum CArum radicum habent.">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Certe (et bene) est eam possibilitatem inire, nisi coniunctionem initiosum constructionis aut Kaspersky programma contra vira usas, qua navigationem tuam cum TLS clave et abdito auctore certificationum radicis videt. Si inest in ea coniunctione, ea possibilitas ostendere potest, quae https:// loci visiti sunt per ea clave, certificationes unicas enim facit. Itaque initiale deest.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Certificationes probare usando Tor pro nescitione">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Certificationes probare usando Tor pro nescitione (Tor egetur)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"Pro ea possibilitate Tor adesse agereque debet">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Si certificationem novam vides, observatorium dicis, quo ISP coniunctus es">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"Id &quot;Numerum autonomum systematis&quot; contiunctionis tuae acquiret mittetque. Id nos aderit temptationes contra HTTPS invenire, et scire, habemusne observationes de coniunctionibus in locis ut Iran et Syria, ubi temptationes relatione saepe sunt.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Monitionem ostendere, cum observatorium certificationem revocatam invenit, quae nave capta non est">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Id certificationes submissas Ordinibus Revocationis Certificationum scitis probat. Male est, quod non certe omnes cerificationes revocatas notat, sed si monitionem vides, verisimile aliquid falsum est.">
+
+<!ENTITY ssl-observatory.prefs.done "Factum">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"HTTPS In Omnibus Locis potest SSL observatorium de EFF usare. Id duo res facit:
+(1) Duplicationes certificationum HTTPS ad observatorium mittit, ut nos 'vir in medio' temptationis invenire adsit, et certitudinem Coniunctionis melior facit
+et (2) sic te de coniunctionibus non certibus aut temptationibus contra navem tuam monere possumus.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"In exemplo, si https://www.something.com petis, certificatio,
+quae obeservatorio acquista est, dicit, quod aliquis www.something.com vidit,
+sed non, quis paginam petivit aut ad quam sub-pagiam spectavit.
+Pone triangulum muris pro minutalia:">
+
+<!ENTITY ssl-observatory.prefs.hide "Praeferentias longiores latere">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Certificationes probare etiam, si Tor deest">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Adhuc informationem nescitam esse probabimus, sed ea possibilitas incertior est">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Mittere probareque certificationes pro nomina DNS abdita">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Nisi ea possibilitas electa est, observatorium nomina certificationum non memorabit, qua DNS systemate solvere non potest.">
+
+<!ENTITY ssl-observatory.prefs.show "Praeferentias longiores ostendere">
+
+<!ENTITY ssl-observatory.prefs.title "Praeferentiae observandi SSL">
+
+<!ENTITY ssl-observatory.prefs.use "Usarene observatorium?">
+<!ENTITY ssl-observatory.warning.title "Monitio SSL observatorii de EFF">
+<!ENTITY ssl-observatory.warning.showcert "Coniunctionem certificationum ostendere">
+<!ENTITY ssl-observatory.warning.okay "Scio">
+<!ENTITY ssl-observatory.warning.text "SSL observatorium de HTTPS certification(um) eae paginae monuit:">
+<!ENTITY ssl-observatory.warning.defense "Si paginam inisti, bene sit verbum transilindi mutare, cum coniunctionem certam habes. (Eae monitiones in &quot;SSL observatorium&quot; parte praeferentiarum de HTTPS In Omnibus Locis defecti esse possunt.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Mittere probareque certificationes ipse signatas">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"Comendatur, quia numerus problematorum latetionis maximus est in indatis apparatibus ipse signatis.">
