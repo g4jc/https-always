@@ -53,13 +53,6 @@ if ! $ONLY_RULESETS_CHANGED; then
     docker_build
     docker run --rm -ti -v $(pwd):/opt -e FIREFOX=/$FIREFOX/firefox/firefox httpse bash -c "test/firefox.sh"
   fi
-
-  if [ "$TEST" == "chromium" ]; then
-    echo >&2 "Running chromium test suite."
-    docker_build
-    # --privileged is required here because chromium requires kernel lxc access
-    docker run --rm -ti -v $(pwd):/opt --privileged httpse bash -c "test/chromium.sh"
-  fi
 fi
 # Only run test if something has changed.
 if [ "$RULESETS_CHANGED" ]; then
