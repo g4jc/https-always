@@ -6,6 +6,7 @@
 
 		- Trend_Micro.de.xml
 		- Trend_Micro.eu.xml
+		- Zero_Day_Initiative.com.xml
 
 
 	CDN buckets:
@@ -111,7 +112,7 @@
 	<!--securecookie host="^esupport\.trendmicro\.com$" name="^ASP\.NET_SessionId$" /-->
 	<!--securecookie host="^forms\.trendmicro\.com$" name="^PHPSESSID$" /-->
 
-	<securecookie host="." name="." />
+	<securecookie host=".+" name=".+" />
 
 
 	<rule from="^http://feeds\.trendmicro\.com/"

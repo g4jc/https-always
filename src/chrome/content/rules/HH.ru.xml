@@ -3,7 +3,6 @@
 
 		- Career.ru.xml
 		- HH_CDN.ru.xml
-		- HHid.ru.xml
 
 
 	Insecure cookies are set for these domains and hosts:
@@ -176,7 +175,6 @@
 		<test url="http://slavgorod.hh.ru/" />
 		<test url="http://smolensk.hh.ru/" />
 		<test url="http://soltsy.hh.ru/" />
-		<test url="http://soltsy.hh.ru/" />
 		<test url="http://sorochinsk.hh.ru/" />
 		<test url="http://sortavala.hh.ru/" />
 		<test url="http://sovetskij.hh.ru/" />
@@ -233,7 +231,7 @@
 	<!--securecookie host="^khimki\.hh\.ru$" name="^(?:_xsrf|hhrole|regions|unique_banner_user)$" /-->
 	<!--securecookie host="^www\.hh\.ru$" name="^(?:_xsrf|hhtoken|hhuid)$" /-->
 
-	<securecookie host="." name="." />
+	<securecookie host=".+" name=".+" />
 
 
 	<rule from="^http:"

@@ -1,7 +1,6 @@
 <!--
 	Other Open Rights Group rulesets:
 
-		- 451_Unavailable.org.xml
 		- Blocked.org.uk.xml
 
 
@@ -31,7 +30,7 @@
 					-->
 	<!--securecookie host="^\.openrightsgroup\.org$" name="^PHPSESSID$" /-->
 
-	<securecookie host="." name="." />
+	<securecookie host=".+" name=".+" />
 
 
 	<rule from="^http:"

@@ -1,16 +1,10 @@
-<!--
-	Other Khronos Group rulesets:
-
-		- COLLADA.xml
-
--->
 <ruleset name="Khronos Group (partial)">
 
 	<target host="khronos.org" />
 	<target host="*.khronos.org" />
 
 
-	<securecookie host="^www\.khronos\.org$" name=".*" />
+	<securecookie host="^www\.khronos\.org$" name=".+" />
 
 
 	<!--	Cert only matches www.	-->

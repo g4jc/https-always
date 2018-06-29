@@ -1,61 +1,56 @@
-
 <!--
-Disabled by https-everywhere-checker because:
-Fetch error: http://my.evidon.com/ => https://my.evidon.com/: (60, 'SSL certificate problem: certificate has expired')
-Fetch error: http://my.betteradvertising.com/ => https://my.betteradvertising.com/: (60, 'SSL certificate problem: certificate has expired')
+	Other Evidon related rulesets:
+		+ Ghostery.com.xml
 
-	Other Evidon rulesets:
+	Self-signed cert:
+		- betteradvertising.com
+		- www.betteradvertising.com
+		- betrad.com
+		- www.betrad.com
+		- blog.evidon.com
 
-		- Ghostery_Enterprise.com.xml
-
-
-	CDN buckets:
-
-		- www.betteradvertising.com.edgesuite.net
-			- cdn.betteradvertising.com
-
-
-	Problematic domains:
-
-		- cdn.betteradvertising.com ¹
-		- blog.evidon.com ²
-
-	¹ Akamai
-	² Dropped
-
+	Cert expired:
+		- my.betteradvertising.com
+		- ads.evidon.com
+		- my.evidon.com
+		
+	Cert mismatch:
+		- cdn.betteradvertising.com
+		- cdn.evidon.com
+		- em.evidon.com
+	
+	Connection refused:
+		- graphite.evidon.com
 -->
-<ruleset name="Evidon Inc (partial)" default_off='failed ruleset test'>
+<ruleset name="Evidon Inc (partial)">
 
-	<!--	Direct rewrites:
-				-->
+	<!-- *betrad.com -->
+	
 	<target host="c.betrad.com" />
 	<target host="cdn.betrad.com" />
 	<target host="l.betrad.com" />
+	<target host="optout.betrad.com" />
 
-	<target host="info.evidon.com" />
-	<target host="my.evidon.com" />
+	<!-- *evidon.com -->
+	<target host="evidon.com" />
+	<target host="www.evidon.com" />
 
-	<target host="my.betteradvertising.com" />
+	<target host="account.evidon.com"/>
+	<target host="c.evidon.com"/>
+	<target host="cop.evidon.com"/>
+	<target host="extension-cdn.evidon.com"/>
+	<target host="info.evidon.com"/>
+	<target host="insights.evidon.com"/>
+	<target host="l3.evidon.com"/>
+	<target host="marketing.evidon.com"/>
+	<target host="mcm.evidon.com"/>
+	<target host="optout.evidon.com"/>
+	<target host="owneriq.evidon.com"/>
+	<target host="privacy.evidon.com"/>
+	<target host="privacyapi.evidon.com"/>
+	<target host="publisher.evidon.com"/>
+	<target host="signon.evidon.com"/>
+	<target host="trackermap.evidon.com"/>
 
-	<!--	Complications:
-				-->
-	<target host="cdn.betteradvertising.com" />
-	<target host="blog.evidon.com" />
-	<target host="cdn.evidon.com" />
-
-
-	<rule from="^http://cdn\.(?:betteradvertising|evidon)\.com/"
-		to="https://cdn.betrad.com/" />
-
-	<rule from="^http://blog\.evidon\.com/(?![^?])"
-		to="https://www.ghostery.com/intelligence/business-blog/" />
-
-		<test url="http://blog.evidon.com/home.php" />
-
-	<rule from="^http://blog\.evidon\.com/"
-		to="https://www.ghostery.com/intelligence/business-blog" />
-
-	<rule from="^http:"
-		to="https:"/>
-
+	<rule from="^http:" to="https:" />
 </ruleset>

@@ -1,8 +1,4 @@
-
 <!--
-Disabled by https-everywhere-checker because:
-Fetch error: http://ws-ea.amazon-adsystem.com/ => https://ws-ea.amazon-adsystem.com/: (6, 'Could not resolve host: ws-ea.amazon-adsystem.com')
-
 	For other Amazon coverage, see Amazon.xml.
 
 
@@ -31,22 +27,32 @@ Fetch error: http://ws-ea.amazon-adsystem.com/ => https://ws-ea.amazon-adsystem.
 	on whichever domain it is loaded from.
 
 -->
-<ruleset name="Amazon-Adsystem.com (partial)" default_off='failed ruleset test'>
+<ruleset name="Amazon-Adsystem.com (partial)">
 
 	<!--	Direct rewrites:
 				-->
 	<target host="aax.amazon-adsystem.com" />
 	<target host="aax-eu.amazon-adsystem.com" />
+	<target host="aax-fe.amazon-adsystem.com" />
+	<target host="aax-fe-pek.amazon-adsystem.com" />
+	<target host="aax-fe-sin.amazon-adsystem.com" />
 	<target host="aax-us-east.amazon-adsystem.com" />
 	<target host="c.amazon-adsystem.com" />
+	<target host="fls-eu.amazon-adsystem.com" />
+	<target host="fls-fe.amazon-adsystem.com" />
 	<target host="fls-na.amazon-adsystem.com" />
 	<target host="ir-de.amazon-adsystem.com" />
+	<target host="ir-jp.amazon-adsystem.com" />
 	<target host="ir-na.amazon-adsystem.com" />
+	<target host="rcm-eu.amazon-adsystem.com" />
+	<target host="rcm-fe.amazon-adsystem.com" />
 	<target host="rcm-na.amazon-adsystem.com" />
 	<target host="s.amazon-adsystem.com" />
 	<target host="wms-eu.amazon-adsystem.com" />
+	<target host="wms-fe.amazon-adsystem.com" />
 	<target host="wms-na.amazon-adsystem.com" />
-	<target host="ws-ea.amazon-adsystem.com" />
+	<target host="ws-eu.amazon-adsystem.com" />
+	<target host="ws-fe.amazon-adsystem.com" />
 	<target host="ws-na.amazon-adsystem.com" />
 
 	<!--	Complications:
@@ -66,7 +72,7 @@ Fetch error: http://ws-ea.amazon-adsystem.com/ => https://ws-ea.amazon-adsystem.
 					-->
 	<!--securecookie host="^\.amazon-adsystem\.com$" name="^ad-id$" /-->
 
-	<securecookie host="." name="." />
+	<securecookie host=".+" name=".+" />
 
 
 	<rule from="^http://ps-us\.amazon-adsystem\.com/"

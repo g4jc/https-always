@@ -1,9 +1,4 @@
 <!--
-	Other DuckCorp rulesets:
-
-		- Andesi.org.xml
-
-
 	Nonfunctional mini-dweeb.org subdomains:
 
 		- dico			(shows a different domain's data)
@@ -17,7 +12,7 @@
 	<target host="*.mini-dweeb.org" />
 
 
-	<securecookie host=".*\.mini-dweeb\.org$" name=".*" />
+	<securecookie host=".*\.mini-dweeb\.org$" name=".+" />
 
 
 	<rule from="^http://(debian|lists|projects|rcs|rcs-git|users|webdesk|webmail(?:-rc|-sm)?|wiki)\.mini-dweeb\.org/"

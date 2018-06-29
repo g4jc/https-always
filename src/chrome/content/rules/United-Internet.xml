@@ -10,7 +10,6 @@
 		- Corpimages.de.xml
 		- GMX.xml
 		- initial-website.com.xml
-		- Mail.com.xml
 		- perfora.net
 		- tifbs.net.xml
 		- Top.de.xml
@@ -18,7 +17,6 @@
 		- UI_CDN.net.xml
 		- UImserv.net.xml
 		- UI-Portal.xml
-		- Web.de.xml
 		- Website-start.de.xml
 
 -->
@@ -28,11 +26,10 @@
 	<target host="www.united-internet.de" />
 
 
-	<securecookie host="^www\.united-internet\.de$" name=".*" />
+	<securecookie host="^www\.united-internet\.de$" name=".+" />
 
 
 	<!--	Cert only matches www.	-->
-	<rule from="^http://(?:www\.)?united-internet\.de/"
-		to="https://www.united-internet.de/" />
+	<rule from="^http:" to="https:" />
 
 </ruleset>

@@ -5,7 +5,6 @@
 
 		+ Tmblr.co.xml
 		+ Txmblr.com.xml
-		+ umblr.com.xml
 
 	Non-functional hosts
 		SSL peer certificate was not OK:
@@ -71,7 +70,7 @@
 	<securecookie host="^(?:secure\.assets|www)\.tumblr\.com$" name="^__utmf$" />
 
 	<securecookie host="^\." name="^(?:__cfduid|cf_clearance)$" />
-	<securecookie host="^\.srvcs\.tumblr\.com$" name="." />
+	<securecookie host="^\.srvcs\.tumblr\.com$" name=".+" />
 	<securecookie host="^www\.tumblr\.com$" name="^d(?:evicePixelRatio|ocumentWidth)$" />
 
 	<rule from="^http:" to="https:" />

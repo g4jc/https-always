@@ -4,7 +4,6 @@
 	Other DNB Bank rulesets:
 
 		- Deltager.no.xml
-		- DnBNor.xml
 
 
 	Problematic hosts in *dnb.no:
@@ -60,7 +59,7 @@
 					-->
 	<!--securecookie host="^(?:m|www)\.dnb\.no$" name="^NorSegdOpSites1SessionID$" /-->
 
-	<securecookie host="." name="." />
+	<securecookie host=".+" name=".+" />
 
 
 	<rule from="^http://dnb\.no/"

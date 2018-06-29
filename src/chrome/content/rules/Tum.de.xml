@@ -1,10 +1,14 @@
 <!--
-Disabled by https-everywhere-checker because:
-Fetch error: http://tum.de/ => https://www.tum.de/: (6, 'Could not resolve host: tum.de')
+Technical University Munich
 -->
 <ruleset name="Tum.de">
-  <target host="tum.de" />
-  <target host="www.tum.de" />
-
-  <rule from="^http://(?:www\.)?tum\.de/" to="https://www.tum.de/" />
+	<!-- main page -->
+  	<target host="tum.de" />
+  	<target host="www.tum.de" />
+	<!-- library -->
+	<target host="ub.tum.de" />
+	<target host="www.ub.tum.de" />
+	<target host="opac.ub.tum.de" />
+	
+  <rule from="^http:" to="https:" />
 </ruleset>

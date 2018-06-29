@@ -2,7 +2,6 @@
 	Other National Broadcasting Company rulesets:
 
 		- NBC-News.xml
-		- S-nbcnews.com.xml
 
 -->
 <ruleset name="National Broadcasting Company" default_off="mismatched">
@@ -13,7 +12,7 @@
 	<target host="*.nbc.com" />
 
 
-	<securecookie host="^(?:www)?\.nbc\.com$" name=".*" />
+	<securecookie host="^(?:www)?\.nbc\.com$" name=".+" />
 
 
 	<!--	!www redirects to www.

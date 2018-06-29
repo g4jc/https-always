@@ -1,7 +1,6 @@
 <!--
 	Other Edoceo rulesets:
 
-		- GCDN.org.xml
 		- WeedTraQR.com.xml
 
 
@@ -29,7 +28,7 @@
 					-->
 	<!--securecookie host="^edoceo\.com$" name="^edoceo$" /-->
 
-	<securecookie host="^\w" name="." />
+	<securecookie host="^\w" name=".+" />
 
 
 	<rule from="^http:"

@@ -35,7 +35,7 @@
 		<!--test url="http://www.freetalklive.com/blog" /-->
 
 
-	<securecookie host="^\w" name="." />
+	<securecookie host="^\w" name=".+" />
 
 
 	<!--	Redirect keeps args:
@@ -65,21 +65,6 @@
 		to="https://www.freetalklive.com/studio/" />
 
 		<test url="http://cam.freetalklive.com/index.htm" />
-
-	<!--	Redirect keeps args:
-					-->
-	<rule from="^http://gear\.freetalklive\.com/(?=$|\?)"
-		to="https://ftl.secure-decoration.com/" />
-
-		<test url="http://gear.freetalklive.com/?" />
-
-	<!--	Redirect keeps forward slash, path,
-		and args, and prepends forward slash:
-							-->
-	<rule from="^http://gear\.freetalklive\.com/"
-		to="https://ftl.secure-decoration.com//" />
-
-		<test url="http://gear.freetalklive.com/index.htm" />
 
 	<!--	Redirect keeps args:
 					-->

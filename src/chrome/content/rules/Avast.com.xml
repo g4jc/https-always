@@ -1,7 +1,4 @@
 <!--
-	Other Avast rulesets:
-		- IAvs.net.xml
-
 	CDN buckets:
 		- avast.com.edgesuite.net
 			- sf0.iavs.net
@@ -56,7 +53,7 @@
 		<test url="http://ru.support.avast.com/" />
 
 	<securecookie host="^\." name="^s_vi$" />
-	<securecookie host="^\w" name="." />
+	<securecookie host="^\w" name=".+" />
 	
 	<rule from="^http:" to="https:" />
 </ruleset>

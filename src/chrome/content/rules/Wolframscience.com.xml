@@ -1,6 +1,10 @@
+<!--
+	For other Wolfram rulesets, see Wolfram.com.xml
+
+-->
 <ruleset name="Wolframscience.com">
   <target host="wolframscience.com" />
   <target host="www.wolframscience.com" />
 
-  <rule from="^http://(?:www\.)?wolframscience\.com/" to="https://www.wolframscience.com/" />
+  <rule from="^http:" to="https:" />
 </ruleset>
