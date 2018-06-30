@@ -38,7 +38,7 @@ const LOADER = CC["@mozilla.org/moz/jssubscript-loader;1"].getService(CI.mozIJSS
 const _INCLUDED = {};
 
 // NoScript uses this blob to include js constructs that stored in the chrome/
-// directory, but are not attached to the Firefox UI (normally, js located
+// directory, but are not attached to the UXP UI (normally, js located
 // there is attached to an Overlay and therefore is part of the UI).
 
 // Reasons for this: things in components/ directory cannot be split into
@@ -173,7 +173,7 @@ function HTTPSAlways() {
 
 
 /*
-In recent versions of Firefox and HTTPS Always, the call stack for performing an HTTP -> HTTPS rewrite looks like this:
+In recent versions of UXP and HTTPS Always, the call stack for performing an HTTP -> HTTPS rewrite looks like this:
 
 1. HTTPSAlways.observe() gets a callback with the "http-on-modify-request" topic, and the channel as a subject
 
@@ -292,7 +292,7 @@ HTTPSAlways.prototype = {
   // Given an nsIChannel (essentially, a container for an HTTP or similar
   // resource request), try to find the relevant tab if there is one.
   // Specifically, find the XUL <browser> element for that tab. Note
-  // there are multiple meanings for the word 'browser' in Firefox, described at:
+  // there are multiple meanings for the word 'browser' in UXP, described at:
   // https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Tabbed_browser
   // We're looking for this one:
   // https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/browser
@@ -329,31 +329,26 @@ HTTPSAlways.prototype = {
       }
     }
 
-    // On e10s (multiprocess, aka electrolysis) Firefox,
-    // loadContext.topFrameElement gives us a reference to the XUL <browser>
-    // element we need. However, on non-e10s Firefox, topFrameElement is null.
-    if (topFrameElement) {
-      return topFrameElement;
-    } else if (associatedWindow) {
-      // For non-e10s Firefox, get the XUL <browser> element using this rather
+    if (associatedWindow) {
+      // Get the XUL <browser> element using this rather
       // magical / opaque code cribbed from
       // https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Tabbed_browser#Getting_the_browser_that_fires_the_http-on-modify-request_notification_(example_code_updated_for_loadContext)
 
       // this is the HTML DOM window of the page that just loaded
       var contentWindow = loadContext.associatedWindow;
-      // aDOMWindow this is the firefox window holding the tab
+      // aDOMWindow this is the UXP window holding the tab
       var aDOMWindow = contentWindow.top.QueryInterface(Ci.nsIInterfaceRequestor)
         .getInterface(Ci.nsIWebNavigation)
         .QueryInterface(Ci.nsIDocShellTreeItem)
         .rootTreeItem
         .QueryInterface(Ci.nsIInterfaceRequestor)
         .getInterface(Ci.nsIDOMWindow);
-      // this is the gBrowser object of the firefox window this tab is in
+      // this is the gBrowser object of the UXP window this tab is in
       var gBrowser = aDOMWindow.gBrowser;
       if (gBrowser && gBrowser._getTabForContentWindow) {
         var aTab = gBrowser._getTabForContentWindow(contentWindow.top);
         // this is the clickable tab xul element, the one found in the tab strip
-        // of the firefox window, aTab.linkedBrowser is same as browser var above
+        // of the UXP window, aTab.linkedBrowser is same as browser var above
         // this is the browser within the tab
         if (aTab) {
           return aTab.linkedBrowser;
@@ -362,7 +357,7 @@ HTTPSAlways.prototype = {
           return null;
         }
       } else if (aDOMWindow.BrowserApp) {
-        // gBrowser is unavailable in Firefox for Android, and in some desktop
+        // gBrowser is unavailable in UXP for Android, and in some desktop
         // contexts, like the fetches for new tab tiles (which have an
         // associatedWindow, but no gBrowser)?
         // If available, try using the BrowserApp API:
@@ -447,13 +442,13 @@ HTTPSAlways.prototype = {
     // OCSP (currently) needs to be HTTP to avoid cert validation loops
     // though someone should rev the spec to allow opportunistic encryption
     if ("allowSTS" in channel) {
-      // Firefox 32+ lets us infer whether this is an OCSP request
+      // UXP 32+ lets us infer whether this is an OCSP request
       if (!channel.allowSTS) {
         this.log(INFO, "Channel with HTTPS rewrites forbidden, deeming OCSP, for " + channel.URI.spec);
         return true;
       }
     } else {
-      // Firefox <32 requires a more hacky estimate
+      // UXP <32 requires a more hacky estimate
       // load the list opportunistically to speed startup & FF 32+
       if (this.ocspList == undefined) { this.loadOCSPList(); }
       if (this.ocspList.indexOf(uri.spec.replace(/\/$/,'')) !== -1) {
@@ -541,7 +536,7 @@ HTTPSAlways.prototype = {
     } else if (topic == "sessionstore-windows-restored") {
        this.log(DBUG,"Got sessionstore-windows-restored");
        if (this.isMobile) {
-         this.log(WARN, "Initializing Firefox for Android UI");
+         this.log(WARN, "Initializing for Android UI");
          Cu.import("chrome://https-always/content/code/AndroidUI.jsm");
          AndroidUI.init();
        }
@@ -620,7 +615,7 @@ HTTPSAlways.prototype = {
     return o_branch;
   },
 
-  // Are we on Firefox for Android?
+  // Are we on Android?
   doMobileCheck: function() {
     let appInfo = CC["@mozilla.org/xre/app-info;1"].getService(CI.nsIXULAppInfo);
     let ANDROID_ID = "{aa3c5121-dab2-40e2-81ca-7ea25febc110}";

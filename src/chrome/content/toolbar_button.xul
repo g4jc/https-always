@@ -15,7 +15,7 @@
       src="chrome://https-always/locale/https-always.properties" />
     </stringbundleset>
 
-  <!-- this works in Firefox, we need a Seamonkey version too... -->
+  <!-- this works in UXP, we need a Seamonkey version too... -->
   <menupopup id="menu_ToolsPopup" onpopupshowing="stitch_context_menu()">
     <menu id="https-always-menu" label="&https-always.about.ext_name;"> 
       <!-- "https-always-context" below gets .cloneNode()ed in here -->
