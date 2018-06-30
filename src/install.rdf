@@ -13,7 +13,7 @@
         <em:multiprocessCompatible>true</em:multiprocessCompatible>
         <em:iconURL>chrome://https-always/skin/icon-active-48.png</em:iconURL>
         <em:unpack>false</em:unpack>
-        <!-- Iceweasel-UXP -->
+        <!-- AUSTRALIS -->
         <em:targetApplication>
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
