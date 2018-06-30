@@ -40,6 +40,3 @@
 <!ENTITY https-always.popup.keep "Keep me on the development version">
 <!ENTITY https-always.popup.revert "Download the latest stable version">
 
-<!ENTITY https-always.ruleset-tests.status_title "HTTPS Always Ruleset Tests">
-<!ENTITY https-always.ruleset-tests.status_cancel_button "Cancel">
-<!ENTITY https-always.ruleset-tests.status_start_button "Start">
