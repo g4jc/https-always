@@ -10,7 +10,6 @@
 <!ENTITY https-always.about.many_contributors "Many many contributors, including">
 <!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
 <!ENTITY https-always.about.contribute  "If you like HTTPS Always, you might consider">
-<!ENTITY https-always.about.donate_tor "Donating to Tor">
 <!ENTITY https-always.about.tor_lang_code "en">
 <!ENTITY https-always.about.or "or">
 
