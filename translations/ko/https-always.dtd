@@ -1,0 +1,55 @@
+<!ENTITY https-always.about.title "HTTPS Always에 대하여
+">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "웹 암호화! 자동으로 여러 사이트에 HTTPS 보안을 사용합니다.">
+<!ENTITY https-always.about.version "Version">
+<!ENTITY https-always.about.created_by "작성">
+<!ENTITY https-always.about.and ", ">
+<!ENTITY https-always.about.librarians "규칙설정 라이브러리">
+<!ENTITY https-always.about.add_new_rule "새 규칙 추가하기">
+<!ENTITY https-always.about.thanks "Thanks to">
+<!ENTITY https-always.about.many_contributors "다음과 같은 많은 참여자들이 있습니다.">
+<!ENTITY https-always.about.noscript "또한, HTTPS Always의 스크립트는 Giorgio Maone등이 제작한 NoScript도 부분적으로 참조했습니다. 제작자분들께 감사드립니다.">
+<!ENTITY https-always.about.contribute  "모든곳에서 HTTPS를 사용하려면, 고려해 보십시오">
+<!ENTITY https-always.about.tor_lang_code "영어">
+<!ENTITY https-always.about.or "또는">
+
+<!ENTITY https-always.menu.about "HTTPS Always에 대하여">
+<!ENTITY https-always.menu.observatory "SSL 관측 환경 설정">
+<!ENTITY https-always.menu.globalEnable "모든곳에서 HTTPS 사용">
+<!ENTITY https-always.menu.globalDisable "모든곳에서 HTTPS 사용 안 함">
+<!ENTITY https-always.menu.blockUnencryptedRequests "암호화되지 않은 모든 요청 차단">
+<!ENTITY https-always.menu.showCounter "카운터 보기">
+<!ENTITY https-always.menu.viewAllRules "모든 규칙 표시">
+
+<!ENTITY https-always.prefs.title "HTTPS 모든곳 사용 환경 설정">
+<!ENTITY https-always.prefs.enable_all "모두 사용">
+<!ENTITY https-always.prefs.disable_all "모두 사용 안 함">
+<!ENTITY https-always.prefs.reset_defaults "기본값으로 다시 설정">
+<!ENTITY https-always.prefs.search "검색">
+<!ENTITY https-always.prefs.site "사이트">
+<!ENTITY https-always.prefs.notes "참고">
+<!ENTITY https-always.prefs.list_caption "HTTPS 리디렉션 규칙을 적용하시겟습니까?">
+<!ENTITY https-always.prefs.enabled "사용">
+<!ENTITY https-always.prefs.ruleset_howto "자신의 규칙 작성 방법을 배울 수 있습니다 (다른 웹 사이트에 대한 지원 추가)">
+<!ENTITY https-always.prefs.here_link "여기">
+<!ENTITY https-always.prefs.toggle "전환">
+<!ENTITY https-always.prefs.reset_default "기본값으로 다시 설정">
+<!ENTITY https-always.prefs.view_xml_source "XML 소스 보기">
+
+<!ENTITY https-always.chrome.stable_rules "Stable, 안정된 규칙">
+<!ENTITY https-always.chrome.stable_rules_description "다음 사이트에 접속시 강제 암호화:">
+<!ENTITY https-always.chrome.experimental_rules "실험용 규칙">
+<!ENTITY https-always.chrome.experimental_rules_description "경고나 오류를 발생시킬 수 있음. 기본설정은 비활성화.">
+<!ENTITY https-always.chrome.add_rule "해당 사이트에 규칙 추가">
+<!ENTITY https-always.chrome.add_new_rule "해당 사이트에 새 규칙 추가">
+<!ENTITY https-always.chrome.always_https_for_host "해당 호스트는 항상 https 사용">
+<!ENTITY https-always.chrome.host "호스트:">
+<!ENTITY https-always.chrome.show_advanced "고급 보이기">
+<!ENTITY https-always.chrome.hide_advanced "고급 숨기기">
+<!ENTITY https-always.chrome.rule_name "규칙명">
+<!ENTITY https-always.chrome.regex "해당하는 regex">
+<!ENTITY https-always.chrome.redirect_to "다음으로 리다이렉트">
+<!ENTITY https-always.chrome.status_cancel_button "취소">
+
+

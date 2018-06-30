@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Rreth HTTPS Kudo">
+<!ENTITY https-always.about.ext_name "HTTPS Kudo">
+<!ENTITY https-always.about.ext_description "Kriptojeni Web-in! Përdorni automatikisht sigurinë HTTPS në shumë webfaqe.">
+<!ENTITY https-always.about.version "Version">
+<!ENTITY https-always.about.created_by "Krijuar prej">
+<!ENTITY https-always.about.and ", dhe">
+<!ENTITY https-always.about.librarians "Bibliotekarët e Kompleteve të Rregullave ">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Në sajë të">
+<!ENTITY https-always.about.many_contributors "Shumë, shumë kontribuues, përfshirë">
+<!ENTITY https-always.about.noscript "Gjithashtu, porcione të HTTPS Gjithkund mbështeten tek kodi nga NoScript, prej Xhiorxhio Maone dhe të tjerëve.  U jemi mirënjohës për punën e tyre të shkëlqyer!">
+<!ENTITY https-always.about.contribute  "Nëse ju pëlqen HTTPS Kudo, duhet të merrni parasysh">
+<!ENTITY https-always.about.tor_lang_code "an">
+<!ENTITY https-always.about.or "ose">
+
+<!ENTITY https-always.menu.about "Rreth HTTPS Kudo">
+<!ENTITY https-always.menu.observatory "Parapëlqimet për Vëzhguesin SSL">
+<!ENTITY https-always.menu.globalEnable "Aftësoni HTTPS Kudo">
+<!ENTITY https-always.menu.globalDisable "Paaftësoni HTTPS Kudo">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Shfaqeni Llogaritësin">
+<!ENTITY https-always.menu.viewAllRules "Shihini të Gjitha Rregullat">
+
+<!ENTITY https-always.prefs.title "Parapëlqimet për HTTPS Kudo">
+<!ENTITY https-always.prefs.enable_all "Aftësoni Gjithçka">
+<!ENTITY https-always.prefs.disable_all "Paaftësoni Gjithçka">
+<!ENTITY https-always.prefs.reset_defaults "Rivendoseni në Parazgjedhje">
+<!ENTITY https-always.prefs.search "Kërkoni">
+<!ENTITY https-always.prefs.site "Webfaqe">
+<!ENTITY https-always.prefs.notes "Njoftime">
+<!ENTITY https-always.prefs.list_caption "Cilat rregulla për ridrejtimin HTTPS duhet të zbatohen? ">
+<!ENTITY https-always.prefs.enabled "Aftësuar">
+<!ENTITY https-always.prefs.ruleset_howto "Ju mund të mësoni sesi të shkruani kompletet tuaj të rregullave (që të shtoni mbështetjen për webfaqet e tjera)">
+<!ENTITY https-always.prefs.here_link "këtu">
+<!ENTITY https-always.prefs.toggle "Këmbeni">
+<!ENTITY https-always.prefs.reset_default "Rivendoseni Parazgjedhhjen">
+<!ENTITY https-always.prefs.view_xml_source "Shiheni Burimin XML">
+
+<!ENTITY https-always.chrome.stable_rules "Rregulla të qëndrueshme">
+<!ENTITY https-always.chrome.stable_rules_description "Lidhje të shifruara paraprakisht me këto webfaqe:">
+<!ENTITY https-always.chrome.experimental_rules "Rregulla eksperimentale">
+<!ENTITY https-always.chrome.experimental_rules_description "Mund të shkaktojë paralajmërime apo thyerje. Paaftësuar me parazgjedhje.">
+<!ENTITY https-always.chrome.add_rule "Shtoni një rregull për këtë webfaqe">
+<!ENTITY https-always.chrome.add_new_rule "Shtoni një rregull të ri për këtë webfaqe">
+<!ENTITY https-always.chrome.always_https_for_host "Përdorni gjithmonë https për këtë pritës">
+<!ENTITY https-always.chrome.host "Pritësi:">
+<!ENTITY https-always.chrome.show_advanced "Shfaqni të përparuarat">
+<!ENTITY https-always.chrome.hide_advanced "Fshihini të përparuarat">
+<!ENTITY https-always.chrome.rule_name "Emërtimi i rregullit">
+<!ENTITY https-always.chrome.regex "Përputhshmëri me shprehjet e rregullta">
+<!ENTITY https-always.chrome.redirect_to "E ridrejtuar tek">
+<!ENTITY https-always.chrome.status_cancel_button "Hiqeni">
+
+

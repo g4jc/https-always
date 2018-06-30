@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Despre HTTPS Oriunde">
+<!ENTITY https-always.about.ext_name "HTTPS Oriunde">
+<!ENTITY https-always.about.ext_description "Criptează web-ul! Folosește automat securitatea HTTPS pe multe saituri.">
+<!ENTITY https-always.about.version "Versiune">
+<!ENTITY https-always.about.created_by "Creat de">
+<!ENTITY https-always.about.and ", și">
+<!ENTITY https-always.about.librarians "Setul de reguli al bibliotecarilor">
+<!ENTITY https-always.about.add_new_rule "Adaugă o nouă regulă">
+<!ENTITY https-always.about.thanks "Mulțumiri către">
+<!ENTITY https-always.about.many_contributors "Mulți, mulți contributori, inclusiv">
+<!ENTITY https-always.about.noscript "De asemenea, porțiuni de HTTPS Always se bazează pe codul de NoScript, de Giorgio Maone și alții. Suntem recunoscatori pentru munca lor excelenta!">
+<!ENTITY https-always.about.contribute  "Dacă îți place HTTPS Oriunde, poți considera">
+<!ENTITY https-always.about.tor_lang_code "ro">
+<!ENTITY https-always.about.or "sau">
+
+<!ENTITY https-always.menu.about "Despre HTTPS Oriunde">
+<!ENTITY https-always.menu.observatory "Preferințele pentru Observatorul SSL">
+<!ENTITY https-always.menu.globalEnable "Activează HTTPS Oriunde">
+<!ENTITY https-always.menu.globalDisable "Dezactivează HTTPS Oriunde">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blochează toate cererile necriptate">
+<!ENTITY https-always.menu.showCounter "Afișează contorul">
+<!ENTITY https-always.menu.viewAllRules "Vezi toate regulile">
+
+<!ENTITY https-always.prefs.title "Preferințe HTTPS Oriunde">
+<!ENTITY https-always.prefs.enable_all "Activează tot">
+<!ENTITY https-always.prefs.disable_all "Dezactivează tot">
+<!ENTITY https-always.prefs.reset_defaults "Revino la setările inițiale">
+<!ENTITY https-always.prefs.search "Caută">
+<!ENTITY https-always.prefs.site "Sait">
+<!ENTITY https-always.prefs.notes "Note">
+<!ENTITY https-always.prefs.list_caption "Care dintre regulile pentru redirecționarea HTTPS trebuie aplicate?">
+<!ENTITY https-always.prefs.enabled "Activat">
+<!ENTITY https-always.prefs.ruleset_howto "Poți învăța cum să scrii propriile seturi de reguli (pentru a adăuga suport și pentru alte saituri web)">
+<!ENTITY https-always.prefs.here_link "aici">
+<!ENTITY https-always.prefs.toggle "Comută">
+<!ENTITY https-always.prefs.reset_default "Revino la setările inițiale">
+<!ENTITY https-always.prefs.view_xml_source "Vezi sursa XML">
+
+<!ENTITY https-always.chrome.stable_rules "Reguli stabile">
+<!ENTITY https-always.chrome.stable_rules_description "Pentru aceste pagini se folosesc obligatoriu conexiuni criptate:">
+<!ENTITY https-always.chrome.experimental_rules "Reguli experimentale">
+<!ENTITY https-always.chrome.experimental_rules_description "Poate genera avertismente sau pierderi. Implicit dezactivat. ">
+<!ENTITY https-always.chrome.add_rule "Adaugă o regulă pentru acest site">
+<!ENTITY https-always.chrome.add_new_rule "Adaugă o nouă regulă pentru acest site">
+<!ENTITY https-always.chrome.always_https_for_host "Folosește mereu https pentru această gazdă">
+<!ENTITY https-always.chrome.host "Gazdă:">
+<!ENTITY https-always.chrome.show_advanced "Arată opțiuni avansate">
+<!ENTITY https-always.chrome.hide_advanced "Ascunde opțiunile avansate">
+<!ENTITY https-always.chrome.rule_name "Numele regulii">
+<!ENTITY https-always.chrome.regex "Regex potrivit">
+<!ENTITY https-always.chrome.redirect_to "Redirecționează la">
+<!ENTITY https-always.chrome.status_cancel_button "Renunță">
+
+

@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Про HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Зашифруйте Web! Автоматично застосовуйте безпеку HTTPS на великой кількістью сайтів.">
+<!ENTITY https-always.about.version "Версія">
+<!ENTITY https-always.about.created_by "Створенно">
+<!ENTITY https-always.about.and ", і">
+<!ENTITY https-always.about.librarians "Хранителі правил">
+<!ENTITY https-always.about.add_new_rule "Додати нове правило">
+<!ENTITY https-always.about.thanks "Завдяки">
+<!ENTITY https-always.about.many_contributors "Багато-багато учасників, у тому числі: ">
+<!ENTITY https-always.about.noscript "Також частинки HTTPS Always базуються на коді з NoScript авторства Джороджіо Маоне та інших. Дякуємо за їхню чудову роботу!">
+<!ENTITY https-always.about.contribute  "Якщо Вам подобається HTTPS Always, можливо, Ви хотіли б зробити">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "або">
+
+<!ENTITY https-always.menu.about "Про HTTPS Always">
+<!ENTITY https-always.menu.observatory "Налаштування SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Увімкнути HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Вимкнути HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Блокувати всі незашифровані запити">
+<!ENTITY https-always.menu.showCounter "Показати Лічильник">
+<!ENTITY https-always.menu.viewAllRules "Переглянути всі правила">
+
+<!ENTITY https-always.prefs.title "Налаштування HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Увімкнути все">
+<!ENTITY https-always.prefs.disable_all "Вимкнути все">
+<!ENTITY https-always.prefs.reset_defaults "Скинути до типових">
+<!ENTITY https-always.prefs.search "Пошук">
+<!ENTITY https-always.prefs.site "Сайт">
+<!ENTITY https-always.prefs.notes "Примітка">
+<!ENTITY https-always.prefs.list_caption "Які правила перенаправлень слід використовувати?">
+<!ENTITY https-always.prefs.enabled "Увімкнено">
+<!ENTITY https-always.prefs.ruleset_howto "Керівництво по створенню нових правил (для нових сайтів) знаходиться">
+<!ENTITY https-always.prefs.here_link "тут">
+<!ENTITY https-always.prefs.toggle "Перемкнути">
+<!ENTITY https-always.prefs.reset_default "Скинути до типових значень">
+<!ENTITY https-always.prefs.view_xml_source "Переглянути джерело XML">
+
+<!ENTITY https-always.chrome.stable_rules "Стабільні правила">
+<!ENTITY https-always.chrome.stable_rules_description "Примусово створювати зашифровані з'єдання до цих веб-сайтів: ">
+<!ENTITY https-always.chrome.experimental_rules "Експериментальні правила">
+<!ENTITY https-always.chrome.experimental_rules_description "Може спричинити попередження чи поломку. Вимкнено за замовчуванням.">
+<!ENTITY https-always.chrome.add_rule "Додати правило для цього сайту">
+<!ENTITY https-always.chrome.add_new_rule "Додати нове правило для нового сайту">
+<!ENTITY https-always.chrome.always_https_for_host "Завжди використовувати https для цього хоста">
+<!ENTITY https-always.chrome.host "Хост:">
+<!ENTITY https-always.chrome.show_advanced "Показати розширені">
+<!ENTITY https-always.chrome.hide_advanced "Сховати розширені">
+<!ENTITY https-always.chrome.rule_name "Ім'я правила">
+<!ENTITY https-always.chrome.regex "Підходящий регулярний вираз">
+<!ENTITY https-always.chrome.redirect_to "Перенаправити на">
+<!ENTITY https-always.chrome.status_cancel_button "Скасувати">
+
+

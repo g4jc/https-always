@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल सिक्योर हर जगह (HTTPS EVERYWHERE) के बारे में">
+<!ENTITY https-always.about.ext_name "हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल सिक्योर हर जगह (HTTPS EVERYWHERE)">
+<!ENTITY https-always.about.ext_description "Encrypt the Web! Automatically use HTTPS security on many sites.">
+<!ENTITY https-always.about.version "संस्करण">
+<!ENTITY https-always.about.created_by "के द्वारा बनाई गई">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "Ruleset Librarians">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Thanks to">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "Thank you for using HTTPS Always!">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "or">
+
+<!ENTITY https-always.menu.about "हाइपर टेक्स्ट ट्रांसफर प्रोटोकॉल सिक्योर हर जगह (HTTPS EVERYWHERE) के बारे में">
+<!ENTITY https-always.menu.observatory "एसएसएल वेधशाला प्राथमिकताएं">
+<!ENTITY https-always.menu.globalEnable "हर जगह HTTPS सक्षम">
+<!ENTITY https-always.menu.globalDisable "हर जगह HTTPS अक्षम">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "काउंटर दिखाएँ">
+<!ENTITY https-always.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-always.prefs.title "HTTPS हर जगह प्राथमिकताएं">
+<!ENTITY https-always.prefs.enable_all "सभी सक्षम">
+<!ENTITY https-always.prefs.disable_all "सभी अक्षम">
+<!ENTITY https-always.prefs.reset_defaults "Reset to Defaults">
+<!ENTITY https-always.prefs.search "खोज">
+<!ENTITY https-always.prefs.site "स्थल">
+<!ENTITY https-always.prefs.notes "नोट्स">
+<!ENTITY https-always.prefs.list_caption "Which HTTPS redirection rules should apply?">
+<!ENTITY https-always.prefs.enabled "सक्षम">
+<!ENTITY https-always.prefs.ruleset_howto "You can learn how to write your own rulesets (to add support for other web sites)">
+<!ENTITY https-always.prefs.here_link "यहां">
+<!ENTITY https-always.prefs.toggle "Toggle">
+<!ENTITY https-always.prefs.reset_default "Reset to Default">
+<!ENTITY https-always.prefs.view_xml_source " एक्सएमएल स्रोत देखें">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "रद्द करें">
+
+

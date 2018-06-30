@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Um HTTPS Allsstaðar">
+<!ENTITY https-always.about.ext_name "HTTPS Allsstaðar">
+<!ENTITY https-always.about.ext_description "Dulkóðaðu vefinn! Notaðu sjálfkrafa HTTPS-öryggi á mörgum vefsvæðum.">
+<!ENTITY https-always.about.version "Útgáfa">
+<!ENTITY https-always.about.created_by "Búið til af">
+<!ENTITY https-always.about.and " og">
+<!ENTITY https-always.about.librarians "&quot;Ruleset Librarians&quot;">
+<!ENTITY https-always.about.add_new_rule "Bæta við nýrri reglu">
+<!ENTITY https-always.about.thanks "Þökk sé">
+<!ENTITY https-always.about.many_contributors "gríðarlega mörgum aðilum, þar á meðal">
+<!ENTITY https-always.about.noscript "Ennfremur má geta bað hlutar HTTPS Always eru byggðir á kóða frá NoScript, eftir Giorgio Maone og fleiri.  Við stöndum í þakkarskuld við þá !">
+<!ENTITY https-always.about.contribute  "Ef þú kannt við HTTPS Allsstaðar ættirðu að íhuga">
+<!ENTITY https-always.about.tor_lang_code "is">
+<!ENTITY https-always.about.or "eða">
+
+<!ENTITY https-always.menu.about "Um HTTPS Allsstaðar">
+<!ENTITY https-always.menu.observatory "SSL Observatory valkostir">
+<!ENTITY https-always.menu.globalEnable "Virkja HTTPS Allsstaðar">
+<!ENTITY https-always.menu.globalDisable "Gera HTTPS Allsstaðar óvirkt">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Hindra allar ódulritaðar beiðnir">
+<!ENTITY https-always.menu.showCounter "Birta teljara">
+<!ENTITY https-always.menu.viewAllRules "Skoða allar reglur">
+
+<!ENTITY https-always.prefs.title "HTTPS Allsstaðar valkostir">
+<!ENTITY https-always.prefs.enable_all "Virkja allt">
+<!ENTITY https-always.prefs.disable_all "Gera allt óvirkt">
+<!ENTITY https-always.prefs.reset_defaults "Frumstilla á sjálfgefnar stillingar">
+<!ENTITY https-always.prefs.search "Leita">
+<!ENTITY https-always.prefs.site "Vefsvæði">
+<!ENTITY https-always.prefs.notes "Skýringar">
+<!ENTITY https-always.prefs.list_caption "Hvaða HTTPS endurbeiningarreglur ættu að gilda?">
+<!ENTITY https-always.prefs.enabled "Virkt">
+<!ENTITY https-always.prefs.ruleset_howto "Þú getur lært hvernig á að skrifa eigin reglusett (til að bæta við stuðningi fyrir aðrar vefsíður)">
+<!ENTITY https-always.prefs.here_link "hér">
+<!ENTITY https-always.prefs.toggle "Víxla">
+<!ENTITY https-always.prefs.reset_default "Frumstillaá sjálfgefið">
+<!ENTITY https-always.prefs.view_xml_source "Skoða XML-uppruna">
+
+<!ENTITY https-always.chrome.stable_rules "Stöðugar reglur">
+<!ENTITY https-always.chrome.stable_rules_description "Þvinga dulritaðar tengingar við þessi vefsvæði:">
+<!ENTITY https-always.chrome.experimental_rules "Reglur á tilraunastigi">
+<!ENTITY https-always.chrome.experimental_rules_description "Getur valdið hruni eða viðvörunum. Sjálfgefið óvirkt.">
+<!ENTITY https-always.chrome.add_rule "Bæta við reglu fyrir þetta vefsvæði">
+<!ENTITY https-always.chrome.add_new_rule "Bæta við nýrri reglu fyrir þetta vefsvæði">
+<!ENTITY https-always.chrome.always_https_for_host "Alltaf nota HTTPS fyrir þessa vél">
+<!ENTITY https-always.chrome.host "Hýsilvél:">
+<!ENTITY https-always.chrome.show_advanced "Birta ítalegt">
+<!ENTITY https-always.chrome.hide_advanced "Fela ítalegt">
+<!ENTITY https-always.chrome.rule_name "Heiti reglu">
+<!ENTITY https-always.chrome.regex "Samsvarandi reglulegri segð">
+<!ENTITY https-always.chrome.redirect_to "Endurbeina á">
+<!ENTITY https-always.chrome.status_cancel_button "Hætta við">
+
+

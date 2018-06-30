@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "O HTTPS Свуда">
+<!ENTITY https-always.about.ext_name "HTTPS Svuda">
+<!ENTITY https-always.about.ext_description "Sifriraj Web! Automatski koristi HTTPS sigurnost na mnogim sajtovima.">
+<!ENTITY https-always.about.version "Verzija">
+<!ENTITY https-always.about.created_by "Stvorio">
+<!ENTITY https-always.about.and ", i">
+<!ENTITY https-always.about.librarians "Ruleset Bibliotekari">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Zahvaljujuci">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "Ako vam se svida HTTPS, mogli bi ste da razmislite o">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "ili">
+
+<!ENTITY https-always.menu.about "O HTTPS svuda">
+<!ENTITY https-always.menu.observatory "SSL observatorij postavki">
+<!ENTITY https-always.menu.globalEnable "Omoguci HTTPS svuda">
+<!ENTITY https-always.menu.globalDisable "Onemoguci HTTPS svuda">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Prikazi brojac">
+<!ENTITY https-always.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-always.prefs.title "HTTPS svuda - postavke">
+<!ENTITY https-always.prefs.enable_all "Omoguci sve">
+<!ENTITY https-always.prefs.disable_all "Onemoguci sve">
+<!ENTITY https-always.prefs.reset_defaults "Vrati na uobicajeno">
+<!ENTITY https-always.prefs.search "Trazi">
+<!ENTITY https-always.prefs.site "Sajt">
+<!ENTITY https-always.prefs.notes "Biljeske">
+<!ENTITY https-always.prefs.list_caption "Koja pravila za HTTPS preusmeravanje važe?">
+<!ENTITY https-always.prefs.enabled "Omoguceno">
+<!ENTITY https-always.prefs.ruleset_howto "Mozes nauciti kako pisati vlastita pravila (kako bi ste dodali podrsku drugim web stranicama)">
+<!ENTITY https-always.prefs.here_link "ovde">
+<!ENTITY https-always.prefs.toggle "Omoguci">
+<!ENTITY https-always.prefs.reset_default "Vrati na uobicajeno">
+<!ENTITY https-always.prefs.view_xml_source "Pogledaj XML izvor">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "Откажи">
+
+

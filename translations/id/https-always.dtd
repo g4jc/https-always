@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Tentang HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Enkripsi Web-nya! Secara otomatis menggunakan keamanan HTTPS pada banyak situs.">
+<!ENTITY https-always.about.version "Versi">
+<!ENTITY https-always.about.created_by "Dibuat oleh">
+<!ENTITY https-always.about.and ", dan">
+<!ENTITY https-always.about.librarians "Pustakawan Ruleset">
+<!ENTITY https-always.about.add_new_rule "Tambah Aturan Baru">
+<!ENTITY https-always.about.thanks "Terima kasih kepada">
+<!ENTITY https-always.about.many_contributors "Sangat banyak kontributor, termasuk">
+<!ENTITY https-always.about.noscript "Juga, sebagian kode HTTPS Always dikembangkan berdasarkan NoScript, oleh Giorgio Maone dan lainnya. Kami berterima kasih untuk hasil karya mereka yang luar biasa!">
+<!ENTITY https-always.about.contribute  "Jika anda menyukai HTTPS Always, anda bisa">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "atau">
+
+<!ENTITY https-always.menu.about "Tentang HTTPS Always">
+<!ENTITY https-always.menu.observatory "Preferensi SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Fungsikan HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Nonfungsikan HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blokir semua permintaan tidak terenkripsi">
+<!ENTITY https-always.menu.showCounter "Tampilkan Penghitung">
+<!ENTITY https-always.menu.viewAllRules "Lihat Semua Aturan">
+
+<!ENTITY https-always.prefs.title "Preferensi HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Fungsikan Semua">
+<!ENTITY https-always.prefs.disable_all "Nonfungsikan Semua">
+<!ENTITY https-always.prefs.reset_defaults "Kembalikan ke Bawaan">
+<!ENTITY https-always.prefs.search "Cari">
+<!ENTITY https-always.prefs.site "Situs">
+<!ENTITY https-always.prefs.notes "Catatan">
+<!ENTITY https-always.prefs.list_caption "Aturan pengalihan HTTPS yang mana yang harus diterapkan?">
+<!ENTITY https-always.prefs.enabled "Difungsikan">
+<!ENTITY https-always.prefs.ruleset_howto "Anda bisa belajar bagaimana menulis ruleset Anda sendiri (untuk menambah dukungan situs web yang lain)">
+<!ENTITY https-always.prefs.here_link "di sini">
+<!ENTITY https-always.prefs.toggle "Jungkit">
+<!ENTITY https-always.prefs.reset_default "Kembalikan ke Bawaan">
+<!ENTITY https-always.prefs.view_xml_source "Lihat Sumber XML">
+
+<!ENTITY https-always.chrome.stable_rules "Aturan stabil">
+<!ENTITY https-always.chrome.stable_rules_description "Paksa koneksi terenkripsi untuk situs ini:">
+<!ENTITY https-always.chrome.experimental_rules "Aturan eksperimental">
+<!ENTITY https-always.chrome.experimental_rules_description "Dapat mengakibatkan peringatan atau kerusakan. Dinonfungsikan secara bawaan.">
+<!ENTITY https-always.chrome.add_rule "Tambah aturan untuk situs ini">
+<!ENTITY https-always.chrome.add_new_rule "Tambah aturan baru untuk situs ini">
+<!ENTITY https-always.chrome.always_https_for_host "Selalu gunakan https untuk host ini">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Tampilkan opsi lanjutan">
+<!ENTITY https-always.chrome.hide_advanced "Sembunyikan opsi lanjutan">
+<!ENTITY https-always.chrome.rule_name "Nama aturan">
+<!ENTITY https-always.chrome.regex "Regex kecocokan">
+<!ENTITY https-always.chrome.redirect_to "Alihkan ke">
+<!ENTITY https-always.chrome.status_cancel_button "Batal">
+
+

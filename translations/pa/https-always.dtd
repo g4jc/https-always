@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "ਐੱਚ.ਟੀ.ਟੀ.ਪੀ.ਐੱਸ. ਐਵਰੀਵੇਅਰ ਬਾਰੇ ">
+<!ENTITY https-always.about.ext_name "ਐੱਚ.ਟੀ.ਟੀ.ਪੀ.ਐੱਸ. ਐਵਰੀਵੇਅਰ ">
+<!ENTITY https-always.about.ext_description "Encrypt the Web! Automatically use HTTPS security on many sites.">
+<!ENTITY https-always.about.version "ਵਰਜਨ">
+<!ENTITY https-always.about.created_by "Created by">
+<!ENTITY https-always.about.and ", ਅਤੇ">
+<!ENTITY https-always.about.librarians "Ruleset Librarians">
+<!ENTITY https-always.about.add_new_rule "ਨਵਾਂ ਨਿਯਮ ਜੋੜੋ">
+<!ENTITY https-always.about.thanks "Thanks to">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "Thank you for using HTTPS Always!">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "ਜਾਂ">
+
+<!ENTITY https-always.menu.about "ਐੱਚ.ਟੀ.ਟੀ.ਪੀ.ਐੱਸ. ਐਵਰੀਵੇਅਰ ਬਾਰੇ">
+<!ENTITY https-always.menu.observatory "SSL Observatory Preferences">
+<!ENTITY https-always.menu.globalEnable "Enable HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Disable HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "ਕਾਊਂਟਰ ਵਿਖਾਓ">
+<!ENTITY https-always.menu.viewAllRules "ਸਾਰੇ ਨਿਯਮ ਵਿਖਾਓ ">
+
+<!ENTITY https-always.prefs.title "ਐੱਚ.ਟੀ.ਟੀ.ਪੀ.ਐੱਸ. ਐਵਰੀਵੇਅਰ ਪਸੰਦਾਂ">
+<!ENTITY https-always.prefs.enable_all "Enable All">
+<!ENTITY https-always.prefs.disable_all "Disable All">
+<!ENTITY https-always.prefs.reset_defaults "ਮੂਲ ਮੁੜ-ਸਟੋਰ ਕਰੋ">
+<!ENTITY https-always.prefs.search "ਖੋਜ">
+<!ENTITY https-always.prefs.site "ਸਾਈਟ">
+<!ENTITY https-always.prefs.notes "ਨੋਟ">
+<!ENTITY https-always.prefs.list_caption "Which HTTPS redirection rules should apply?">
+<!ENTITY https-always.prefs.enabled "ਚਾਲੂ">
+<!ENTITY https-always.prefs.ruleset_howto "You can learn how to write your own rulesets (to add support for other web sites)">
+<!ENTITY https-always.prefs.here_link "ਇੱਥੇ">
+<!ENTITY https-always.prefs.toggle "ਬਦਲੋ">
+<!ENTITY https-always.prefs.reset_default "ਮੂਲ ਮੁੜ-ਸਟੋਰ ਕਰੋ">
+<!ENTITY https-always.prefs.view_xml_source "View XML Source">
+
+<!ENTITY https-always.chrome.stable_rules "ਸਥਿਰ ਨਿਯਮ">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "ਪ੍ਰਯੋਗਾਤਮਕ ਨਿਯਮ">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "ਹੋਸਟ:">
+<!ENTITY https-always.chrome.show_advanced "ਉੱਨਤ ਵਿਖਾਓ ">
+<!ENTITY https-always.chrome.hide_advanced "ਉੱਨਤ ਛੁਪਾਓ">
+<!ENTITY https-always.chrome.rule_name "ਨਿਯਮ ਦਾ ਨਾਮ">
+<!ENTITY https-always.chrome.regex "ਮੇਲਣ ਰੈਜੈਕਸ">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "ਰੱਦ ਕਰੋ">
+
+

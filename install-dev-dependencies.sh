@@ -36,7 +36,7 @@ elif type dnf >/dev/null ; then
     fi
   fi
   # This is needed for Firefox on some systems. See here for more information:
-  # https://github.com/EFForg/https-everywhere/pull/5584#issuecomment-238655443
+  # https://github.com/EFForg/https-Always/pull/5584#issuecomment-238655443
   if [ ! -f /var/lib/dbus/machine-id ]; then
     $SUDO_SHIM sh -c 'dbus-uuidgen > /var/lib/dbus/machine-id'
   fi

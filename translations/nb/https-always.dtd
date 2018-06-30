@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Om HTTPS-always">
+<!ENTITY https-always.about.ext_name "HTTPS-always">
+<!ENTITY https-always.about.ext_description "Krypter nettet. Bruk HTTPS-sikkerhet automatisk på mange nettsider.">
+<!ENTITY https-always.about.version "Versjon">
+<!ENTITY https-always.about.created_by "Lagd av">
+<!ENTITY https-always.about.and ", og">
+<!ENTITY https-always.about.librarians "Regelsettbibliotekarer">
+<!ENTITY https-always.about.add_new_rule "Legg til ny regel">
+<!ENTITY https-always.about.thanks "Takk til">
+<!ENTITY https-always.about.many_contributors "En masse bidragsytere, inkludert">
+<!ENTITY https-always.about.noscript "Også deler av HTTPS-always er basert på kode fra NoScript, av Giorgio Maone og andre. Vi er takknemlige for deres utmerkede arbeid!">
+<!ENTITY https-always.about.contribute  "Hvis du liker HTTPS-always, vurder en">
+<!ENTITY https-always.about.tor_lang_code "no">
+<!ENTITY https-always.about.or "eller en">
+
+<!ENTITY https-always.menu.about "Om HTTPS-always">
+<!ENTITY https-always.menu.observatory "SSL-observatoriums-innstillinger">
+<!ENTITY https-always.menu.globalEnable "Aktiver HTTPS-always">
+<!ENTITY https-always.menu.globalDisable "Skru av HTTPS-always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Sperr alle ukrypterte forespørsler">
+<!ENTITY https-always.menu.showCounter "Vis teller">
+<!ENTITY https-always.menu.viewAllRules "Vis alle regler">
+
+<!ENTITY https-always.prefs.title "Innstillinger for HTTPS-always">
+<!ENTITY https-always.prefs.enable_all "Aktiver alle">
+<!ENTITY https-always.prefs.disable_all "Skru av alle">
+<!ENTITY https-always.prefs.reset_defaults "Tilbakestill til forvalg">
+<!ENTITY https-always.prefs.search "Søk">
+<!ENTITY https-always.prefs.site "Side">
+<!ENTITY https-always.prefs.notes "Merknader">
+<!ENTITY https-always.prefs.list_caption "Hvilke HTTPS-omdirigeringsregler skal gjelde?">
+<!ENTITY https-always.prefs.enabled "Aktivert">
+<!ENTITY https-always.prefs.ruleset_howto "Du kan lære mer om hvordan du lager dine egne regelsett (for å støtte andre nettsider)">
+<!ENTITY https-always.prefs.here_link "her">
+<!ENTITY https-always.prefs.toggle "Av/På">
+<!ENTITY https-always.prefs.reset_default "Tilbakestill til forvalg">
+<!ENTITY https-always.prefs.view_xml_source "Vis XML-kilde">
+
+<!ENTITY https-always.chrome.stable_rules "Stabile regler">
+<!ENTITY https-always.chrome.stable_rules_description "Tving krypterte forbindelser til disse nettstedene:">
+<!ENTITY https-always.chrome.experimental_rules "Eksperimentelle regler">
+<!ENTITY https-always.chrome.experimental_rules_description "Kan føre til advarsler eller brekkasje. Avskrudd som forvalg.">
+<!ENTITY https-always.chrome.add_rule "Legg til en regel for dette nettstedet">
+<!ENTITY https-always.chrome.add_new_rule "Legg til en ny regel for dette nettstedet">
+<!ENTITY https-always.chrome.always_https_for_host "Bruk alltid https for denne verten">
+<!ENTITY https-always.chrome.host "Vert:">
+<!ENTITY https-always.chrome.show_advanced "Vis avanserte">
+<!ENTITY https-always.chrome.hide_advanced "Skjul avanserte">
+<!ENTITY https-always.chrome.rule_name "Regelnavn">
+<!ENTITY https-always.chrome.regex "Samsvarende regex">
+<!ENTITY https-always.chrome.redirect_to "Omdiriger til">
+<!ENTITY https-always.chrome.status_cancel_button "Avbryt">
+
+

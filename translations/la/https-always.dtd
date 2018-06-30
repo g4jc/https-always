@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "De HTTPS in omnibus locis">
+<!ENTITY https-always.about.ext_name "HTTPS in omnibus locis">
+<!ENTITY https-always.about.ext_description "Late coniunctionem computatorum! Per ipse usa certitudinem de HTTPS in multis paginis.">
+<!ENTITY https-always.about.version "Versio">
+<!ENTITY https-always.about.created_by "Factum de">
+<!ENTITY https-always.about.and ", et">
+<!ENTITY https-always.about.librarians "Librtariae collationum legum">
+<!ENTITY https-always.about.add_new_rule "Legem novam addere">
+<!ENTITY https-always.about.thanks "Gratias ad">
+<!ENTITY https-always.about.many_contributors "Multi inportatores, in eos sunt">
+<!ENTITY https-always.about.noscript "Partes programmatis HTTPS In Omnibus Locis in initio programma de NoScript de Giorgio Maone et aliis habet. Gratiam eis habemus, quia bene scripserunt!">
+<!ENTITY https-always.about.contribute  "Si tibi HTTPS In Omnibus Locis placet, potes">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "aut">
+
+<!ENTITY https-always.menu.about "De HTTPS omniubi">
+<!ENTITY https-always.menu.observatory "Praeferentiae observandi SSL">
+<!ENTITY https-always.menu.globalEnable "HTTPS In Omnibus Locis inire">
+<!ENTITY https-always.menu.globalDisable "HTTPS In Omnibus Locis finire">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Omnes rogationes non latetas non accipere">
+<!ENTITY https-always.menu.showCounter "Numeratorem ostendere">
+<!ENTITY https-always.menu.viewAllRules "Omnes leges videre">
+
+<!ENTITY https-always.prefs.title "Praeferentiae de HTTPS In Omnibus Locis">
+<!ENTITY https-always.prefs.enable_all "Omnes inire">
+<!ENTITY https-always.prefs.disable_all "Omnes finire">
+<!ENTITY https-always.prefs.reset_defaults "Ad initium reponere">
+<!ENTITY https-always.prefs.search "Quaerere">
+<!ENTITY https-always.prefs.site "Pagina">
+<!ENTITY https-always.prefs.notes "Commentarii">
+<!ENTITY https-always.prefs.list_caption "Quae leges redirectionis HTTPS usetur?">
+<!ENTITY https-always.prefs.enabled "Adest">
+<!ENTITY https-always.prefs.ruleset_howto "Discere potes, quomodo collationes legum scribuntur (pro possibilitate usandi in paginis aliis)">
+<!ENTITY https-always.prefs.here_link "hic">
+<!ENTITY https-always.prefs.toggle "Addicere">
+<!ENTITY https-always.prefs.reset_default "Ad initium reponere">
+<!ENTITY https-always.prefs.view_xml_source "Initium XML videre">
+
+<!ENTITY https-always.chrome.stable_rules "Leges states">
+<!ENTITY https-always.chrome.stable_rules_description "Coniunctiones ad eas paginas latetae esse debent">
+<!ENTITY https-always.chrome.experimental_rules "Leges in probatione">
+<!ENTITY https-always.chrome.experimental_rules_description "Vitia facere potest. In initio deest.">
+<!ENTITY https-always.chrome.add_rule "Legem pro ea pagina addere">
+<!ENTITY https-always.chrome.add_new_rule "Legem novam pro ea pagina addere">
+<!ENTITY https-always.chrome.always_https_for_host "Semper HTTPS pro ea depositione usare">
+<!ENTITY https-always.chrome.host "Depositio">
+<!ENTITY https-always.chrome.show_advanced "Praeferentias longiores ostendere">
+<!ENTITY https-always.chrome.hide_advanced "Praeferentias longiores latere">
+<!ENTITY https-always.chrome.rule_name "Nomen legis">
+<!ENTITY https-always.chrome.regex "Regex idoneum">
+<!ENTITY https-always.chrome.redirect_to "Directionem mutare ad">
+<!ENTITY https-always.chrome.status_cancel_button "Claudere">
+
+

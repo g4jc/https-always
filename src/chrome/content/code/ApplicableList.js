@@ -77,7 +77,7 @@ ApplicableList.prototype = {
     if (!(uri.schemeIs("http") || uri.schemeIs("https"))) {
       return true;
     }
-    HTTPSEverywhere.instance.https_rules.rewrittenURI(this, uri);
+    HTTPSAlways.instance.https_rules.rewrittenURI(this, uri);
     this.log(DBUG, "populating using alist #" + this.serial);
   },
 
@@ -85,7 +85,7 @@ ApplicableList.prototype = {
     this.populate_list();
     this.document = document;
     
-    var https_everywhere = CC["@eff.org/https-everywhere;1"].getService(Components.interfaces.nsISupports).wrappedJSObject;   
+    var https_always = CC["@hyperbola.info/https-always;1"].getService(Components.interfaces.nsISupports).wrappedJSObject;   
    
     // get the menu popup
     this.menupopup = menupopup;
@@ -96,15 +96,15 @@ ApplicableList.prototype = {
     }
     
     // add global enable/disable toggle button  
-    var strings = document.getElementById("HttpsEverywhereStrings");
+    var strings = document.getElementById("HttpsAlwaysStrings");
     
     var enableLabel = document.createElement('menuitem');
-    var text = strings.getString("https-everywhere.menu.globalDisable");
-    if(!https_everywhere.prefs.getBoolPref("globalEnabled"))
-      text = strings.getString("https-everywhere.menu.globalEnable");
+    var text = strings.getString("https-always.menu.globalDisable");
+    if(!https_always.prefs.getBoolPref("globalEnabled"))
+      text = strings.getString("https-always.menu.globalEnable");
 
     enableLabel.setAttribute('label', text);
-    enableLabel.setAttribute('command', 'https-everywhere-menuitem-globalEnableToggle');
+    enableLabel.setAttribute('command', 'https-always-menuitem-globalEnableToggle');
     this.prepend_child(enableLabel);
 
     // add the label at the top
@@ -116,25 +116,25 @@ ApplicableList.prototype = {
     // This label just describes the fact that the items underneath it enable
     // and disable rules.
     var label = document.createElement('menuitem');
-    label.setAttribute('label', strings.getString('https-everywhere.menu.enableDisable'));
+    label.setAttribute('label', strings.getString('https-always.menu.enableDisable'));
     label.setAttribute('disabled', 'true');
     label.setAttribute('class', 'menuitem-non-iconic');
     label.setAttribute('style', 'font-weight: bold; color: -moz-MenuBarText;');
     var label2 = false;
     if (!any_rules) {
       label2 = document.createElement('menuitem');
-      if (!weird) text = strings.getString('https-everywhere.menu.noRules');
-      else        text = strings.getString('https-everywhere.menu.unknownRules');
+      if (!weird) text = strings.getString('https-always.menu.noRules');
+      else        text = strings.getString('https-always.menu.unknownRules');
       label2.setAttribute('label', text);
-      label2.setAttribute('command', 'https-everywhere-menuitem-preferences');
+      label2.setAttribute('command', 'https-always-menuitem-preferences');
       label2.setAttribute('style', 'color:#909090;');
     }
 
     // create a commandset if it doesn't already exist
-    this.commandset = document.getElementById('https-everywhere-commandset');
+    this.commandset = document.getElementById('https-always-commandset');
     if(!this.commandset) {
       this.commandset = document.createElement('commandset');
-      this.commandset.setAttribute('id', 'https-everywhere-commandset');
+      this.commandset.setAttribute('id', 'https-always-commandset');
       var win = document.getElementById('main-window');
       win.appendChild(this.commandset);
     } else {
@@ -168,10 +168,10 @@ ApplicableList.prototype = {
         //For each applicable rulset, determine active/inactive, and append to proper list.
         var ruleOn = false;
         try {
-          if(https_everywhere.rule_toggle_prefs.getBoolPref(plist[i].name))
+          if(https_always.rule_toggle_prefs.getBoolPref(plist[i].name))
             ruleOn = true;
         } catch(e) {
-          if(https_everywhere.https_rules.rulesetsByName[plist[i].name].active)
+          if(https_always.https_rules.rulesetsByName[plist[i].name].active)
             ruleOn = true;
         }
         if(ruleOn)
@@ -191,7 +191,7 @@ ApplicableList.prototype = {
     for(var x in this.inactive) 
       this.add_command(this.inactive[x]);
 
-    if(https_everywhere.prefs.getBoolPref("globalEnabled")){
+    if(https_always.prefs.getBoolPref("globalEnabled")){
        // add all the menu items
        for (var x in this.inactive)
           this.add_menuitem(this.inactive[x], 'inactive');
@@ -199,7 +199,7 @@ ApplicableList.prototype = {
        for (var x in this.moot) 
           if (!(x in this.active))   
               this.add_menuitem(this.moot[x], 'moot');
-       // break once break everywhere
+       // break once break always
        for (var x in this.active) 
           if (!(x in this.breaking))
               this.add_menuitem(this.active[x], 'active');
@@ -223,7 +223,7 @@ ApplicableList.prototype = {
         return;
       }
 
-      var command = this.document.getElementById("https-everywhere-menuitem-rule-toggle-template").cloneNode();
+      var command = this.document.getElementById("https-always-menuitem-rule-toggle-template").cloneNode();
       command.setAttribute('id', ruleId+'-command');
       command.setAttribute('data-id', ruleId);
       command.setAttribute('label', rule.name);
@@ -254,7 +254,7 @@ ApplicableList.prototype = {
     else if (type == 'inactive') image_src = 'cross.png';
     else if (type == 'moot') image_src = 'tick-moot.png';
     else if (type == 'breaking') image_src = 'loop.png';
-    item.setAttribute('image', 'chrome://https-everywhere/skin/'+image_src);
+    item.setAttribute('image', 'chrome://https-always/skin/'+image_src);
 
     // all done
     this.prepend_child(item);

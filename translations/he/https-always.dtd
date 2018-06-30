@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "אודות &quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.about.ext_name "&quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.about.ext_description "הצפן את הרשת! השתמש ב-HTTPS אוטומטית באתרים רבים.">
+<!ENTITY https-always.about.version "גרסה">
+<!ENTITY https-always.about.created_by "נבנה על ידי">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "ספרני Ruleset">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "תודות ל">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "אם הינך שבע רצון מ- &quot;HTTPS בכל מקום&quot;, אולי תרצה לשקול">
+<!ENTITY https-always.about.tor_lang_code "אנגלית">
+<!ENTITY https-always.about.or "או">
+
+<!ENTITY https-always.menu.about "אודות &quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.menu.observatory "העדפות SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "הפעל את &quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.menu.globalDisable "השבת את &quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "הצג מונה">
+<!ENTITY https-always.menu.viewAllRules "צפה בכל הכללים">
+
+<!ENTITY https-always.prefs.title "הגדרות &quot;HTTPS בכל מקום&quot;">
+<!ENTITY https-always.prefs.enable_all "הפעל הכל">
+<!ENTITY https-always.prefs.disable_all "השבת הכל">
+<!ENTITY https-always.prefs.reset_defaults "איפוס לברירת מחדל">
+<!ENTITY https-always.prefs.search "חפש">
+<!ENTITY https-always.prefs.site "אתר">
+<!ENTITY https-always.prefs.notes "הערות">
+<!ENTITY https-always.prefs.list_caption "אילו הגדרות ניתוב HTTPS ליישם?">
+<!ENTITY https-always.prefs.enabled "פועל">
+<!ENTITY https-always.prefs.ruleset_howto "אתה יכול ללמוד איך לכתוב rulesets משלך (להוספת תמיכה באתרי אינטרנט אחרים)">
+<!ENTITY https-always.prefs.here_link "פה">
+<!ENTITY https-always.prefs.toggle "הפעל/השבת">
+<!ENTITY https-always.prefs.reset_default "החזר לברירת מחדל">
+<!ENTITY https-always.prefs.view_xml_source "הצג מקור XML">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "בטל">
+
+

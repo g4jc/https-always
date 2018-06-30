@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Over HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Versleutel het web! Gebruik HTTPS-beveiliging automatisch op vele sites.">
+<!ENTITY https-always.about.version "Versie">
+<!ENTITY https-always.about.created_by "Gemaakt door">
+<!ENTITY https-always.about.and ", en">
+<!ENTITY https-always.about.librarians "Regelsetbibliothecarissen">
+<!ENTITY https-always.about.add_new_rule "Voeg nieuwe regel toe">
+<!ENTITY https-always.about.thanks "Met dank aan">
+<!ENTITY https-always.about.many_contributors "Vele vrijwilligers, waaronder">
+<!ENTITY https-always.about.noscript "Ook delen van HTTPS Always zijn gebaseerd op code van NoScript, gemaakt door Giorgio Maone en anderen. We zijn dankbaar voor hun fantastisch werk!">
+<!ENTITY https-always.about.contribute  "Als HTTPS Always je bevalt, kun je overwegen">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "of">
+
+<!ENTITY https-always.menu.about "Over HTTPS Always">
+<!ENTITY https-always.menu.observatory "SSL-observatoriumvoorkeuren">
+<!ENTITY https-always.menu.globalEnable "HTTPS Always inschakelen">
+<!ENTITY https-always.menu.globalDisable "HTTPS Always uitschakelen">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blokkeer alle onversleutelde verzoeken">
+<!ENTITY https-always.menu.showCounter "Toon Teller">
+<!ENTITY https-always.menu.viewAllRules "Toon Alle Regels">
+
+<!ENTITY https-always.prefs.title "HTTPS Always-voorkeuren">
+<!ENTITY https-always.prefs.enable_all "Alles inschakelen">
+<!ENTITY https-always.prefs.disable_all "Alles uitschakelen">
+<!ENTITY https-always.prefs.reset_defaults "Standaardwaarden herstellen">
+<!ENTITY https-always.prefs.search "Zoeken">
+<!ENTITY https-always.prefs.site "Site">
+<!ENTITY https-always.prefs.notes "Opmerkingen">
+<!ENTITY https-always.prefs.list_caption "Welke HTTPS-omleidingsregels moeten worden toegepast?">
+<!ENTITY https-always.prefs.enabled "Ingeschakeld">
+<!ENTITY https-always.prefs.ruleset_howto "Om ondersteuning voor andere websites toe te voegen, kun je">
+<!ENTITY https-always.prefs.here_link "zelf regelsets opstellen">
+<!ENTITY https-always.prefs.toggle "Schakelen">
+<!ENTITY https-always.prefs.reset_default "Standaardwaarden herstellen">
+<!ENTITY https-always.prefs.view_xml_source "XML-broncode bekijken">
+
+<!ENTITY https-always.chrome.stable_rules "Stabiele regels">
+<!ENTITY https-always.chrome.stable_rules_description "Forceer versleutelde connecties naar deze websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimentele regels">
+<!ENTITY https-always.chrome.experimental_rules_description "Kan schade aanrichten of waarschuwingen tonen. Standaard is deze uitgeschakeld.">
+<!ENTITY https-always.chrome.add_rule "Voeg een regel toe voor deze site">
+<!ENTITY https-always.chrome.add_new_rule "Voeg een nieuwe regel toe voor deze site">
+<!ENTITY https-always.chrome.always_https_for_host "Gebruik altijd https voor deze host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Toon geavanceerd">
+<!ENTITY https-always.chrome.hide_advanced "Geavanceerd verbergen">
+<!ENTITY https-always.chrome.rule_name "Regel naam">
+<!ENTITY https-always.chrome.regex "Matchende regex">
+<!ENTITY https-always.chrome.redirect_to "Verwijs naar">
+<!ENTITY https-always.chrome.status_cancel_button "Annuleren">
+
+

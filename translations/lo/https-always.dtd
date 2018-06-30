@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "ກ່ຽວກັບ HTTPS ທຸກໆບ່ອນ">
+<!ENTITY https-always.about.ext_name "HTTPS ທຸກໆບ່ອນ">
+<!ENTITY https-always.about.ext_description "ເຂົ້າລະຫັດເວັບ! ໃຊ້ ຄວາມປອດໄພ HTTPS ໃນຫລາຍໆເວັບໄຊຕ໌">
+<!ENTITY https-always.about.version "ເວີຊັນ">
+<!ENTITY https-always.about.created_by "ສ້າງໂດຍ">
+<!ENTITY https-always.about.and ", ແລະ">
+<!ENTITY https-always.about.librarians "ບັນນາລັກ ຊຸດຄຳສັ່ງ">
+<!ENTITY https-always.about.add_new_rule "ເພີ່ມກົດໃຫມ່">
+<!ENTITY https-always.about.thanks "ຂອບໃຈ">
+<!ENTITY https-always.about.many_contributors "ຜູ້ຮ່ວມໃຫ້ຂໍ້ມູນຫຼາກຫຼາຍ, ຮວມທັງ">
+<!ENTITY https-always.about.noscript "ນອກຈາກນີ້, ບາງສ່ວນຂອງ HTTP ຢູ່ທົ່ວທຸກແຫ່ງ ຈະອີງຕາມລະຫັດ ຈາກ NoScript ໂດຍ Giorgio Maone ແລະ ອື່ນໆ. ພວກເຮົາຮູ້ບຸນຄຸນ ສຳລັບວຽກງານ ທີ່ດີເລີດຂອງພວກເຂົາ!">
+<!ENTITY https-always.about.contribute  "ຖ້າຫາກ ທ່ານ ມັກ HTTPS Always, ທ່ານອາດ ພິຈາລະນາເອົາ">
+<!ENTITY https-always.about.tor_lang_code "ອັງກິດ">
+<!ENTITY https-always.about.or "ຫຼື">
+
+<!ENTITY https-always.menu.about "ກ່ຽວກັບ HTTPS Always">
+<!ENTITY https-always.menu.observatory "ການຕັ້ງຄ່າສັງເກດການ SSL">
+<!ENTITY https-always.menu.globalEnable "ເປີດໃຊ້ງານ HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "ອັດການໃຊ້ງານ HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "ກັ້ນທຸກໆການຮ້ອງຂໍທີ່ບໍ່ເຂົ້າລະຫັດ">
+<!ENTITY https-always.menu.showCounter "ສະແດງເຄື່ອງນັບ">
+<!ENTITY https-always.menu.viewAllRules "ສະແດງເບິ່ງກົດທັງໝົດ">
+
+<!ENTITY https-always.prefs.title "ການຕັ້ງຄ່າ HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "ເປີດນຳໃຊ້ທັງຫມົດ">
+<!ENTITY https-always.prefs.disable_all "ປິດນຳໃຊ້ທັງຫມົດ">
+<!ENTITY https-always.prefs.reset_defaults "ປັບຄືນເປັນຄ່າເລີ່ມຕົ້ນ">
+<!ENTITY https-always.prefs.search "ຄົ້ນຫາ">
+<!ENTITY https-always.prefs.site "ເວັບໄຊຕ໌">
+<!ENTITY https-always.prefs.notes "ໝາຍເຫດ">
+<!ENTITY https-always.prefs.list_caption "ກົດການປ່ຽນທິດທາງໃດ HTTPS ທີ່ຄວນໃຊ້?">
+<!ENTITY https-always.prefs.enabled "ເປີດນຳໃຊ້ແລ້ວ">
+<!ENTITY https-always.prefs.ruleset_howto "ທ່ານສາມາດຮຽນຂຽນຊຸດກົດຂອງທ່ານເອງໄດ້ (ເພື່ອເພີ່ມການສະໜັບສະໜູນ ໃຫ້ກັບເວັບໄຊຕ໌ອື່ນໆ)">
+<!ENTITY https-always.prefs.here_link "ທີ່ນີ້">
+<!ENTITY https-always.prefs.toggle "ໄກລັ່ນ">
+<!ENTITY https-always.prefs.reset_default "ປັບຄືນເປັນຄ່າເລີ່ມຕົ້ນ">
+<!ENTITY https-always.prefs.view_xml_source "ສະແດງເຍິ່ງ ແຫຼ່ງລະຫັດ XML">
+
+<!ENTITY https-always.chrome.stable_rules "ກົດທີ່ໝັ້ນຄົງ">
+<!ENTITY https-always.chrome.stable_rules_description "ບັງຄັບການເຊື່ອມຕໍ່ເຂົ້າລະຫັດໄປຍັງເວັບໄຊເຫຼົ່ານີ້.">
+<!ENTITY https-always.chrome.experimental_rules "ກົດການທົດລອງ">
+<!ENTITY https-always.chrome.experimental_rules_description "ອາດເກີດມີການເຕືອນ ຫຼື ສະງັກ. ຄ່າເລີ່ມຕົ້ນ ແມ່ນ ປິດໃຊ້ງານ.">
+<!ENTITY https-always.chrome.add_rule "ໃສ່ກົດໃຫ້ກັບເວັບໄຊຕ໌ນີ້.">
+<!ENTITY https-always.chrome.add_new_rule "ໃສ່ກົດໃໝ່ໃຫ້ກັບເວັບໄຊຕ໌ນີ້.">
+<!ENTITY https-always.chrome.always_https_for_host "ໃຊ້ https ໃຫ້ກັບ ໂຮສຕ໌ ນີ້ທຸກໆເທື່ອ.">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "ສະແດງລວງເລິກ">
+<!ENTITY https-always.chrome.hide_advanced "ເຊື່ອງການສະແດງລວງເລິກ">
+<!ENTITY https-always.chrome.rule_name "ຊື່ກົດ">
+<!ENTITY https-always.chrome.regex "ການຈັບຄູ່ການສະແດງອອກປົກກະຕິ">
+<!ENTITY https-always.chrome.redirect_to "ປ່ຽນເສັ້ນທາງໄປສູ່">
+<!ENTITY https-always.chrome.status_cancel_button "ຍົກເລີກ">
+
+

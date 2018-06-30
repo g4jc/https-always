@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Om HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Kryptera webben! Använd HTTPS automatiskt på många webbsidor.">
+<!ENTITY https-always.about.version "Version">
+<!ENTITY https-always.about.created_by "Skapad av">
+<!ENTITY https-always.about.and ", och">
+<!ENTITY https-always.about.librarians "Regelförfattare">
+<!ENTITY https-always.about.add_new_rule "Lägg till ny regel">
+<!ENTITY https-always.about.thanks "Tack till">
+<!ENTITY https-always.about.many_contributors "Flera flera bidragsgivare, inklusive">
+<!ENTITY https-always.about.noscript "Även, delar av HTTPS Always är baserade på kod från NoScript, av Giorgio Maone och andra. Vi är tacksamma för deras utmärkta arbete!">
+<!ENTITY https-always.about.contribute  "Om du gillar HTTPS Always, överväg att">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "eller">
+
+<!ENTITY https-always.menu.about "Om HTTPS Always">
+<!ENTITY https-always.menu.observatory "Inställningar för SSL Observatoriet">
+<!ENTITY https-always.menu.globalEnable "Aktivera HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Inaktivera HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blockera alla okrypterade förfrågningar">
+<!ENTITY https-always.menu.showCounter "Visa räknare">
+<!ENTITY https-always.menu.viewAllRules "Visa alla regler">
+
+<!ENTITY https-always.prefs.title "Inställningar för HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Aktivera alla">
+<!ENTITY https-always.prefs.disable_all "Inaktivera alla">
+<!ENTITY https-always.prefs.reset_defaults "Återställ till standardvärden">
+<!ENTITY https-always.prefs.search "Sök">
+<!ENTITY https-always.prefs.site "Webbplats">
+<!ENTITY https-always.prefs.notes "Anmärkningar">
+<!ENTITY https-always.prefs.list_caption "Vilka HTTPS-omdirigeringsregler ska gälla?">
+<!ENTITY https-always.prefs.enabled "Aktiverad">
+<!ENTITY https-always.prefs.ruleset_howto "Du kan lära dig hur du skriver dina egna regler (för att lägga till stöd för andra webbplatser)">
+<!ENTITY https-always.prefs.here_link "här">
+<!ENTITY https-always.prefs.toggle "Växla">
+<!ENTITY https-always.prefs.reset_default "Återställ till standardvärden">
+<!ENTITY https-always.prefs.view_xml_source "Visa XML källkod">
+
+<!ENTITY https-always.chrome.stable_rules "Stabila regler">
+<!ENTITY https-always.chrome.stable_rules_description "Tvinga krypterade anslutningar till dessa websidor:">
+<!ENTITY https-always.chrome.experimental_rules "Experimentella regler">
+<!ENTITY https-always.chrome.experimental_rules_description "Kan orsaka varningar eller avbrott. Inaktiverad som standard.">
+<!ENTITY https-always.chrome.add_rule "Lägg till en regel för denna sida">
+<!ENTITY https-always.chrome.add_new_rule "Lägg till en ny regel för denna sida">
+<!ENTITY https-always.chrome.always_https_for_host "Använd alltid https för denna värd">
+<!ENTITY https-always.chrome.host "Värd:">
+<!ENTITY https-always.chrome.show_advanced "Visa avancerad">
+<!ENTITY https-always.chrome.hide_advanced "Göm avancerad">
+<!ENTITY https-always.chrome.rule_name "Regel namn">
+<!ENTITY https-always.chrome.regex "Matchar regex">
+<!ENTITY https-always.chrome.redirect_to "Omdirigera till">
+<!ENTITY https-always.chrome.status_cancel_button "Avbryt">
+
+

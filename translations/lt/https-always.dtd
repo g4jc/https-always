@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Apie HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Šifruokite žiniatinklį! Automatiškai naudokite HTTPS apsaugą daugelyje svetainių.">
+<!ENTITY https-always.about.version "Versija">
+<!ENTITY https-always.about.created_by "Sukūrė">
+<!ENTITY https-always.about.and "ir">
+<!ENTITY https-always.about.librarians "Taisyklių bibliotekininkai">
+<!ENTITY https-always.about.add_new_rule "Pridėti naują taisyklę">
+<!ENTITY https-always.about.thanks "Dėkojame">
+<!ENTITY https-always.about.many_contributors "Daugybė pagalbininkų, įskaitant">
+<!ENTITY https-always.about.noscript "Taip pat, dalis HTTPS Always yra paremta ,Giorgio Maone ir kitų kurtu, NoScript kodu. Mes esame dėkingi už jų nuostabų darbą!">
+<!ENTITY https-always.about.contribute  "Jei Jums patinka HTTPS Always, galbūt norėsite">
+<!ENTITY https-always.about.tor_lang_code "lt">
+<!ENTITY https-always.about.or "arba">
+
+<!ENTITY https-always.menu.about "Apie HTTPS Always">
+<!ENTITY https-always.menu.observatory "SSL Observatorijos nustatymai">
+<!ENTITY https-always.menu.globalEnable "Įgalinti HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Išjungti HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blokuoti visas nešifruotas užklausas">
+<!ENTITY https-always.menu.showCounter "Rodyti skaitiklį">
+<!ENTITY https-always.menu.viewAllRules "Žiūrėti visas taisykles">
+
+<!ENTITY https-always.prefs.title "HTTPS Always nustatymai">
+<!ENTITY https-always.prefs.enable_all "Įgalinti visas">
+<!ENTITY https-always.prefs.disable_all "Uždrausti visas">
+<!ENTITY https-always.prefs.reset_defaults "Atstatyti numatytas">
+<!ENTITY https-always.prefs.search "Ieškoti">
+<!ENTITY https-always.prefs.site "Tinklapis">
+<!ENTITY https-always.prefs.notes "Pastabos">
+<!ENTITY https-always.prefs.list_caption "Kurias HTTPS nukreipimo taisykles naudoti?">
+<!ENTITY https-always.prefs.enabled "Įgalinta">
+<!ENTITY https-always.prefs.ruleset_howto "Galite sužinoti, kaip patiems rašyti nukreipimo taisykles (kad pridėtumėte kitų svetainių palaikymą)">
+<!ENTITY https-always.prefs.here_link "čia">
+<!ENTITY https-always.prefs.toggle "Perjungti">
+<!ENTITY https-always.prefs.reset_default "Atstatyti numatytą">
+<!ENTITY https-always.prefs.view_xml_source "Žiūrėti XML šaltinį">
+
+<!ENTITY https-always.chrome.stable_rules "Pastovios taisyklės">
+<!ENTITY https-always.chrome.stable_rules_description "Priverstinis prisijungimų šifravimas į šiuos tinklalapius:">
+<!ENTITY https-always.chrome.experimental_rules "Eksperimentinės taisyklės">
+<!ENTITY https-always.chrome.experimental_rules_description "Gali sukelti įspėjimus ar gedimus. Pagal numatymą išjungta.">
+<!ENTITY https-always.chrome.add_rule "Pridėti šiai svetainei taisyklę">
+<!ENTITY https-always.chrome.add_new_rule "Pridėti šiai svetainei naują taisyklę">
+<!ENTITY https-always.chrome.always_https_for_host "Visuomet šiam serveriui naudoti https">
+<!ENTITY https-always.chrome.host "Serveris:">
+<!ENTITY https-always.chrome.show_advanced "Rodyti išplėstinius">
+<!ENTITY https-always.chrome.hide_advanced "Slėpti išplėstinius">
+<!ENTITY https-always.chrome.rule_name "Taisyklės pavadinimas">
+<!ENTITY https-always.chrome.regex "Atitinkamas reguliarusis reiškinys">
+<!ENTITY https-always.chrome.redirect_to "Nukreipti į">
+<!ENTITY https-always.chrome.status_cancel_button "Atsisakyti">
+
+

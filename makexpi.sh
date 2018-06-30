@@ -1,6 +1,6 @@
 #!/bin/bash
 set -o errexit
-APP_NAME=https-everywhere
+APP_NAME=https-always
 
 # builds a .xpi from the git repository, placing the .xpi in the root
 # of the repository.
@@ -108,10 +108,6 @@ rsync -a --delete pkg/xpi-eff/ pkg/xpi-amo
 # requires us to upload the eff-hosted version to an unlisted extension on AMO
 # in order to receive a signature indicating that it is not malware.
 # https://github.com/efforg/https-everywhere/issues/2051
-sed -i.bak -e '/updateKey/d' -e '/updateURL/d' \
- -e 's,<em:id>https-everywhere-eff@eff.org</em:id>,<em:id>https-everywhere@eff.org</em:id>,' \
- pkg/xpi-amo/install.rdf
-rm pkg/xpi-amo/install.rdf.bak
 
 # Used for figuring out which branch to pull from when viewing source for rules
 GIT_OBJECT_FILE=".git/refs/heads/master"

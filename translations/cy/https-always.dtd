@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Ynghylch HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Amgriptiwch yr We! Defnyddiwch diogelwch HTTPS yn awtomatig ar nifer o wefanau.">
+<!ENTITY https-always.about.version "Fersiwn">
+<!ENTITY https-always.about.created_by "Creuwyd gan">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "Llyfrgellwyr Set Rheol ">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Diolch i">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "Os rydych yn hoffi HTTPS Always, efallai byddech yn ystyrio">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "or">
+
+<!ENTITY https-always.menu.about "Ynghylch HTTPS Always">
+<!ENTITY https-always.menu.observatory "Dewisiadau SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Galluogi HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Analluogi HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Dangos rhifydd">
+<!ENTITY https-always.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-always.prefs.title "Dewisiadau HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Galluogi Popeth">
+<!ENTITY https-always.prefs.disable_all "Analluogi Popeth">
+<!ENTITY https-always.prefs.reset_defaults "Ailosod i'r ddiofynnau">
+<!ENTITY https-always.prefs.search "Chwilio">
+<!ENTITY https-always.prefs.site "Safle">
+<!ENTITY https-always.prefs.notes "Nodiadau">
+<!ENTITY https-always.prefs.list_caption "Pa rheolau ailgyfeirio HTTPS sy'n berthnasol?">
+<!ENTITY https-always.prefs.enabled "Wedi Galluogi">
+<!ENTITY https-always.prefs.ruleset_howto "Gallwch ddysgi sut i ysgrifennu setiau rheol eich hun (i ychwanegu cymorth i wefannau eraill)">
+<!ENTITY https-always.prefs.here_link "fama">
+<!ENTITY https-always.prefs.toggle "Togl">
+<!ENTITY https-always.prefs.reset_default "Ailosod i ddiofyn">
+<!ENTITY https-always.prefs.view_xml_source "Gwelwch ffynhonnell XML">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "Diddymu">
+
+

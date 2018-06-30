@@ -2,7 +2,7 @@ const CC = Components.classes;
 const CI = Components.interfaces;
 const CU = Components.utils;
 
-var HTTPSEverywhere = CC["@eff.org/https-everywhere;1"]
+var HTTPSAlways = CC["@hyperbola.info/https-always;1"]
                       .getService(CI.nsISupports).wrappedJSObject;
 
 CU.import("resource://gre/modules/Prompt.jsm");
@@ -22,7 +22,7 @@ function loadIntoWindow() {
   if (!aWindow) {
     return;
   }
-  var enabled = HTTPSEverywhere.prefs.getBoolPref("globalEnabled");
+  var enabled = HTTPSAlways.prefs.getBoolPref("globalEnabled");
   addMenuItems(enabled);
 
   // When navigating away from a page, we want to clear the applicable list for
@@ -32,7 +32,7 @@ function loadIntoWindow() {
   var BrowserApp = aWindow.BrowserApp;
   BrowserApp.deck.addEventListener("pagehide", function(evt) {
     var browser = BrowserApp.getBrowserForDocument(evt.target);
-    HTTPSEverywhere.resetApplicableList(browser);
+    HTTPSAlways.resetApplicableList(browser);
   }, true);
 }
 
@@ -45,7 +45,7 @@ function unloadFromWindow() {
 
 
 /*
- * Add a menu item to toggle HTTPS Everywhere
+ * Add a menu item to toggle HTTPS Always
  */
 
 function addToggleItemToMenu(enabled) {
@@ -77,7 +77,7 @@ function addRulesItemToMenu(enabled){
             var ruleOn = popupInfo.ruleStatus[i];
             var ruleChecked = (data.list.indexOf(i) == -1 ? false : true);
             if (ruleOn !== ruleChecked) {
-              HTTPSEverywhere.log(4, "toggling: "+JSON.stringify(popupInfo.rules[i]));
+              HTTPSAlways.log(4, "toggling: "+JSON.stringify(popupInfo.rules[i]));
               popupInfo.rules[i].toggle();
             }
           }
@@ -107,7 +107,7 @@ function addDefaultsItemToMenu(enabled){
 function addMenuItems(enabled){
   if(!menuParentId){
     menuParentId = aWindow.NativeWindow.menu.add({
-      name: "HTTPS Everywhere",
+      name: "HTTPS Always",
     });
   }
   addToggleItemToMenu(enabled);
@@ -121,7 +121,7 @@ function popupToggleMenu(aWindow, enabled) {
       label: "Yes",
       callback: function() {
         toggleEnabledState();
-        var msg = enabled ? "HTTPS Everywhere disabled!" : "HTTPS Everywhere enabled!";
+        var msg = enabled ? "HTTPS Always disabled!" : "HTTPS Always enabled!";
         aWindow.NativeWindow.toast.show(msg, "short");
         return true;
       },
@@ -132,13 +132,13 @@ function popupToggleMenu(aWindow, enabled) {
     }
   ];
   var newState = enabled ? "off?" : "on?";
-  aWindow.NativeWindow.doorhanger.show("Would you like to turn HTTPS Everywhere "+newState,
+  aWindow.NativeWindow.doorhanger.show("Would you like to turn HTTPS Always "+newState,
                                        "doorhanger-toggle", buttons);
 }
 
 
 /*
- * The HTTPS Everywhere icon in the URL bar shows a popup of rules that the
+ * The HTTPS Always icon in the URL bar shows a popup of rules that the
  * user can activate/deactivate. On long click, reset all rules to defaults.
  */
 
@@ -149,13 +149,13 @@ var popupInfo = {
   alist: null,
   getApplicableList: function() {
     var browser = aWindow.BrowserApp.selectedBrowser;
-    return HTTPSEverywhere.getApplicableListForBrowser(browser);
+    return HTTPSAlways.getApplicableListForBrowser(browser);
   },
   fill: function() {
     this.clear();
     this.alist = this.getApplicableList();
-    HTTPSEverywhere.log(4,"applicable list active: "+JSON.stringify(this.alist.active));
-    HTTPSEverywhere.log(4,"applicable list inactive: "+JSON.stringify(this.alist.inactive));
+    HTTPSAlways.log(4,"applicable list active: "+JSON.stringify(this.alist.active));
+    HTTPSAlways.log(4,"applicable list inactive: "+JSON.stringify(this.alist.inactive));
     for (var rule in this.alist.all) {
       if (this.alist.active.hasOwnProperty(rule)) {
         // active rules are checked and toggleable
@@ -212,7 +212,7 @@ function popupResetDefaultsMenu(aWindow) {
       callback: function() { return false; }
     }
   ];
-  aWindow.NativeWindow.doorhanger.show("Reset all HTTPS Everywhere rules to defaults?",
+  aWindow.NativeWindow.doorhanger.show("Reset all HTTPS Always rules to defaults?",
                                        "doorhanger-reset", buttons);
 }
 
@@ -227,13 +227,13 @@ function reloadTab() {
 }
 
 function toggleEnabledState(){
-  HTTPSEverywhere.toggleEnabledState();
+  HTTPSAlways.toggleEnabledState();
   loadIntoWindow();
   reloadTab();
 }
 
 function resetToDefaults() {
-  HTTPSEverywhere.https_rules.resetRulesetsToDefaults();
+  HTTPSAlways.https_rules.resetRulesetsToDefaults();
   reloadTab();
 }
 

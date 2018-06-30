@@ -1,0 +1,40 @@
+<!ENTITY https-always.about.title "">
+<!ENTITY https-always.about.ext_name "">
+<!ENTITY https-always.about.ext_description "">
+<!ENTITY https-always.about.version "">
+<!ENTITY https-always.about.created_by "">
+<!ENTITY https-always.about.librarians "">
+<!ENTITY https-always.about.thanks "">
+<!ENTITY https-always.about.contribute  "">
+<!ENTITY https-always.about.tor_lang_code "">
+
+<!ENTITY https-always.menu.about "">
+<!ENTITY https-always.menu.observatory "">
+<!ENTITY https-always.menu.globalEnable "">
+<!ENTITY https-always.menu.globalDisable "">
+
+<!ENTITY https-always.prefs.title "">
+<!ENTITY https-always.prefs.enable_all "">
+<!ENTITY https-always.prefs.disable_all "">
+<!ENTITY https-always.prefs.reset_defaults "">
+<!ENTITY https-always.prefs.search "">
+<!ENTITY https-always.prefs.site "">
+<!ENTITY https-always.prefs.notes "">
+<!ENTITY https-always.prefs.list_caption "">
+<!ENTITY https-always.prefs.enabled "">
+<!ENTITY https-always.prefs.ruleset_howto "">
+<!ENTITY https-always.prefs.here_link "">
+<!ENTITY https-always.prefs.toggle "">
+<!ENTITY https-always.prefs.reset_default "">
+<!ENTITY https-always.prefs.view_xml_source "">
+
+<!ENTITY https-always.source.downloading "">
+<!ENTITY https-always.source.filename "">
+<!ENTITY https-always.source.unable_to_download "">
+
+<!ENTITY https-always.popup.title "">
+<!ENTITY https-always.popup.paragraph1 "">
+<!ENTITY https-always.popup.paragraph2 "">
+<!ENTITY https-always.popup.paragraph3 "">
+<!ENTITY https-always.popup.keep "">
+<!ENTITY https-always.popup.revert "">

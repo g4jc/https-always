@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "HTTPS Always පිලිබඳව">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "බොහෝ වෙබ් අඩවි සඳහා HTTPS ආරක්ෂාව ස්වයංක්‍රීයව පාවිච්චි කරන්න.">
+<!ENTITY https-always.about.version "සංස්කරණය">
+<!ENTITY https-always.about.created_by "නිර්මිත">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "Ruleset Librarians">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "ස්තුතිය">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "HTTPS Always පිලිබඳව ඔබ කැමතිනම් මේවා සලකා බැලිය යුතුය">
+<!ENTITY https-always.about.tor_lang_code "ඉංග්‍රීසි">
+<!ENTITY https-always.about.or "හෝ">
+
+<!ENTITY https-always.menu.about "HTTPS Always පිලිබඳව">
+<!ENTITY https-always.menu.observatory "SSL නිරික්ෂණාගාර මනාප ">
+<!ENTITY https-always.menu.globalEnable "HTTPS Always ක්‍රියාකරවන්න">
+<!ENTITY https-always.menu.globalDisable "HTTPS Always ක්‍රියාවිරහිත කරවන්න">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Show Counter">
+<!ENTITY https-always.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-always.prefs.title "HTTPS Always මනාප ">
+<!ENTITY https-always.prefs.enable_all "සියල්ල සබල කරන්න ">
+<!ENTITY https-always.prefs.disable_all "සියල්ල අබල කරන්න ">
+<!ENTITY https-always.prefs.reset_defaults "යථා තත්වයට පත් කරන්න">
+<!ENTITY https-always.prefs.search "සොයන්න">
+<!ENTITY https-always.prefs.site "අඩවිය">
+<!ENTITY https-always.prefs.notes "සටහන්">
+<!ENTITY https-always.prefs.list_caption "කුමන HTTPS හැරවුම් කොන්දේසිය තෝරගන්නද ?    ">
+<!ENTITY https-always.prefs.enabled "සබල කරන ලදී ">
+<!ENTITY https-always.prefs.ruleset_howto "ඔබගේ rulesets ලියන ආකාරය පිළිබද ඔබට ඉගෙනගත හැක(අනෙකුත් වෙබ් අඩවි සදහා සහය එකතු කිරීමට) ">
+<!ENTITY https-always.prefs.here_link "මෙහි ">
+<!ENTITY https-always.prefs.toggle "ටොගලය ">
+<!ENTITY https-always.prefs.reset_default "යථා තත්වයට පත් කරන්න">
+<!ENTITY https-always.prefs.view_xml_source "XML කේත පෙන්වන්න ">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "අවලංගු කරන්න">
+
+

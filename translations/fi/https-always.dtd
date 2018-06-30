@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Tietoja HTTPS Alwayssta">
+<!ENTITY https-always.about.ext_name "HTTPS Kaikkialla">
+<!ENTITY https-always.about.ext_description "Salaa verkko automaattisesti käyttäen HTTPS-suojausta monilla sivuilla!">
+<!ENTITY https-always.about.version "Versio">
+<!ENTITY https-always.about.created_by "Tekijät:">
+<!ENTITY https-always.about.and ", ja">
+<!ENTITY https-always.about.librarians "Sääntöjen hallinnoijat">
+<!ENTITY https-always.about.add_new_rule "Lisää Uusi Sääntö">
+<!ENTITY https-always.about.thanks "Kiitokset">
+<!ENTITY https-always.about.many_contributors "Monia myötävaikuttajia, mukaanlukien">
+<!ENTITY https-always.about.noscript "Lisäksi, osia HTTPS Always:stä perustuu Giorgio Maonen ja muiden koodiin NoScriptistä. Olemme kiitollisia heidän mahtavasta työstään!">
+<!ENTITY https-always.about.contribute  "Jos pidät HTTPS Alwayssta, voit harkita">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "tai">
+
+<!ENTITY https-always.menu.about "Tietoja HTTPS Alwayssta">
+<!ENTITY https-always.menu.observatory "SSL Observatoryn asetukset">
+<!ENTITY https-always.menu.globalEnable "Ota HTTPS Always käyttöön">
+<!ENTITY https-always.menu.globalDisable "Poista HTTPS Always käytöstä">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Estä kaikki salaamatomat pyynnöt">
+<!ENTITY https-always.menu.showCounter "Näytä laskuri">
+<!ENTITY https-always.menu.viewAllRules "Näytä kaikki säännöt">
+
+<!ENTITY https-always.prefs.title "HTTPS Alwaysn asetukset">
+<!ENTITY https-always.prefs.enable_all "Ota kaikki käyttöön">
+<!ENTITY https-always.prefs.disable_all "Poista kaikki käytöstä">
+<!ENTITY https-always.prefs.reset_defaults "Palauta oletusarvoihin">
+<!ENTITY https-always.prefs.search "Hae">
+<!ENTITY https-always.prefs.site "Sivusto">
+<!ENTITY https-always.prefs.notes "Huomautus">
+<!ENTITY https-always.prefs.list_caption "Mitä HTTPS-uudelleenohjauksia tulisi käyttää?">
+<!ENTITY https-always.prefs.enabled "Käytössä">
+<!ENTITY https-always.prefs.ruleset_howto "Voit opetella kirjoittamaan omia sääntöjäsi (laajentaaksesi muiden sivustojen tukea)">
+<!ENTITY https-always.prefs.here_link "täällä">
+<!ENTITY https-always.prefs.toggle "Vaihda tilaa">
+<!ENTITY https-always.prefs.reset_default "Palauta oletusasetus">
+<!ENTITY https-always.prefs.view_xml_source "Katso XML-lähde">
+
+<!ENTITY https-always.chrome.stable_rules "Vakaat käytännöt">
+<!ENTITY https-always.chrome.stable_rules_description "Pakota salatut yhteydet näihin nettisivustoihin:">
+<!ENTITY https-always.chrome.experimental_rules "Kokeelliset käytännöt">
+<!ENTITY https-always.chrome.experimental_rules_description "Voi aiheuttaa varoituksia tai hajoamisen. Pois käytöstä oletuksena.">
+<!ENTITY https-always.chrome.add_rule "Lisää sääntö sivulle">
+<!ENTITY https-always.chrome.add_new_rule "Lisää uusi sääntö sivulle">
+<!ENTITY https-always.chrome.always_https_for_host "Käytä aina https tälle isännälle">
+<!ENTITY https-always.chrome.host "Isäntä:">
+<!ENTITY https-always.chrome.show_advanced "Näytä lisäasetukset">
+<!ENTITY https-always.chrome.hide_advanced "Piillota lisäasetukset">
+<!ENTITY https-always.chrome.rule_name "Säännön nimi">
+<!ENTITY https-always.chrome.regex "Sopiva säännöllinen lauseke">
+<!ENTITY https-always.chrome.redirect_to "Uudelleenohjaa kohteeseen">
+<!ENTITY https-always.chrome.status_cancel_button "Peruuta">
+
+

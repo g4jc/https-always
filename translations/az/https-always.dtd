@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Hər yerdə HTTPS haqda">
+<!ENTITY https-always.about.ext_name "Hər yerdə HTTPS">
+<!ENTITY https-always.about.ext_description "Veb-i şifrələ! Bir çox saytlarda HTTPS-i avtomatik istifadə et.">
+<!ENTITY https-always.about.version "Versiya">
+<!ENTITY https-always.about.created_by "Yaradan şəxs">
+<!ENTITY https-always.about.and ", və">
+<!ENTITY https-always.about.librarians "Kitabxanaçıların Qayda Toplusu">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Təşəkkürlər:">
+<!ENTITY https-always.about.many_contributors "Dəstək olan hər kəsə, həmçinin">
+<!ENTITY https-always.about.noscript "Həmçinin HTTPS Always kodunun bir hissəsi Giorgio Maone və digərləri tərəfindən olan NoScript əsasındadır. Onların böyük əməkləri üçün minnətdarıq!">
+<!ENTITY https-always.about.contribute  "Hamı üçün HTTPS-i xoşlayırsansa, sən buna üstünlük verməlisən">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "və ya">
+
+<!ENTITY https-always.menu.about "Hər yerdə HTTPS haqqında">
+<!ENTITY https-always.menu.observatory "SSL İzləyici Xüsusiyyətləti">
+<!ENTITY https-always.menu.globalEnable " HTTPS -ni hər yerdə aktivləşdir">
+<!ENTITY https-always.menu.globalDisable "HTTPS -ni həryerdə söndür">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Hesablayıcını Göstər">
+<!ENTITY https-always.menu.viewAllRules "Bütün Qaydaları Gör">
+
+<!ENTITY https-always.prefs.title "Hər yerdə HTTPS Xüsusiyyətləri">
+<!ENTITY https-always.prefs.enable_all "Hamısını Aktivləşdir">
+<!ENTITY https-always.prefs.disable_all "Hamısını Deaktivə Et">
+<!ENTITY https-always.prefs.reset_defaults "İlkin Hala Sıfırla">
+<!ENTITY https-always.prefs.search "Axtar">
+<!ENTITY https-always.prefs.site "Sayt">
+<!ENTITY https-always.prefs.notes "Qeydlər">
+<!ENTITY https-always.prefs.list_caption "Hansı HTTPS ünvan dəyişdirilmə qaydaları tətbiq edilməlidir?">
+<!ENTITY https-always.prefs.enabled "Aktivləşdirildi">
+<!ENTITY https-always.prefs.ruleset_howto "Öz qayda dəstini necə yazacağını öyrənə bilərsən (başqa veb səhifələrə dəstək əlavə etmək üçün)">
+<!ENTITY https-always.prefs.here_link "bura">
+<!ENTITY https-always.prefs.toggle "Keçid">
+<!ENTITY https-always.prefs.reset_default "İlkin hala sıfırla">
+<!ENTITY https-always.prefs.view_xml_source "XML Mənbəyə Bax">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "Ləğv et">
+
+

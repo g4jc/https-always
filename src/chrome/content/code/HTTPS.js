@@ -7,12 +7,12 @@ var securityService = CC['@mozilla.org/ssservice;1']
 // policy loading.
 const PolicyState = {
   attach: function(channel) {
-    IOUtil.attachToChannel(channel, "httpseverywhere.policyLoaded", true);
+    IOUtil.attachToChannel(channel, "httpsalways.policyLoaded", true);
   },
 
   extract: function(channel) {
     var res = IOUtil.extractFromChannel(channel,
-            "httpseverywhere.policyLoaded", true);
+            "httpsalways.policyLoaded", true);
     return res;
   },
 };
@@ -81,9 +81,9 @@ const HTTPS = {
       if (blob) {
         if (!blob.applied_ruleset) {
           this.log(WARN,"Blacklisting rule for: " + channel.URI.spec);
-          https_everywhere_blacklist[channel.URI.spec] = true;
+          https_always_blacklist[channel.URI.spec] = true;
         }
-        https_everywhere_blacklist[channel.URI.spec] = blob.applied_ruleset;
+        https_always_blacklist[channel.URI.spec] = blob.applied_ruleset;
       }
       var domain = null;
       try { domain = channel.URI.host; } catch (e) {}
@@ -96,7 +96,7 @@ const HTTPS = {
 
     // Check for the new internal redirect API. If it exists, use it.
     if (!"redirectTo" in channel) {
-      this.log(WARN, "nsIHTTPChannel.redirectTo API is missing. This version of HTTPS Everywhere is useless!!!!\n!!!\n");
+      this.log(WARN, "nsIHTTPChannel.redirectTo API is missing. This version of HTTPS Always is useless!!!!\n!!!\n");
       return false;
     }
 
@@ -141,7 +141,7 @@ const HTTPS = {
       return;
     }
     //this.log(DBUG, "Cookie hunting in " + uri.spec);
-    var alist = HTTPSEverywhere.instance.getApplicableListForChannel(req);
+    var alist = HTTPSAlways.instance.getApplicableListForChannel(req);
     if (!alist)
       this.log(INFO, "No alist for cookies for "+(req.URI) ? req.URI.spec : "???");
     

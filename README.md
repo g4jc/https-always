@@ -1,5 +1,6 @@
-[HTTPS Everywhere](https://www.eff.org/https-everywhere) [![Build Status](https://travis-ci.org/EFForg/https-everywhere.svg?branch=master)](https://travis-ci.org/EFForg/https-everywhere) - Legacy Fork
+[HTTPS Always]
 ================
+* A Legacy fork of HTTPS Everywhere
 
 Getting Started
 ---------------
@@ -41,14 +42,14 @@ hook provided with:
 Source Tree
 -----------
 
-This is the source tree for HTTPS Everywhere for Firefox and Chrome.
+This is the source tree for HTTPS Always for UXP.
 
 Important directories you might want to know about
 
-    src/                      The Firefox source
+    src/                      The UXP-Addon source
 
     src/components            |
-    src/chrome/content        | Firefox JavaScript and XUL code
+    src/chrome/content        |  JavaScript and XUL code
     src/chrome/content/code   |
 
     src/chrome/content/rules  The rulesets live here

@@ -1,0 +1,78 @@
+#https-always-button {
+  -moz-binding: url("chrome://https-always/content/toolbar_button_binding.xml#https-always-binding");
+}
+
+#https-always-button dropmarker {
+  display: none;
+}
+
+toolbar #https-always-button,
+toolbar #https-always-button > .https-always-button {
+  -moz-box-orient: horizontal;
+}
+
+/* Use CSS attribute selector for changing icon */
+#https-always-button[state="inactive"] > .https-always-button {
+  list-style-image: url("chrome://https-always/skin/icon-inactive-16.png");
+}
+#https-always-button[state="active"] > .https-always-button {
+  list-style-image: url("chrome://https-always/skin/icon-active-16.png");
+}
+#https-always-button[state="disabled"] > .https-always-button {
+  list-style-image: url("chrome://https-always/skin/icon-disabled-16.png");
+}
+#https-always-button[state="blocking"] > .https-always-button {
+  list-style-image: url("chrome://https-always/skin/icon-blocking-16.png");
+}
+
+/* ruleset counter */
+#rscounter {
+  margin: 3px -12px 0 -8px;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* increase negative margins in the palette and panel so the button isn't too wide. */
+#wrapper-https-always-button[place="palette"] > #https-always-button > #rscounter,
+#https-always-button[cui-areatype="menu-panel"] > #rscounter {
+  margin: 3px -16px 0 -8px;
+}
+
+/* rulesets applied label */
+#rsapplied {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #000;
+  background-color: #FFF;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px 1px 1px 1px;
+  visibility: hidden;
+}
+
+#https-always-button:not([rulesetsApplied="0"]) #rsapplied {
+  visibility: visible;
+}
+
+#https-always-button menuitem.active-item label {
+  color: #1e6419;
+  font-weight: bold;
+}
+#https-always-button menuitem.moot-item label {
+  color: #1e6419;
+  opacity: 0.75;
+  font-weight: bold;
+}
+#https-always-button menuitem.breaking-item label {
+  color: #b99999;
+  font-weight: bold;
+}
+#https-always-button menuitem.inactive-item label {
+  color: #999999;
+  font-weight: bold;
+}
+#https-always-button menuitem.birthday label {
+  font-weight: bold;
+}

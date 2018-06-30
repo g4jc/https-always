@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "عن HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "شفر شبكة الإنترنت! استخدم تلقائيا تقنية HTTPS للأمان مع الكثير من المواقع.">
+<!ENTITY https-always.about.version "النسخة">
+<!ENTITY https-always.about.created_by "أنشأه">
+<!ENTITY https-always.about.and "، ايضاً">
+<!ENTITY https-always.about.librarians "جامعيْ القواعد">
+<!ENTITY https-always.about.add_new_rule "اضافة قانون جديد">
+<!ENTITY https-always.about.thanks "شكراً لكل من">
+<!ENTITY https-always.about.many_contributors "والعديد العديد من المساهمين، شاملا">
+<!ENTITY https-always.about.noscript "وايضا، جزئ من HTTPS Always متمركزه على شفره NoScript، من صنع جورجيو ماوون وآخرين. نشكرهم على عملهم المتقن.">
+<!ENTITY https-always.about.contribute  "إن أعجبتك إضافة HTTPS Always، فكر بـ">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "أو">
+
+<!ENTITY https-always.menu.about "عن  HTTPS Always">
+<!ENTITY https-always.menu.observatory "خيارات مرصد SSL">
+<!ENTITY https-always.menu.globalEnable "فعّل HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "عطّل  HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "منع جميع الطلبات الغير مشفرة">
+<!ENTITY https-always.menu.showCounter "أظهر العداد">
+<!ENTITY https-always.menu.viewAllRules "عرض جميع القواعد">
+
+<!ENTITY https-always.prefs.title "خيارات  HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "فعّل الكل">
+<!ENTITY https-always.prefs.disable_all "عطّل الكل">
+<!ENTITY https-always.prefs.reset_defaults "استعادة الإعدادات الافتراضية">
+<!ENTITY https-always.prefs.search "بحث">
+<!ENTITY https-always.prefs.site "موقع">
+<!ENTITY https-always.prefs.notes "ملاحظات">
+<!ENTITY https-always.prefs.list_caption "أي من قواعد إعادة توجيه HTTPS يجب أن تطبق؟">
+<!ENTITY https-always.prefs.enabled "مفعّل">
+<!ENTITY https-always.prefs.ruleset_howto "يمكنك تعلم كيفية كتابة قواعد خاصة بك (لإضافة الدعم لمواقع أخرى)">
+<!ENTITY https-always.prefs.here_link "هنا">
+<!ENTITY https-always.prefs.toggle "بدّل">
+<!ENTITY https-always.prefs.reset_default "استعادة الإعداد الافتراضي">
+<!ENTITY https-always.prefs.view_xml_source "افحص مصدر XML">
+
+<!ENTITY https-always.chrome.stable_rules "قوانين متوازنة.">
+<!ENTITY https-always.chrome.stable_rules_description "اجبار المواقع التالية بالقيام باتصالات مشفرة:">
+<!ENTITY https-always.chrome.experimental_rules "قوانين تجريبية">
+<!ENTITY https-always.chrome.experimental_rules_description "قد يسبب تحذيرات او اخطاء. الوضع الافتراضي معطل.">
+<!ENTITY https-always.chrome.add_rule "اضف استثناء لهذا الموقع">
+<!ENTITY https-always.chrome.add_new_rule "اضف استثناء جديد لهذا الموقع">
+<!ENTITY https-always.chrome.always_https_for_host "استخدم HTTPS دائما لهذا المضيف">
+<!ENTITY https-always.chrome.host "المضيف">
+<!ENTITY https-always.chrome.show_advanced "اظهار الاعدادت المتقدمه">
+<!ENTITY https-always.chrome.hide_advanced "اخفاء الاعدادات المتقدمه">
+<!ENTITY https-always.chrome.rule_name "اسم الشرط">
+<!ENTITY https-always.chrome.regex "مطابقة regex">
+<!ENTITY https-always.chrome.redirect_to "اعادة التوجيه لـ">
+<!ENTITY https-always.chrome.status_cancel_button "إلغاء">
+
+

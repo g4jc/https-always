@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "O HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Zašifrujte web! Automaticky používajte bezpečnosť HTTPS na mnohých stránkach.">
+<!ENTITY https-always.about.version "Verzia">
+<!ENTITY https-always.about.created_by "Vytvorili">
+<!ENTITY https-always.about.and ", a">
+<!ENTITY https-always.about.librarians "Tvorcovia sád pravidiel">
+<!ENTITY https-always.about.add_new_rule "Pridať nové pravidlo">
+<!ENTITY https-always.about.thanks "Poďakovanie">
+<!ENTITY https-always.about.many_contributors "Veľa, veľa prispievateľov, vrátane">
+<!ENTITY https-always.about.noscript "Taktiež, časti HTTPS Always sú založené na kóde z NoScript od Giorgia Maoneho a ďalších. Sme vďační za ich excelentnú prácu!">
+<!ENTITY https-always.about.contribute  "Ak sa vám HTTPS Always páči, zvážte">
+<!ENTITY https-always.about.tor_lang_code "sk">
+<!ENTITY https-always.about.or "alebo">
+
+<!ENTITY https-always.menu.about "O HTTPS Always">
+<!ENTITY https-always.menu.observatory "Nastavenia SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Zapnúť HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Vypnúť HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Blokovať všetky nešifrované požiadavky">
+<!ENTITY https-always.menu.showCounter "Zobraziť počítadlo">
+<!ENTITY https-always.menu.viewAllRules "Zobraziť všetky pravidlá">
+
+<!ENTITY https-always.prefs.title "Nastavenia HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Zapnúť všetko">
+<!ENTITY https-always.prefs.disable_all "Vypnúť všetko">
+<!ENTITY https-always.prefs.reset_defaults "Obnoviť pôvodné">
+<!ENTITY https-always.prefs.search "Hľadať">
+<!ENTITY https-always.prefs.site "Stránka">
+<!ENTITY https-always.prefs.notes "Poznámky">
+<!ENTITY https-always.prefs.list_caption "Ktoré pravidlá pre presmerovanie HTTPS uplatniť?">
+<!ENTITY https-always.prefs.enabled "Zapnuté">
+<!ENTITY https-always.prefs.ruleset_howto "Môžete sa naučiť, ako písať svoje vlastné sady pravidiel (pre pridanie podpory pre ďalšie stránky)">
+<!ENTITY https-always.prefs.here_link "tu">
+<!ENTITY https-always.prefs.toggle "Prepnúť">
+<!ENTITY https-always.prefs.reset_default "Obnoviť pôvodné">
+<!ENTITY https-always.prefs.view_xml_source "Zobraziť XML zdroj">
+
+<!ENTITY https-always.chrome.stable_rules "Stabilné pravidlá">
+<!ENTITY https-always.chrome.stable_rules_description "Vynútiť šifrované spojenie pre tieto webové stránky:">
+<!ENTITY https-always.chrome.experimental_rules "Experimentálne pravidlá">
+<!ENTITY https-always.chrome.experimental_rules_description "Môže spôsobiť upozornenie alebo chyby. Zakázané vo východzom nastavení.">
+<!ENTITY https-always.chrome.add_rule "Pridať pravidlo pre túto stránku.">
+<!ENTITY https-always.chrome.add_new_rule "Pridať nové pravidlo pre túto stránku.">
+<!ENTITY https-always.chrome.always_https_for_host "Vždy používať https pre tohto hostiteľa.">
+<!ENTITY https-always.chrome.host "Hostiteľ:">
+<!ENTITY https-always.chrome.show_advanced "Zobraziť pokročilé">
+<!ENTITY https-always.chrome.hide_advanced "Skryť pokročilé">
+<!ENTITY https-always.chrome.rule_name "Názov pravidla">
+<!ENTITY https-always.chrome.regex "Vyhovujúce regulárne výrazy">
+<!ENTITY https-always.chrome.redirect_to "Presmerovať do">
+<!ENTITY https-always.chrome.status_cancel_button "Zrušiť">
+
+

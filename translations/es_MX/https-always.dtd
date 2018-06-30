@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Sobre HTTPS Universal">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Cifra la Red! Automáticamente utiliza seguridades HTTPS en multiples sitios.">
+<!ENTITY https-always.about.version "Versión">
+<!ENTITY https-always.about.created_by "Creado por">
+<!ENTITY https-always.about.and ", y">
+<!ENTITY https-always.about.librarians "Bibliotecarios de conjuntos de reglas">
+<!ENTITY https-always.about.add_new_rule "Añade Nueva Regla">
+<!ENTITY https-always.about.thanks "Gracias a">
+<!ENTITY https-always.about.many_contributors "Muchisimos contribuidores, incluyendo ">
+<!ENTITY https-always.about.noscript "Ademas, las porciones de HTTPS Always se basan en el codijo de NoScript escrito por Giorgio Maone y otoros. ¡Estamos muy agredcidos para su trabajo excellente!">
+<!ENTITY https-always.about.contribute  "Si te gusta HTTPS Always, podrias considerar">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "o">
+
+<!ENTITY https-always.menu.about "Sobre HTTPS Always">
+<!ENTITY https-always.menu.observatory "Preferencias del Observatorio SSL">
+<!ENTITY https-always.menu.globalEnable "Activar HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Desactivar HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Bloquear todos los pedidos no-encriptados">
+<!ENTITY https-always.menu.showCounter "Enseña contador ">
+<!ENTITY https-always.menu.viewAllRules "Ver todo las reglas">
+
+<!ENTITY https-always.prefs.title "Preferencias de HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Habilitar Todos">
+<!ENTITY https-always.prefs.disable_all "Desactivar Todos">
+<!ENTITY https-always.prefs.reset_defaults "Restaurar a Valores Predeterminados">
+<!ENTITY https-always.prefs.search "Busqueda">
+<!ENTITY https-always.prefs.site "Sitio">
+<!ENTITY https-always.prefs.notes "Notas">
+<!ENTITY https-always.prefs.list_caption "Cuales reglas de redirection de HTTPS deberían ser aplicadas?">
+<!ENTITY https-always.prefs.enabled "Habilitado">
+<!ENTITY https-always.prefs.ruleset_howto "Tu pueudes aprender como a escribir tus propios conjuntos de reglas (para añadir apoyo para los otros sitios de web)">
+<!ENTITY https-always.prefs.here_link "aqui">
+<!ENTITY https-always.prefs.toggle "Alternar">
+<!ENTITY https-always.prefs.reset_default "Restaurar a Estado Predeterminado">
+<!ENTITY https-always.prefs.view_xml_source "Ver fuente XML">
+
+<!ENTITY https-always.chrome.stable_rules "Reglas Estables">
+<!ENTITY https-always.chrome.stable_rules_description "A fuerza utilizar conexiones encriptado para estas sitios de web">
+<!ENTITY https-always.chrome.experimental_rules "Reglas Experimentales">
+<!ENTITY https-always.chrome.experimental_rules_description "Puede causar advertencias o rotura. Desactivado de manera predeterminada">
+<!ENTITY https-always.chrome.add_rule "Añadir una regla para este sitio">
+<!ENTITY https-always.chrome.add_new_rule "Añadir una regla neuva para este sitio">
+<!ENTITY https-always.chrome.always_https_for_host "Utilizar siempre https para este host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Enseña avanzado">
+<!ENTITY https-always.chrome.hide_advanced "Esconde avanzado">
+<!ENTITY https-always.chrome.rule_name "nombre de regla">
+<!ENTITY https-always.chrome.regex "Regex coincidente">
+<!ENTITY https-always.chrome.redirect_to "Redirigir a ">
+<!ENTITY https-always.chrome.status_cancel_button "Cancelar">
+
+

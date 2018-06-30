@@ -50,7 +50,7 @@ function RuleSet(id, name, xmlName, match_rule, default_off, platform) {
   this.exclusions = [];
   this.cookierules = [];
 
-  this.rule_toggle_prefs = HTTPSEverywhere.instance.rule_toggle_prefs;
+  this.rule_toggle_prefs = HTTPSAlways.instance.rule_toggle_prefs;
 
   try {
     // if this pref exists, use it
@@ -119,7 +119,7 @@ RuleSet.prototype = {
     return null;
   },
   log: function(level, msg) {
-    https_everywhereLog(level, msg);
+    https_alwaysLog(level, msg);
   },
  
   wouldMatch: function(hypothetical_uri, alist) {
@@ -202,7 +202,7 @@ const RuleWriter = {
       .getService(CI.nsIProperties)
       .get(loc, CI.nsILocalFile)
       .clone();
-    file.append("HTTPSEverywhereUserRules");
+    file.append("HTTPSAlwaysUserRules");
     // Check for existence, if not, create.
     if (!file.exists()) {
       file.create(CI.nsIFile.DIRECTORY_TYPE, 0700);
@@ -433,7 +433,7 @@ const HTTPSRules = {
    * XML string, which will be parsed on an as-needed basis.
    */
   loadTargets: function() {
-    var loc = "chrome://https-everywhere/content/rulesets.json";
+    var loc = "chrome://https-always/content/rulesets.json";
     var data = RuleWriter.readFromUrl(loc);
     var rules = JSON.parse(data);
     this.targets = rules.targets;
@@ -455,7 +455,7 @@ const HTTPSRules = {
     // mixed content triggering rules, leave them out. Otherwise add them in.
     if(versionChecker.compare(appInfo.version, "23.0a1") >= 0
             && prefs.getBoolPref("security.mixed_content.block_active_content")
-            && !prefs.getBoolPref("extensions.https_everywhere.enable_mixed_rulesets")) {
+            && !prefs.getBoolPref("extensions.https_always.enable_mixed_rulesets")) {
       this.log(INFO, "Not activating rules that trigger mixed content errors.");
       this.localPlatformRegexp = new RegExp("firefox");
     } else {
@@ -524,7 +524,7 @@ const HTTPSRules = {
       blob.newuri = rs[i].transformURI(uri);
       if (blob.newuri) {
         if (alist) {
-          if (uri.spec in https_everywhere_blacklist) 
+          if (uri.spec in https_always_blacklist) 
             alist.breaking_rule(rs[i]);
           else 
             alist.active_rule(rs[i]);

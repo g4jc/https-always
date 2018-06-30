@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "ہائپر ٹیکسٹ ٹرانسفر پروٹوکول سکیور ہر جگہ (HTTPS Always) کے بارے میں ">
+<!ENTITY https-always.about.ext_name "ہائپر ٹیکسٹ ٹرانسفر پروٹوکول سکیور ہر جگہ ">
+<!ENTITY https-always.about.ext_description "Encrypt the Web! Automatically use HTTPS security on many sites.">
+<!ENTITY https-always.about.version "ورژن">
+<!ENTITY https-always.about.created_by "یه سافٹ ویئر بنانے والے:">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "رولسیٹ لیبراریانس (Ruleset Librarians)">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "ان کی شرکت کے لئے شکریہ:">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "آپ کو اگر HTTPS always سافٹ ویئر پسند آیا ہے، پھر یے سافٹ ویئر بھی دیکھیں">
+<!ENTITY https-always.about.tor_lang_code "انگریزی">
+<!ENTITY https-always.about.or "یا">
+
+<!ENTITY https-always.menu.about "ہائپر ٹیکسٹ ٹرانسفر پروٹوکول سکیور ہر جگہ (HTTPS Always) کے بارے میں ">
+<!ENTITY https-always.menu.observatory "SSL Observatory Preferences">
+<!ENTITY https-always.menu.globalEnable "شروع کرئیں">
+<!ENTITY https-always.menu.globalDisable "بند کرئیں">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "کاؤنٹر دکھائیں">
+<!ENTITY https-always.menu.viewAllRules "تمام قانون دکھائیں">
+
+<!ENTITY https-always.prefs.title "ہائپر ٹیکسٹ ٹرانسفر پروٹوکول سکیور ہر جگہ کی سیٹنگز">
+<!ENTITY https-always.prefs.enable_all "Enable All">
+<!ENTITY https-always.prefs.disable_all "Disable All">
+<!ENTITY https-always.prefs.reset_defaults "Reset to Defaults">
+<!ENTITY https-always.prefs.search "ڈھونڈیں">
+<!ENTITY https-always.prefs.site "ویب سائٹ">
+<!ENTITY https-always.prefs.notes "خط">
+<!ENTITY https-always.prefs.list_caption "Which HTTPS redirection rules should apply?">
+<!ENTITY https-always.prefs.enabled "Enabled">
+<!ENTITY https-always.prefs.ruleset_howto "You can learn how to write your own rulesets (to add support for other web sites)">
+<!ENTITY https-always.prefs.here_link "here">
+<!ENTITY https-always.prefs.toggle "Toggle">
+<!ENTITY https-always.prefs.reset_default "Reset to Default">
+<!ENTITY https-always.prefs.view_xml_source "XML سورس دیکھیں">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "منسوخ">
+
+

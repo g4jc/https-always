@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "எல்லா இடங்களிலும் HTTPS பற்றி">
+<!ENTITY https-always.about.ext_name "எல்லா இடங்களிலும் HTTPS">
+<!ENTITY https-always.about.ext_description "வலை Encrypt! தானாகவே பல தளங்களில் HTTPS பாதுகாப்பு பயன்படுத்த.">
+<!ENTITY https-always.about.version "பதிப்பு">
+<!ENTITY https-always.about.created_by "உருவாக்கப்பட்டது">
+<!ENTITY https-always.about.and ", and">
+<!ENTITY https-always.about.librarians "Ruleset நூலகர்கள்">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "நன்றிகள்">
+<!ENTITY https-always.about.many_contributors "Many many contributors, including">
+<!ENTITY https-always.about.noscript "Also, portions of HTTPS Always are based on code from NoScript, by Giorgio Maone and others.  We are grateful for their excellent work!">
+<!ENTITY https-always.about.contribute  "நீங்கள் எல்லா இடங்களிலும் HTTPS விரும்பினால், நீங்கள் பரிசீலிக்க வேண்டும்">
+<!ENTITY https-always.about.tor_lang_code "en">
+<!ENTITY https-always.about.or "அல்லது">
+
+<!ENTITY https-always.menu.about "எல்லா இடங்களிலும் HTTPS பற்றி">
+<!ENTITY https-always.menu.observatory "SSL அவதான விருப்பங்கள்">
+<!ENTITY https-always.menu.globalEnable "எல்லா இடங்களிலும் HTTPS செயலாக்கு">
+<!ENTITY https-always.menu.globalDisable "எல்லா இடங்களிலும் HTTPS முடக்கு">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "காட்டு கருமபீடம்">
+<!ENTITY https-always.menu.viewAllRules "அனைத்து விதிகள் காண்கவும்">
+
+<!ENTITY https-always.prefs.title "HTTPS எல்லா இடங்களிலும் விருப்பங்கள்">
+<!ENTITY https-always.prefs.enable_all "அனைத்தும் செயலாக்கு">
+<!ENTITY https-always.prefs.disable_all "அனைத்தும் முடக்கு">
+<!ENTITY https-always.prefs.reset_defaults "இயல்புநிலைக்கு மீட்டமை">
+<!ENTITY https-always.prefs.search "தேடு">
+<!ENTITY https-always.prefs.site "தளம்">
+<!ENTITY https-always.prefs.notes "குறிப்புகள்">
+<!ENTITY https-always.prefs.list_caption "எந்த HTTPS திருப்பிவிடுதல் விதிகளை விண்ணப்பிக்க வேண்டும்?">
+<!ENTITY https-always.prefs.enabled "இயக்கப்பட்டது">
+<!ENTITY https-always.prefs.ruleset_howto "நீங்கள் உங்கள் சொந்த rulesets (பிற இணைய தளங்கள் ஆதரவு சேர்க்க) எழுத எப்படி அறிய முடியும்">
+<!ENTITY https-always.prefs.here_link "இங்கே">
+<!ENTITY https-always.prefs.toggle "மாற்று">
+<!ENTITY https-always.prefs.reset_default "இயல்புநிலைக்கு மீட்டமை">
+<!ENTITY https-always.prefs.view_xml_source "XML மூலத்தை காண">
+
+<!ENTITY https-always.chrome.stable_rules "Stable rules">
+<!ENTITY https-always.chrome.stable_rules_description "Force encrypted connections to these websites:">
+<!ENTITY https-always.chrome.experimental_rules "Experimental rules">
+<!ENTITY https-always.chrome.experimental_rules_description "May cause warnings or breakage. Disabled by default.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "ரத்துசெய்">
+
+

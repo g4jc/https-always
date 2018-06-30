@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Pri HTTPS-Ĉie">
+<!ENTITY https-always.about.ext_name "HTTPS-Ĉie">
+<!ENTITY https-always.about.ext_description "Ĉifrigu la reton! Aŭtomate uzu HTTPS‐sekurecon ĉe multaj retejoj.">
+<!ENTITY https-always.about.version "Versio">
+<!ENTITY https-always.about.created_by "Kreita de">
+<!ENTITY https-always.about.and ", kaj">
+<!ENTITY https-always.about.librarians "Bibliotekoj de regularo">
+<!ENTITY https-always.about.add_new_rule "Aldoni novan regulon">
+<!ENTITY https-always.about.thanks "Dankojn al">
+<!ENTITY https-always.about.many_contributors "Plej pli da kontribuintoj, inklude">
+<!ENTITY https-always.about.noscript "Krom tio, partoj de HTTPS-Ĉie estas bazitaj sur kodo de NoScript de Giorgio MANOE kaj aliaj. Ni danku por ilia bonega laboro!">
+<!ENTITY https-always.about.contribute  "Se vi ŝatas HTTPS-Ĉie, vi devus konsideri">
+<!ENTITY https-always.about.tor_lang_code "eo">
+<!ENTITY https-always.about.or "aŭ">
+
+<!ENTITY https-always.menu.about "Pri HTTPS-Ĉie">
+<!ENTITY https-always.menu.observatory "Agordoj de SSL-Observejo">
+<!ENTITY https-always.menu.globalEnable "Enŝalti HTTPS-Ĉie">
+<!ENTITY https-always.menu.globalDisable "Malŝalti HTTPS-Ĉie">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Bloki ĉiujn neĉifritajn petojn">
+<!ENTITY https-always.menu.showCounter "Montri nombrilon">
+<!ENTITY https-always.menu.viewAllRules "Montri ĉiujn regulojn">
+
+<!ENTITY https-always.prefs.title "Agordoj de HTTPS-Ĉie">
+<!ENTITY https-always.prefs.enable_all "Enŝalti ĉiujn">
+<!ENTITY https-always.prefs.disable_all "Malŝalti ĉiujn">
+<!ENTITY https-always.prefs.reset_defaults "Reŝargi al aprioraj">
+<!ENTITY https-always.prefs.search "Serĉi">
+<!ENTITY https-always.prefs.site "Retejo">
+<!ENTITY https-always.prefs.notes "Notoj">
+<!ENTITY https-always.prefs.list_caption "Kiuj reguloj pri HTTPS-alidirektado aplikiĝi?">
+<!ENTITY https-always.prefs.enabled "Enŝaltita">
+<!ENTITY https-always.prefs.ruleset_howto "Vi povas lerni kiel krei viajn proprajn regularojn (por aldoni subtenon por aliaj retejoj)">
+<!ENTITY https-always.prefs.here_link "ĉi tie">
+<!ENTITY https-always.prefs.toggle "Ŝalti">
+<!ENTITY https-always.prefs.reset_default "Restarigi apriorajn">
+<!ENTITY https-always.prefs.view_xml_source "Vidi XML-fonton">
+
+<!ENTITY https-always.chrome.stable_rules "Stabilaj reguloj">
+<!ENTITY https-always.chrome.stable_rules_description "Devigi ĉifritan konekton al tiuj retejoj">
+<!ENTITY https-always.chrome.experimental_rules "Eksperimentaj reguloj">
+<!ENTITY https-always.chrome.experimental_rules_description "Povas kaŭzi avertojn aŭ malfunkciojn. Apriore malŝaltita.">
+<!ENTITY https-always.chrome.add_rule "Aldoni regulon por ĉi tiu retejo">
+<!ENTITY https-always.chrome.add_new_rule "Aldoni novan regulon por ĉi tiu retejo">
+<!ENTITY https-always.chrome.always_https_for_host "Ĉiam uzi https por ĉi tiu retejo">
+<!ENTITY https-always.chrome.host "Servilo">
+<!ENTITY https-always.chrome.show_advanced "Montri altnivelajn">
+<!ENTITY https-always.chrome.hide_advanced "Kaŝi altnivelajn">
+<!ENTITY https-always.chrome.rule_name "Nomo de regulo">
+<!ENTITY https-always.chrome.regex "Kongrua regula esprimo">
+<!ENTITY https-always.chrome.redirect_to "Aldirekti al">
+<!ENTITY https-always.chrome.status_cancel_button "Rezigni">
+
+

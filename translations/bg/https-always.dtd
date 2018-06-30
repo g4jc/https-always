@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "За HTTPS Навсякъде">
+<!ENTITY https-always.about.ext_name "HTTPS Навсякъде">
+<!ENTITY https-always.about.ext_description "Шифрирайте мрежата! Използвайте автоматична HTTPS защита на много страници.">
+<!ENTITY https-always.about.version "Версия">
+<!ENTITY https-always.about.created_by "Създадено от">
+<!ENTITY https-always.about.and "и">
+<!ENTITY https-always.about.librarians "Библиотеки с правила">
+<!ENTITY https-always.about.add_new_rule "Добавяне на Ново Правило">
+<!ENTITY https-always.about.thanks "Благодарности на">
+<!ENTITY https-always.about.many_contributors "Много сътрудници, включително">
+<!ENTITY https-always.about.noscript "Също така, части от HTTPS Always са базирани върху NoScript код, писан от Джорджо Маоне и други. Благодарни сме за отличната им работа!">
+<!ENTITY https-always.about.contribute  "Ако харесвате HTTPS Always можете да направите">
+<!ENTITY https-always.about.tor_lang_code "bg">
+<!ENTITY https-always.about.or "или">
+
+<!ENTITY https-always.menu.about "За HTTPS Always">
+<!ENTITY https-always.menu.observatory "Настройки на SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Включи HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Изключи HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Блокиране на всички некриптирани заявки">
+<!ENTITY https-always.menu.showCounter "Показване на брояч">
+<!ENTITY https-always.menu.viewAllRules "Прегледай всички правила">
+
+<!ENTITY https-always.prefs.title "Настройки на HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Включване на всички">
+<!ENTITY https-always.prefs.disable_all "Изключване на всички">
+<!ENTITY https-always.prefs.reset_defaults "Възстановяване на стандартните">
+<!ENTITY https-always.prefs.search "Търсене">
+<!ENTITY https-always.prefs.site "Страница">
+<!ENTITY https-always.prefs.notes "Забележки">
+<!ENTITY https-always.prefs.list_caption "Кои HTTPS правила за преадресиране да се прилагат?">
+<!ENTITY https-always.prefs.enabled "Включено">
+<!ENTITY https-always.prefs.ruleset_howto "Можете да се научите да пишете собствени правила (за добавяне поддръжка на други страници)">
+<!ENTITY https-always.prefs.here_link "тук">
+<!ENTITY https-always.prefs.toggle "Превключване">
+<!ENTITY https-always.prefs.reset_default "Възстановяване">
+<!ENTITY https-always.prefs.view_xml_source "Преглед на XML кода">
+
+<!ENTITY https-always.chrome.stable_rules "Устойчиви правила">
+<!ENTITY https-always.chrome.stable_rules_description "Принудително криптиране при свързването към тези сайтове:">
+<!ENTITY https-always.chrome.experimental_rules "Експериментални правила">
+<!ENTITY https-always.chrome.experimental_rules_description "Може да предизвика предупреждения или прекъсване. Изключено по подразбиране.">
+<!ENTITY https-always.chrome.add_rule "Добави правило за този сайт">
+<!ENTITY https-always.chrome.add_new_rule "Добави ново правило за този сайт">
+<!ENTITY https-always.chrome.always_https_for_host "Винаги използвай https за този хост">
+<!ENTITY https-always.chrome.host "Хост:">
+<!ENTITY https-always.chrome.show_advanced "Покажи разширени">
+<!ENTITY https-always.chrome.hide_advanced "Скрий Разширени">
+<!ENTITY https-always.chrome.rule_name "Име на правило">
+<!ENTITY https-always.chrome.regex "Съвпадащ regex">
+<!ENTITY https-always.chrome.redirect_to "Пренасочи към">
+<!ENTITY https-always.chrome.status_cancel_button "Отказ">
+
+

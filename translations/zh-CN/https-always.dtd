@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "关于 HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "加密网络浏览，自动使用 HTTPS 连接访问站点，更加安全。">
+<!ENTITY https-always.about.version "版本">
+<!ENTITY https-always.about.created_by "创建者">
+<!ENTITY https-always.about.and "，及">
+<!ENTITY https-always.about.librarians "规则管理员">
+<!ENTITY https-always.about.add_new_rule "添加新规则">
+<!ENTITY https-always.about.thanks "致谢">
+<!ENTITY https-always.about.many_contributors "许许多多的贡献者，包括">
+<!ENTITY https-always.about.noscript "另外，HTTPS Always 的部分源代码基于 NoScript，作者是 Giorgio Maone 等人。我们非常感谢他们出色的成果！">
+<!ENTITY https-always.about.contribute  "如果喜欢 HTTPS Always，您可以考虑">
+<!ENTITY https-always.about.tor_lang_code "zh_CN">
+<!ENTITY https-always.about.or "或">
+
+<!ENTITY https-always.menu.about "关于 HTTPS Always">
+<!ENTITY https-always.menu.observatory "SSL Observatory 首选项">
+<!ENTITY https-always.menu.globalEnable "启用 HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "禁用 HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "拦截所有未加密请求">
+<!ENTITY https-always.menu.showCounter "显示计数器">
+<!ENTITY https-always.menu.viewAllRules "查看所有规则">
+
+<!ENTITY https-always.prefs.title "HTTPS Always 首选项">
+<!ENTITY https-always.prefs.enable_all "全部启用">
+<!ENTITY https-always.prefs.disable_all "全部禁用">
+<!ENTITY https-always.prefs.reset_defaults "重置为默认值">
+<!ENTITY https-always.prefs.search "搜索">
+<!ENTITY https-always.prefs.site "站点">
+<!ENTITY https-always.prefs.notes "注释">
+<!ENTITY https-always.prefs.list_caption "应用哪些 HTTPS 重定向规则？">
+<!ENTITY https-always.prefs.enabled "已启用">
+<!ENTITY https-always.prefs.ruleset_howto "您可以学习如何编写您自己的规则（以增加对其他网站的支持）">
+<!ENTITY https-always.prefs.here_link "这里">
+<!ENTITY https-always.prefs.toggle "切换">
+<!ENTITY https-always.prefs.reset_default "重置为默认值">
+<!ENTITY https-always.prefs.view_xml_source "查看 XML 格式的源代码">
+
+<!ENTITY https-always.chrome.stable_rules "稳定规则">
+<!ENTITY https-always.chrome.stable_rules_description "强制对这些网站加密连接：">
+<!ENTITY https-always.chrome.experimental_rules "实验性规则">
+<!ENTITY https-always.chrome.experimental_rules_description "可能引发警告或异常。默认被禁用。">
+<!ENTITY https-always.chrome.add_rule "为此站点添加规则">
+<!ENTITY https-always.chrome.add_new_rule "为此站点添加新规则">
+<!ENTITY https-always.chrome.always_https_for_host "对此主机始终使用 https">
+<!ENTITY https-always.chrome.host "主机:">
+<!ENTITY https-always.chrome.show_advanced "显示高级选项">
+<!ENTITY https-always.chrome.hide_advanced "隐藏高级选项">
+<!ENTITY https-always.chrome.rule_name "规则名称">
+<!ENTITY https-always.chrome.regex "正则表达式匹配">
+<!ENTITY https-always.chrome.redirect_to "重定向到">
+<!ENTITY https-always.chrome.status_cancel_button "取消">
+
+

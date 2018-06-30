@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "О HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Зашифруйте сеть! Автоматически переключайтесь на безопасный протокол HTTPS там, где это возможно.">
+<!ENTITY https-always.about.version "Версия">
+<!ENTITY https-always.about.created_by "Авторы">
+<!ENTITY https-always.about.and ", и">
+<!ENTITY https-always.about.librarians "Хранители правил">
+<!ENTITY https-always.about.add_new_rule "Добавить новое правило">
+<!ENTITY https-always.about.thanks "Благодарности">
+<!ENTITY https-always.about.many_contributors "Многим участникам, включая">
+<!ENTITY https-always.about.noscript "Кроме того, фрагменты HTTPS Always основаны на коде, взятом из NoScript разработчика Giorgio Maone и других авторов. Мы благодарны им за отличную работу!">
+<!ENTITY https-always.about.contribute  "Если вам нравится HTTPS Always, подумайте о">
+<!ENTITY https-always.about.tor_lang_code "ru">
+<!ENTITY https-always.about.or "или">
+
+<!ENTITY https-always.menu.about "О HTTPS Always">
+<!ENTITY https-always.menu.observatory "Настройки SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "Включить HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Выключить HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Блокировать все незашифрованные запросы">
+<!ENTITY https-always.menu.showCounter "Показывать счётчик">
+<!ENTITY https-always.menu.viewAllRules "Посмотреть все правила">
+
+<!ENTITY https-always.prefs.title "Настройки HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Включить всё">
+<!ENTITY https-always.prefs.disable_all "Выключить всё">
+<!ENTITY https-always.prefs.reset_defaults "По умолчанию">
+<!ENTITY https-always.prefs.search "Поиск">
+<!ENTITY https-always.prefs.site "Сайт">
+<!ENTITY https-always.prefs.notes "Примечания">
+<!ENTITY https-always.prefs.list_caption "Какие правила перенаправлений следует использовать?">
+<!ENTITY https-always.prefs.enabled "Включено">
+<!ENTITY https-always.prefs.ruleset_howto "Вы можете научиться писать собственные правила (добавить поддержку для других сайтов)">
+<!ENTITY https-always.prefs.here_link "здесь">
+<!ENTITY https-always.prefs.toggle "Переключить">
+<!ENTITY https-always.prefs.reset_default "Сбросить к значению по умолчанию">
+<!ENTITY https-always.prefs.view_xml_source "Просмотр исходника XML">
+
+<!ENTITY https-always.chrome.stable_rules "Стабильные правила">
+<!ENTITY https-always.chrome.stable_rules_description "Принудительное шифрование на этих сайтах:">
+<!ENTITY https-always.chrome.experimental_rules "Экспериментальные правила">
+<!ENTITY https-always.chrome.experimental_rules_description "Может вызвать предупреждения или поломку. Отключено по умолчанию.">
+<!ENTITY https-always.chrome.add_rule "Добавить правило для этого сайта">
+<!ENTITY https-always.chrome.add_new_rule "Добавить новое правило для этого сайта">
+<!ENTITY https-always.chrome.always_https_for_host "Всегда использовать https для этого хоста">
+<!ENTITY https-always.chrome.host "Хост:">
+<!ENTITY https-always.chrome.show_advanced "Показать расширенные">
+<!ENTITY https-always.chrome.hide_advanced "Скрыть расширенные">
+<!ENTITY https-always.chrome.rule_name "Имя правила">
+<!ENTITY https-always.chrome.regex "Соответствие regex">
+<!ENTITY https-always.chrome.redirect_to "Перенаправление на">
+<!ENTITY https-always.chrome.status_cancel_button "Отмена">
+
+

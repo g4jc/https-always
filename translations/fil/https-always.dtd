@@ -1,0 +1,54 @@
+<!ENTITY https-always.about.title "Tungkol sa HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "I-encrypt ang Web! Awtomatikong gamitin ang HTTPS security sa maraming sites.">
+<!ENTITY https-always.about.version "Bersyon">
+<!ENTITY https-always.about.created_by "Ginawa nina">
+<!ENTITY https-always.about.and "at">
+<!ENTITY https-always.about.librarians "Mga Ruleset Librarian">
+<!ENTITY https-always.about.add_new_rule "Add New Rule">
+<!ENTITY https-always.about.thanks "Salamat sa">
+<!ENTITY https-always.about.many_contributors "Maraming maraming contributor, kasama sina">
+<!ENTITY https-always.about.noscript "Gayundin, ang ilang bahagi ng HTTPS Always ay batay sa code mula sa NoScript nina Giorgio Maone at marami pang iba.  Lubos kaming nagpapasalamat sa kanilang mahusay na trabaho!">
+<!ENTITY https-always.about.contribute  "Kung nagustuhan mo ang HTTPS Always, baka magustuhan mo ring">
+<!ENTITY https-always.about.tor_lang_code "fil">
+<!ENTITY https-always.about.or "o">
+
+<!ENTITY https-always.menu.about "Tungkol sa HTTPS Always">
+<!ENTITY https-always.menu.observatory "Mga Preference sa SSL Observatory">
+<!ENTITY https-always.menu.globalEnable "I-enable ang HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "I-disable ang HTTPS Always">
+<!ENTITY https-always.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-always.menu.showCounter "Ipakita ang Counter">
+<!ENTITY https-always.menu.viewAllRules "Tingnan ang Lahat ng Rules">
+
+<!ENTITY https-always.prefs.title "Mga Preference sa HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "I-enable Lahat">
+<!ENTITY https-always.prefs.disable_all "I-disable Lahat">
+<!ENTITY https-always.prefs.reset_defaults "Ibalik sa Defaults">
+<!ENTITY https-always.prefs.search "Maghanap">
+<!ENTITY https-always.prefs.site "Site">
+<!ENTITY https-always.prefs.notes "Mga Paunawa">
+<!ENTITY https-always.prefs.list_caption "Aling HTTPS redirection rules ang dapat gamitin?">
+<!ENTITY https-always.prefs.enabled "Naka-enable">
+<!ENTITY https-always.prefs.ruleset_howto "Puwede kang matuto kung paano magsulat ng sarili mong rulesets (para magdagdag ng support para sa iba pang web sites)">
+<!ENTITY https-always.prefs.here_link "dito">
+<!ENTITY https-always.prefs.toggle "I-toggle">
+<!ENTITY https-always.prefs.reset_default "Ibalik sa Default">
+<!ENTITY https-always.prefs.view_xml_source "Tingnan ang XML Source">
+
+<!ENTITY https-always.chrome.stable_rules "Mga stable na rules">
+<!ENTITY https-always.chrome.stable_rules_description "Puwersahin ang mga naka-encrypt na koneksyon sa mga website na ito:">
+<!ENTITY https-always.chrome.experimental_rules "Mga experimental na rules">
+<!ENTITY https-always.chrome.experimental_rules_description "Maaaring hindi gumana o magkaroon ng mga babala. Default na naka-disable.">
+<!ENTITY https-always.chrome.add_rule "Add a rule for this site">
+<!ENTITY https-always.chrome.add_new_rule "Add a new rule for this site">
+<!ENTITY https-always.chrome.always_https_for_host "Always use https for this host">
+<!ENTITY https-always.chrome.host "Host:">
+<!ENTITY https-always.chrome.show_advanced "Show advanced">
+<!ENTITY https-always.chrome.hide_advanced "Hide advanced">
+<!ENTITY https-always.chrome.rule_name "Rule name">
+<!ENTITY https-always.chrome.regex "Matching regex">
+<!ENTITY https-always.chrome.redirect_to "Redirect to">
+<!ENTITY https-always.chrome.status_cancel_button "I-kansela">
+
+

@@ -1,0 +1,44 @@
+<!ENTITY https-always.about.title "O HTTPS Always">
+<!ENTITY https-always.about.ext_name "HTTPS Always">
+<!ENTITY https-always.about.ext_description "Szyfruj sieć! Automatycznie używaj zabezpieczenia HTTPS na wielu stronach">
+<!ENTITY https-always.about.version "Wersja">
+<!ENTITY https-always.about.created_by "Stworzone przez">
+<!ENTITY https-always.about.librarians "Biblioteki reguł">
+<!ENTITY https-always.about.thanks "Podziękowania dla">
+<!ENTITY https-always.about.contribute  "Jeśli lubisz HTTPS Always, rozważ">
+<!ENTITY https-always.about.tor_lang_code "en">
+
+<!ENTITY https-always.menu.about "O HTTPS Always">
+<!ENTITY https-always.menu.observatory "Preferencje Obserwatorium SSL">
+<!ENTITY https-always.menu.globalEnable "Włącz HTTPS Always">
+<!ENTITY https-always.menu.globalDisable "Wyłącz HTTPS Always">
+
+<!ENTITY https-always.prefs.title "Preferencje HTTPS Always">
+<!ENTITY https-always.prefs.enable_all "Włącz wszystko">
+<!ENTITY https-always.prefs.disable_all "Wyłącz wszystko">
+<!ENTITY https-always.prefs.reset_defaults "Resetuj do Domyślnych">
+<!ENTITY https-always.prefs.search "Szukaj">
+<!ENTITY https-always.prefs.site "Strona">
+<!ENTITY https-always.prefs.notes "Notatki">
+<!ENTITY https-always.prefs.list_caption "Które reguły przekierowania HTTPS mają być zastosowane?">
+<!ENTITY https-always.prefs.enabled "Włączone">
+<!ENTITY https-always.prefs.ruleset_howto "Możesz dowiedzieć się, jak pisać własne reguły (aby dodać obsługę innych stron)">
+<!ENTITY https-always.prefs.here_link "tutaj">
+<!ENTITY https-always.prefs.toggle "Przełącz">
+<!ENTITY https-always.prefs.reset_default "Resetuj do Domyślnych">
+<!ENTITY https-always.prefs.view_xml_source "Wyświetl źródło XML">
+
+<!ENTITY https-always.source.downloading "Pobieranie">
+<!ENTITY https-always.source.filename "Nazwa pliku">
+<!ENTITY https-always.source.unable_to_download "Nie można pobrać źródła.">
+
+<!ENTITY https-always.popup.title "HTTPS Always 4.0development.11 notification">
+<!ENTITY https-always.popup.paragraph1 "Oops. You were using the stable version of HTTPS Always, but we might have accidentally upgraded you to the development version in our last release.">
+<!ENTITY https-always.popup.paragraph2 "Would you like to go back to stable?">
+<!ENTITY https-always.popup.paragraph3 "We'd love it if you continued using our development release and helped us make HTTPS Always better! You might find there are a few more bugs here and there. Sorry about the inconvenience, and thank you for using HTTPS Always.">
+<!ENTITY https-always.popup.keep "Keep me on the development version">
+<!ENTITY https-always.popup.revert "Download the latest stable version">
+
+<!ENTITY https-always.ruleset-tests.status_title "HTTPS Always Ruleset Tests">
+<!ENTITY https-always.ruleset-tests.status_cancel_button "Anuluj">
+<!ENTITY https-always.ruleset-tests.status_start_button "Start">
