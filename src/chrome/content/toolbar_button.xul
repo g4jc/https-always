@@ -8,7 +8,6 @@
 
 <overlay id="https-always-button-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="application/x-javascript" src="chrome://https-always/content/toolbar_button.js"/>
-  <script type="application/x-javascript" src="chrome://https-always/content/ruleset-tests.js"/>
   
     <stringbundleset id="stringbundleset">
         <stringbundle id="HttpsAlwaysStrings"
