@@ -310,8 +310,6 @@ function stitch_context_menu2() {
   }
 }
 
-var rulesetTestsMenuItem = null;
-
 function show_applicable_list(menupopup) {
   var browser = httpsAlways.toolbarButton.selectedBrowser();
   if (!browser) {
@@ -330,22 +328,6 @@ function show_applicable_list(menupopup) {
     weird = true;
   }
   alist.populate_menu(document, menupopup, weird);
-
-  // should we also show the ruleset tests menu item?
-  if(HTTPSAlways.prefs.getBoolPref("show_ruleset_tests")) {
-
-    if(!rulesetTestsMenuItem) {
-      let strings = document.getElementById('HttpsAlwaysStrings');
-      let label = strings.getString('https-always.menu.ruleset-tests');
-
-      rulesetTestsMenuItem = this.document.createElement('menuitem');
-      rulesetTestsMenuItem.setAttribute('command', 'https-always-menuitem-ruleset-tests');
-      rulesetTestsMenuItem.setAttribute('label', label);
-    }
-
-    if(!menupopup.contains(rulesetTestsMenuItem)) 
-      menupopup.appendChild(rulesetTestsMenuItem);
-  }
 }
 
 function toggle_rule(rule_id) {

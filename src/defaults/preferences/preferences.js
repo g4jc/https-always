@@ -8,11 +8,6 @@ pref("extensions.https_always.prefs_version", 0);
 // this is a popup asking whether the user really meant to be on the dev branch
 pref("extensions.https_always.dev_popup_shown", false);
 
-// show ruleset tests in the menu
-pref("extensions.https_always.show_ruleset_tests", false);
-// run a ruleset performance test at startup
-pref("extensions.https_always.performance_tests", false);
-
 // enable rulesets that trigger mixed content blocking
 pref("extensions.https_always.enable_mixed_rulesets", false);
 
