@@ -54,19 +54,17 @@ locale https-always ceb chrome/locale/ceb/
 locale https-always co chrome/locale/co/  
 locale https-always da-DK chrome/locale/da-DK/
 
-
 skin https-always classic/1.0 chrome/skin/
 
 component {32c165b4-fe5e-4964-9250-603c410631b4} components/https-always.js
 contract @hyperbola.info/https-always;1 {32c165b4-fe5e-4964-9250-603c410631b4}
 
-category profile-after-change HTTPSalways @hyperbola.info/https-always;1
+category profile-after-change HTTPSAlways @hyperbola.info/https-always;1
 
 # XUL gets included in every non-mobile build
 # Android has some non-XUL UI that is loaded from the
 # sessionstore-windows-restored observer in https-always.js
 overlay chrome://browser/content/browser.xul chrome://https-always/content/toolbar_button.xul
 overlay chrome://navigator/content/navigator.xul chrome://https-always/content/toolbar_button.xul
-
 
 style chrome://global/content/customizeToolbar.xul chrome://https-always/skin/https-always.css
