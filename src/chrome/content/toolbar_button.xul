@@ -69,8 +69,6 @@
       oncommand="open_in_tab('https://www.eff.org/https-everywhere/atlas/');" />
     <command id="https-always-menuitem-about"
       oncommand="httpse_chrome_opener('chrome://https-always/content/about.xul');" />
-    <command id="https-always-menuitem-ruleset-tests"
-      oncommand="openStatus();" />
   </commandset>
 </overlay>
 
