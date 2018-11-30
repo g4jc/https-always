@@ -9,11 +9,11 @@
         <em:id>https-always@hyperbola.info</em:id>
         <em:type>2</em:type> <!-- type: Extension -->
         <em:description>Encrypt the Web! Automatically use HTTPS security on many sites.</em:description>
-        <em:version>5.2.22</em:version>
+        <em:version>5.2.23</em:version>
         <em:multiprocessCompatible>true</em:multiprocessCompatible>
         <em:iconURL>chrome://https-always/skin/icon-active-48.png</em:iconURL>
         <em:unpack>false</em:unpack>
-        <!-- AUSTRALIS -->
+        <!-- Iceweasel-UXP/Basilisk -->
         <em:targetApplication>
             <Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
@@ -29,12 +29,20 @@
                 <em:maxVersion>28.*</em:maxVersion>
             </Description>
         </em:targetApplication>
+        <!-- Iceape-UXP -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{9184b6fe-4a5c-484d-8b4b-efbfccbfb514}</em:id>
+                <em:minVersion>52.0</em:minVersion>
+                <em:maxVersion>52.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
         <!-- Seamonkey -->
         <em:targetApplication>
             <Description>
                 <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
                 <em:minVersion>2.48</em:minVersion>
-                <em:maxVersion>2.*</em:maxVersion>
+                <em:maxVersion>2.49.*</em:maxVersion>
             </Description>
         </em:targetApplication>
         <!-- Conkeror -->

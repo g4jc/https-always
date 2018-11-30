@@ -25,7 +25,7 @@
 
     <groupbox>
       <caption label="&https-always.about.version;" />
-      <label>5.2.22</label>
+      <label>5.2.23</label>
     </groupbox>
     
     <groupbox>
