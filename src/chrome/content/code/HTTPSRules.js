@@ -247,10 +247,13 @@ const RuleWriter = {
   },
 
   readFromUrl: function (url) {
-    var ios = CC['@mozilla.org/network/io-service;1']
-        .getService(CI.nsIIOService);
     var encoding = "UTF-8";
-    var channel = ios.newChannel(url, encoding, null);
+    var ios = Services.io;
+    var channel = ios.newChannel2(url, encoding, null, null,
+                                  Services.scriptSecurityManager.getSystemPrincipal(),
+                                  null,
+                                  Components.interfaces.nsILoadInfo.SEC_NORMAL,
+                                  Components.interfaces.nsIContentPolicy.TYPE_OTHER);
     var stream = channel.open();
     var streamSize = stream.available();
 
