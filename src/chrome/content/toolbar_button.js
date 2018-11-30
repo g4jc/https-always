@@ -361,10 +361,10 @@ function toggleEnabledUI() {
 }
 
 function open_in_tab(url) {
-  var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"]
-                     .getService(Components.interfaces.nsIWindowMediator);
-  var recentWindow = wm.getMostRecentWindow("navigator:browser");
-  recentWindow.delayedOpenTab(url, null, null, null, null);
+  let browserWindow = Services.wm.getMostRecentWindow("navigator:browser");
+  browserWindow.gBrowser.addTab(url, {
+          triggeringPrincipal: Services.scriptSecurityManager.getSystemPrincipal(),
+        });
 }
 
 function httpse_chrome_opener(url, prefs) {
