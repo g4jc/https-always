@@ -11,6 +11,7 @@
         <em:description>Encrypt the Web! Automatically use HTTPS security on many sites.</em:description>
         <em:version>5.2.23</em:version>
         <em:multiprocessCompatible>true</em:multiprocessCompatible>
+        <em:optionsURL>chrome://https-always/content/preferences.xul</em:optionsURL>
         <em:iconURL>chrome://https-always/skin/icon-active-48.png</em:iconURL>
         <em:unpack>false</em:unpack>
         <!-- Iceweasel-UXP/Basilisk -->

@@ -65,7 +65,7 @@
     <command id="https-always-menuitem-globalEnableToggle"
       oncommand="toggleEnabledState();" />
     <command id="https-always-menuitem-viewAllRules"
-      oncommand="open_in_tab('https://www.eff.org/https-everywhere/atlas/');" />
+      oncommand="httpse_chrome_opener('chrome://https-always/content/preferences.xul', 'chrome,centerscreen,resizable=yes');" />
     <command id="https-always-menuitem-about"
       oncommand="httpse_chrome_opener('chrome://https-always/content/about.xul');" />
   </commandset>
