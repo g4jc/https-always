@@ -57,6 +57,6 @@
           style="color: blue; cursor:hand; text-decoration:underline;"
           onmouseover="event.target.style.cursor='pointer'"
           onmouseout="event.target.style.cursor='default'"
-          onclick="window_opener('https://www.eff.org/https-everywhere/rulesets')"/>.
+          onclick="window_opener('https://github.com/g4jc/https-always/blob/master/docs/en_US/rulesets.md')"/>.
     </vbox>
 </dialog>
