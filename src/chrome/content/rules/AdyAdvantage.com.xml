@@ -1,8 +1,0 @@
-<ruleset name="AdyAdvantage.com">
-	<target host="adyadvantage.com" />
-	<target host="www.adyadvantage.com" />
-
-	<securecookie host=".+" name=".+" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

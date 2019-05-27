@@ -1,9 +1,0 @@
-<ruleset name="adjust-net.jp">
-
-	<target host="ads.adjust-net.jp" />
-	<target host="ifr.adjust-net.jp" />
-
-
-	<rule from="^http:" to="https:" />
-
-</ruleset>

@@ -1,7 +1,0 @@
-<ruleset name="Applebee's" platform="mixedcontent">
-  <target host="applebees.com" />
-  <target host="my.applebees.com" />
-  <target host="www.applebees.com" />
-
-  <rule from="^http:" to="https:" />
-</ruleset>

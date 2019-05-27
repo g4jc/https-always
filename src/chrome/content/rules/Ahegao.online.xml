@@ -1,6 +1,0 @@
-<ruleset name="Ahegao.online" platform="mixedcontent">
-	<target host="ahegao.online" />
-	<target host="www.ahegao.online" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

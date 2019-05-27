@@ -1,8 +1,0 @@
-<ruleset name="AhlalHdeeth.com">
-	<target host="ahlalhdeeth.com" />
-	<target host="www.ahlalhdeeth.com" />
-
-	<securecookie host=".+" name=".+" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

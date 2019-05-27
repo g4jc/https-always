@@ -1,6 +1,0 @@
-<ruleset name="ACCAN">
-  <target host="accan.org.au" />
-	<target host="www.accan.org.au" />
-
-  <rule from="^http:" to="https:" />
-</ruleset>

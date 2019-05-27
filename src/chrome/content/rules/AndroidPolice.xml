@@ -1,6 +1,0 @@
-
-<ruleset name="AndroidPolice.com">
-  <target host="www.androidpolice.com"/>
-  <target host="androidpolice.com"/>
-  <rule from="^http:" to="https:"/>
-</ruleset>

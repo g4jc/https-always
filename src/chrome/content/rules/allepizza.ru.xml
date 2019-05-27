@@ -1,6 +1,0 @@
-<ruleset name="allepizza.ru">
-	<target host="allepizza.ru" />
-	<target host="www.allepizza.ru" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

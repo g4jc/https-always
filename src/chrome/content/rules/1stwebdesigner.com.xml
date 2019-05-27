@@ -1,8 +1,0 @@
-<ruleset name="1stwebdesigner.com">
-	<target host="1stwebdesigner.com" />
-	<target host="www.1stwebdesigner.com" />
-
-	<securecookie host=".+" name=".+" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

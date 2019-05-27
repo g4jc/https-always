@@ -1,8 +1,0 @@
-<ruleset name="IARC">
-
-	<target host="ar-conference.org" />
-	<target host="www.ar-conference.org" />
-
-	<rule from="^http:" to="https:" />
-
-</ruleset>

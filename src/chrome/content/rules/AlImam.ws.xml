@@ -1,8 +1,0 @@
-<ruleset name="AlImam.ws">
-	<target host="alimam.ws" />
-	<target host="www.alimam.ws" />
-
-	<securecookie host=".+" name=".+" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>

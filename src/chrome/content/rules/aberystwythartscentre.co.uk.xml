@@ -1,8 +1,0 @@
-<ruleset name="Aberystwyth Arts Centre.co.uk">
-	<target host="aberystwythartscentre.co.uk" />
-	<target host="www.aberystwythartscentre.co.uk" />
-
-	<securecookie host=".+" name=".+" />
-
-	<rule from="^http:" to="https:" />
-</ruleset>
