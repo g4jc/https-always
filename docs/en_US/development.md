@@ -1,17 +1,14 @@
-## HTTPS Everywhere Development
+## HTTPS Always Development
 
 ### Pointers for developers
 
 - **License:** GPL version 3+ (although most of the code is GPL-2 compatible)
-- **Source code:** Available via Git with `git clone https://github.com/EFForg/https-everywhere.git`. You can fork and open pull requests using Github at [https://github.com/EFForg/https-everywhere](https://github.com/EFForg/https-everywhere).
-- **Translations:** If you would like to help translate HTTPS Everywhere into another language, you can do that [through Transifex](https://www.transifex.com/otf/torproject/).
-- **Bug tracker:** Use the [GitHub issue tracker](https://github.com/EFForg/https-everywhere/issues/) or the [Tor Project issue tracker](https://trac.torproject.org/projects/tor/report/19). For the Tor Project issue tracker, you can make an account or use the anonymous one — "cypherpunks"/"writecode". You won't see replies unless you put an email address in the CC field. Bugs that are caused by rulesets should be tagged "httpse-ruleset-bug", and can be viewed [in this report](https://trac.torproject.org/projects/tor/report/48).
-- **Mailing lists:** The [https-everywhere](https://lists.eff.org/mailman/listinfo/https-everywhere) list ([archives](https://lists.eff.org/pipermail/https-everywhere/)) is for discussing the project as a whole; the [https-everywhere-rules](https://lists.eff.org/mailman/listinfo/https-everywhere-rules) mailing list ([archives](https://lists.eff.org/pipermail/https-everywhere-rules)) is for discussing the [rulesets](https://www.eff.org/https-everywhere/rulesets) and their contents, including patches and git pull requests.
-- **IRC:** `#https-everywhere` on `irc.oftc.net`. If you ask a question, be sure to stay in the channel — someone may reply a few hours or a few days later.
+- **Source code:** Available via Git with `git clone https://github.com/g4jc/https-always.git`. You can fork and open pull requests using Github at [https://github.com/g4jc/https-always](https://github.com/g4jc/https-always).
+- **Bug tracker:** Use the [GitHub issue tracker](https://github.com/g4jc/https-always/issues/).
 
 ### Testing and contributing changes to the source code
 
-HTTPS Everywhere consists of a large number of rules for switching sites from HTTP to HTTPS. You can read more about how to write these rules [here](https://www.eff.org/https-everywhere/rulesets).
+HTTPS Always consists of a large number of rules for switching sites from HTTP to HTTPS. You can read more about how to write these rules [here](https://github.com/g4jc/https-always/blob/master/docs/en_US/rulesets.md).
 
 If you want to create new rules to submit to us, we expect them to be in the src/chrome/content/rules directory. That directory also contains a useful script, make-trivial-rule, to create a simple rule for a specified domain. There is also a script called trivial-validate.py, to check all the pending rules for several common errors and oversights. For example, if you wanted to make a rule for the example.com domain, you could run
 
@@ -22,10 +19,6 @@ inside the rules directory. This would create Example.com.xml, which you could t
 Before submitting your change, you should test it in Firefox and/or Chrome, as applicable. You can build the latest version of the extension and run it in a standalone Firefox profile using:
 
     bash ./test.sh --justrun
-
-Similarly, to build and run in a standalone Chromium profile, run:
-
-    bash ./run-chromium.sh
 
 You should thoroughly test your changes on the target site: Navigate to as wide a variety of pages as you can find. Try to comment or log in if applicable. Make sure everything still works properly.
 
@@ -39,8 +32,8 @@ This will catch some of the most common types of errors, but is not a guaranteed
 
 Once you've tested your changes, you can submit them for review via any of the following:
 
-- Open a pull request at [https://github.com/EFForg/https-everywhere](https://github.com/EFForg/https-everywhere).
-- Email https-everywhere-rules@eff.org to tell us about your changes. You can use the following command to create a patch file: `git format-patch`
+- Open a pull request at [https://github.com/g4jc/https-always](https://github.com/g4jc/https-always).
+- You can use the following command to create a patch file: `git format-patch`
 
 ### A quick HOWTO on working with Git
 
@@ -52,10 +45,10 @@ First, tell git your name:
 
 Then, get a copy of the 'origin' repository:
 
-    git clone https://github.com/EFForg/https-everywhere.git
-    cd https-everywhere
+    git clone https://github.com/g4jc/https-always.git
+    cd https-always
 
-Alternatively, if you already have a Github account, you can create a "fork" of the repository on Github at [https://github.com/EFForg/https-everywhere](https://github.com/EFForg/https-everywhere). See [this page](https://help.github.com/articles/fork-a-repo) for a tutorial.
+Alternatively, if you already have a Github account, you can create a "fork" of the repository on Github at [https://github.com/g4jc/https-always](https://github.com/g4jc/https-always). See [this page](https://help.github.com/articles/fork-a-repo) for a tutorial.
 
 Once you have a local copy of the repository, create a new branch for your changes and check it out:
 

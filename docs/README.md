@@ -1,6 +1,6 @@
-# HTTPS Everywhere Documentation
+# HTTPS Always Documentation
 
-The markdown files contained in this path provide documentation for contributing to HTTPS Everywhere.  These files are also templates that can be used to generate the markup for HTTPS Everywhere pages under `https://www.eff.org/https-everywhere`.  To do so, install the program `pandoc` and run
+The markdown files contained in this path provide documentation for contributing to HTTPS Always.  These files are also templates that can be used to generate markup.  To do so, install the program `pandoc` and run
 
     pandoc faq.md
 
