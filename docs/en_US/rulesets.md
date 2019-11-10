@@ -6,6 +6,8 @@ of rulesets that tell HTTPS Always which sites it should switch to HTTPS and how
 If there is a site that offers HTTPS and is not handled by the extension, this guide
 will explain how to add that site.
 
+Note: You may also consider using the companion addon [HTTPS Inquirer](https://github.com/g4jc/httpsinquirer) to generate rulesets automatically.
+
 #### [Rulesets](#rulesets)
 
 A `ruleset` is an [XML](https://www.xml.com/pub/a/98/10/guide0.html?page=2) file
@@ -197,3 +199,14 @@ This generally breaks the site. Depending on their configuration and threat
 model, some users might however decide to enable these rulesets via a global
 option in HTTPS Always. To that effect, such rulesets are identified with 
 the specific `platform="mixedcontent"` attribute to the ruleset element.
+
+#### [Saving the Ruleset](#saving-the-ruleset)
+
+Once you have created your ruleset it needs to be placed into the application profile directory under the `HTTPSAlwaysRulesets` folder.
+
+e.g. On Windows:
+
+`C:\Users\[your_username]\AppData\Roaming\Moonchild Productions\Pale Moon\Profiles\[your_profile].default\HTTPSAlwaysUserRules`
+
+On GNU/Linux:
+`/home/user/.moonchild productions/pale moon/[your_profile].default/HTTPSAlwaysUserRules/`
