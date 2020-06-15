@@ -1,0 +1,23 @@
+<!--
+	Other Advocates for Youth rulesets:
+
+		- One_in_3_Campaign.xml
+
+
+	Nonfunctional subdomains:
+
+		- (www.)	(shows shop; mismatched, CN; shop.advocatesforyouth.org)
+
+-->
+<ruleset name="Advocates for Youth (partial)">
+
+	<target host="secure.advocatesforyouth.org" />
+	<target host="shop.advocatesforyouth.org" />
+
+
+	<securecookie host="^\.?s(?:ecure|hop)\.advocatesforyouth\.org$" name=".+" />
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

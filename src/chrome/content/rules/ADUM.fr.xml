@@ -1,0 +1,12 @@
+<!--
+	HTTP ≠ HTTPS:
+		- svn.adum.fr
+-->
+<ruleset name="ADUM.fr">
+	<target host="adum.fr" />
+	<target host="www.adum.fr" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

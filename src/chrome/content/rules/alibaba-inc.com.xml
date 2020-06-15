@@ -1,0 +1,27 @@
+<!--
+	^ does not exist.
+
+	Dropped:
+		- cms.cn
+		- d2forum
+
+	Mismatched:
+		- crm-eve.b2b
+		- dataweek
+-->
+<ruleset name="Alibaba-Inc.com (partial)">
+	<target host="www.alibaba-inc.com" />
+	<target host="acl.alibaba-inc.com" />
+	<target host="alilang.alibaba-inc.com" />
+	<target host="ehr.alibaba-inc.com" />
+	<target host="login.alibaba-inc.com" />
+	<target host="login-ca.alibaba-inc.com" />
+	<target host="pay.alibaba-inc.com" />
+	<target host="webmail.alibaba-inc.com" />
+	<target host="wlc.alibaba-inc.com" />
+	<target host="work.alibaba-inc.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

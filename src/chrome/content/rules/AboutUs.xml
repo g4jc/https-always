@@ -1,0 +1,14 @@
+<!--
+	aboutus.com has both a wildcard DNS record and a wildcard certificate, so enumerating all subdomains is impossible.
+-->
+<ruleset name="AboutUs">
+	<target host="aboutus.org" />
+	<target host="www.aboutus.org" />
+
+	<target host="aboutus.com" />
+	<target host="www.aboutus.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

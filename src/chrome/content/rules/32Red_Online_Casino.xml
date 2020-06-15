@@ -1,0 +1,36 @@
+<!--
+	Problematic subdomains:
+
+		- ^	(reset)
+
+
+	Fully covered subdomains:
+
+		- (www.)	(^ → )
+		- affiliates
+		- assets
+		- gamesarcade
+		- images
+		- livecasino
+
+-->
+<ruleset name="32Red Online Casino">
+
+	<target host="32red.com" />
+	<target host="www.32red.com" />
+	<target host="affiliates.32red.com" />
+	<target host="assets.32red.com" />
+	<target host="gamesarcade.32red.com" />
+	<target host="images.32red.com" />
+	<target host="livecasino.32red.com" />
+
+
+	<securecookie host="^(?:affiliates|gamesarcade|livecasino|www)?\.32red\.com$" name=".+" />
+
+
+	<rule from="^http://(?:www\.)?32red\.com/"
+		to="https://www.32red.com/" />
+
+
+	<rule from="^http:" to="https:" />
+</ruleset>

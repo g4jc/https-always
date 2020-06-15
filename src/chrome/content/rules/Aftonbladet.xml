@@ -1,0 +1,51 @@
+<!--
+	Other Aftonbladet rulesets:
+
+		- Aftonbladet-CDN.se.xml
+
+	Problematic domains:
+
+		- metrics.aftonbladet.se ¹
+
+	¹ Mismatched
+
+
+	Fully covered domains:
+
+		- aftonbladet.se subdomains:
+
+			- (www.)?	(^ → www)
+			- metrics	(→ smetrics.aftonbladet.se)
+			- smetrics
+
+	Insecure cookies are set for these hosts:
+
+		- ads.aftonbladet.se
+
+-->
+
+<ruleset name="Aftonbladet.se (partial)">
+
+	<!--	Direct rewrites: -->
+
+	<target host="aftonbladet.se" />
+	<target host="www.aftonbladet.se" />
+	<target host="bloggar.aftonbladet.se" />
+	<target host="login.aftonbladet.se" />
+	<target host="smetrics.aftonbladet.se" />
+	<target host="granskning.aftonbladet.se" />
+	<target host="hemma.aftonbladet.se" />
+	<target host="myhome.aftonbladet.se" />
+
+	<!--	Special cases: -->
+
+	<target host="metrics.aftonbladet.se" />
+
+	<securecookie host="^(?:ads|\.smetrics)\.aftonbladet\.se$" name=".+" />
+
+	<rule from="^http://metrics\.aftonbladet\.se/"
+		to="https://smetrics.aftonbladet.se/" />
+
+	
+	<rule from="^http:" to="https:" />
+</ruleset>

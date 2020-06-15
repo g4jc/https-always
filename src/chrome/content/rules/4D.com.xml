@@ -1,0 +1,17 @@
+<!--
+	Nonfunctional subdomains:
+
+		- (www.)	(times out)
+
+-->
+<ruleset name="4D.com (partial)">
+
+	<target host="store.4d.com" />
+
+
+	<securecookie host="^\.store\.4d\.com$" name=".+" />
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

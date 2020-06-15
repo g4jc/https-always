@@ -1,0 +1,9 @@
+<ruleset name="advolution.de">
+
+	<target host="asn.advolution.de" />
+
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

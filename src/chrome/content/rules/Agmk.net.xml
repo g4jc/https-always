@@ -1,0 +1,13 @@
+<ruleset name="agmk.net">
+
+	<target host="agmk.net" />
+	<target host="poczta.agmk.net" />
+	<target host="www.agmk.net" />
+
+
+	<securecookie host=".+" name=".+" />
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

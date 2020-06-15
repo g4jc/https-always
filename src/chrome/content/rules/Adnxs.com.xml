@@ -1,0 +1,31 @@
+<!--
+	For other AppNexus coverage, see AppNexus.xml
+
+	Insecure cookies are set for these domains and hosts (see https://owasp.org/index.php/SecureFlag):
+		- .adnxs.com
+		- www.adnxs.com
+
+	Invalid certificate:
+		- www.adnxs.com
+-->
+
+<ruleset name="Adnxs.com">
+	<target host="cdn.adnxs.com" />
+	<target host="ib.adnxs.com" />
+		<test url="http://ib.adnxs.com/bounce" />
+		<test url="http://ib.adnxs.com/click" />
+		<test url="http://ib.adnxs.com/seg" />
+	<target host="oas-c18.adnxs.com" />
+	<target host="cdn.oas-c18.adnxs.com" />
+	<target host="secure.adnxs.com" />
+		<test url="http://secure.adnxs.com/bounce" />
+		<test url="http://secure.adnxs.com/click" />
+		<test url="http://secure.adnxs.com/pxj" />
+
+	<!-- Not secured by server -->
+	<!--securecookie host="^\.adnxs\.com$" name="^(anj|sess|uuid2)$" /-->
+	<!--securecookie host="^www\.adnxs\.com$" name="^([A-Z]+$|BIGipServer)" /-->
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

@@ -5,30 +5,35 @@
 		- w8.ab.ust.hk
 		- admission.ust.hk
 		- www.bm.ust.hk
+		- ielm.ust.hk
 		- itsm.ust.hk
 		- lbdb.ust.hk
 		- intranet.math.ust.hk
 		- ustlib.ust.hk
 
+		SSL connect error (TLSv1 or TLSv1.1 earlier):
+		- alum.ust.hk
+		- my.ust.hk
+
 		SSL connect error:
 		- search.ust.hk
 
 		SSL peer certificate was not OK:
-		- arr.ust.hk
 		- algebra.math.ust.hk
-		- o365.ust.hk
 		- hrmsxprod.psft.ust.hk
 		- sqmail.ust.hk
 		- sci.success.ust.hk
 
 		Peer certificate cannot be authenticated with given CA certificates:
 		- ias.ust.hk
-		- lbpics.ust.hk
+		- www.sengpp.ust.hk
 
 		Incomplete certificate chain error:
-		- www.ab.ust.hk
 		- alumni.ust.hk
+		- connect.ust.hk
+		- kt.ust.hk
 		- ss.ust.hk
+		- tle.seng.ust.hk
 
 		Status code mismatch:
 		- bigdata.cse.ust.hk
@@ -44,7 +49,11 @@
 	<test url="http://w5.ab.ust.hk/wcq/cgi-bin/1620/" />
 	<target host="w6.ab.ust.hk" />
 	<test url="http://w6.ab.ust.hk/fbs/" />
+	<target host="www.ab.ust.hk" />
 	<target host="access.ust.hk" />
+	<target host="alumgiving.ust.hk" />
+	<target host="archives.ust.hk" />
+	<target host="arr.ust.hk" />
 	<target host="asset.ust.hk" />
 
 	<target host="bdi.ust.hk" />
@@ -52,35 +61,50 @@
 	<target host="www.bri.ust.hk" />
 
 	<target host="cas.ust.hk" />
+	<target host="calendar.ust.hk" />
 	<target host="canvas.ust.hk" />
 	<target host="career.ust.hk" />
 	<target host="catalog.ust.hk" />
 	<target host="cbe.ust.hk" />
+	<target host="www.cdgt.ust.hk" />
 	<target host="citars.ust.hk" />
-	<target host="connect.ust.hk" />
 	<target host="adfs.connect.ust.hk" />
+	<target host="covid19info.ust.hk" />
 	<target host="course.cse.ust.hk" />
 	<test url="http://course.cse.ust.hk/comp3711/03subarray.pdf" />
 	<target host="cssystem.cse.ust.hk" />
 	<target host="www.cse.ust.hk" />
+	<target host="cso.ust.hk" />
 
+	<target host="dao.ust.hk" />
+	<target host="datahub.ust.hk" />
 	<target host="dataspace.ust.hk" />
+	<target host="digitalimages.ust.hk" />
 	<target host="download.ust.hk" />
 
 	<target host="www.ec.ust.hk" />
+	<target host="engage.ust.hk" />
 	<target host="epst.ust.hk" />
 	<target host="owa.exchange.ust.hk" />
 	<target host="lib.ezproxy.ust.hk" />
 	<target host="login.lib.ezproxy.ust.hk" />
+	
+	<target host="facultyprofiles.ust.hk" />
+
+	<target host="giving.ust.hk" />
+	
+	<target host="hseo.ust.hk" />
 
 	<target host="idp.ust.hk" />
 	<test url="http://idp.ust.hk/idp/images/logo.png" />
-	<target host="ielm.ust.hk" />
 	<target host="iis.ust.hk" />
 	<test url="http://iis.ust.hk/phonebk/dept.asp" />
 	<target host="illiad.ust.hk" />
+	<target host="iso.ust.hk" />
 	<target host="itsc.ust.hk" />
 	<target host="itscapps.ust.hk" />
+	
+	<target host="hkustcareers.ust.hk" />
 
 	<target host="join.ust.hk" />
 
@@ -90,21 +114,28 @@
 	<target host="lbcone.ust.hk" />
 	<test url="http://lbcone.ust.hk/booktalk/" />
 	<target host="lbcube.ust.hk" />
+	<target host="lbdata.ust.hk" />
 	<target host="lbdiscover.ust.hk" />
 	<target host="lbezone.ust.hk" />
+	<target host="lbjcrs.ust.hk" />
+	<target host="lbpics.ust.hk" />
 	<target host="lbsearch.ust.hk" />
 	<target host="lbsphere.ust.hk" />
 	<target host="lbstaff.ust.hk" />
-	<target host="lbjcrs.ust.hk" />
-	<target host="library.ust.hk" />
 	<target host="libguides.ust.hk" />
+	<target host="library.ust.hk" />
 	<target host="lists.ust.hk" />
 
 	<target host="webwork.math.ust.hk" />
 	<target host="www.math.ust.hk" />
+	<target host="mtpcnews.ust.hk" />
+	<test url="http://mtpcnews.ust.hk/issue1/feature/" />
 	<target host="myaccount.ust.hk" />
 	<target host="mystudyabroad.ust.hk" />
+	
+	<target host="news.ust.hk" />
 
+	<target host="o365.ust.hk" />
 	<target host="onemilliondollar.ust.hk" />
 
 	<target host="pg.ust.hk" />
@@ -115,11 +146,15 @@
 	<target host="sao.ust.hk" />
 	<target host="sdb.science.ust.hk" />
 	<test url="http://sdb.science.ust.hk/mySCI/" />
-	<target host="tle.seng.ust.hk" />
-	<target host="www.sengpp.ust.hk" />
+	<!-- target host="www.sengpp.ust.hk" /-->
+	<target host="sfao.ust.hk" />
 	<target host="souvenir.ust.hk" />
 
+	<target host="transcript.ust.hk" />
+
 	<target host="urop.ust.hk" />
+	<target host="ucalendar.ust.hk" />
+	<test url="http://ucalendar.ust.hk/cgi-bin/cas_login.php" />
 
 	<target host="video.ust.hk" />
 

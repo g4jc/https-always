@@ -1,0 +1,9 @@
+<ruleset name="AdaCore (partial)">
+	<target host="adacore.com" />
+	<target host="www.adacore.com" />
+	<target host="libre.adacore.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

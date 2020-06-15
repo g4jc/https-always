@@ -1,0 +1,34 @@
+<!--
+	Nonfunctional subdomains:
+
+		- business	(refused)
+
+
+	Problematic subdomains:
+
+		- ^		(mismatched, CN: www.bitrixsoft.com)
+		- ecommerce	(works; mismatched, CN: www.bitrixsoft.com)
+
+-->
+<ruleset name="1c-bitrix.ru (partial)">
+
+	<target host="1c-bitrix.ru" />
+	<target host="www.1c-bitrix.ru" />
+	<target host="1c.1c-bitrix.ru" />
+	<target host="academy.1c-bitrix.ru" />
+	<target host="dev.1c-bitrix.ru" />
+	<target host="idea.1c-bitrix.ru" />
+	<target host="marketplace.1c-bitrix.ru" />
+	<target host="partners.1c-bitrix.ru" />
+	<target host="promo.1c-bitrix.ru" />
+
+
+	<securecookie host="^\.1c-bitrix\.ru$" name=".+" />
+
+
+	<rule from="^http://(?:www\.)?1c-bitrix\.ru/"
+		to="https://www.1c-bitrix.ru/" />
+
+
+	<rule from="^http:" to="https:" />
+</ruleset>

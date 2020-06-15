@@ -1,0 +1,43 @@
+<!--
+	For other Mozilla coverage, see Mozilla.xml.
+
+	Refused:
+		whatsdeployed.paas.allizom.org
+		phonedash-dev.allizom.org
+
+	Invalid certificate:
+		m.wiki.allizom.org
+		download-sha1.allizom.org
+
+	Different content HTTP/HTTPS:
+		developer-dev.allizom.org
+		docs-pub-build.allizom.org
+
+-->
+<ruleset name="Allizom.org (partial)">
+
+	<target host="allizom.org" />
+	<target host="www.allizom.org" />
+	<target host="activations-dev.allizom.org" />
+	<target host="air.allizom.org" />
+	<target host="air-dev.allizom.org" />
+	<target host="bugzilla-dev.allizom.org" />
+	<target host="careers.allizom.org" />
+	<target host="dxr.allizom.org" />
+	<target host="fhr-dev.allizom.org" />
+	<target host="hardware.metrics.allizom.org" />
+	<target host="itisatrap-dev.allizom.org" />
+	<target host="mozillalabs.allizom.org" />
+	<target host="snippets.allizom.org" />
+	<target host="support.allizom.org" />
+	<target host="telemetry-experiment-dev.allizom.org" />
+	<target host="treeherder.allizom.org" />
+	<target host="wiki.allizom.org" />
+	<target host="wiki-dev.allizom.org" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:"
+		to="https:" />
+
+</ruleset>

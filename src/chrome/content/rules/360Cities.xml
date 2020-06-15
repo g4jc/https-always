@@ -1,0 +1,15 @@
+<ruleset name="360Cities (partial)">
+
+	<target host="360cities.net" />
+	<target host="www.360cities.net" />
+	<target host="cdn1.360cities.net" />
+	<target host="cdn2.360cities.net" />
+	<target host="help.360cities.net" />
+
+
+	<securecookie host="^www\.360cities\.net$" name=".+" />
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

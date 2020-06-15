@@ -1,0 +1,41 @@
+<!--
+	Nonfunctional subdomains:
+
+		- community *
+		- docs *
+
+	* Redirects to http, valid cert
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- account
+		- code
+		- store
+		- templates
+
+
+	Observed cookie domains:
+
+		- account
+		- community
+		- .store
+
+-->
+<ruleset name="ActiveState Software (partial)">
+
+	<target host="activestate.com" />
+	<target host="account.activestate.com" />
+	<target host="code.activestate.com" />
+	<target host="store.activestate.com" />
+	<target host="templates.activestate.com" />
+	<target host="www.activestate.com" />
+
+
+	<securecookie host=".*\.activestate\.com$" name=".+" />
+
+
+
+	<rule from="^http:" to="https:" />
+</ruleset>

@@ -1,0 +1,21 @@
+<!--
+	Non-functional hosts
+		Timeout was reached:
+		- mon.ahcdn.com
+-->
+<ruleset name="ahcdn.com">
+	<target host="ahcdn.com" />
+	<target host="www.ahcdn.com" />
+	<target host="cp.ahcdn.com" />
+	<target host="dev.ahcdn.com" />
+	<target host="pixcp.ahcdn.com" />
+	<target host="ip51437333.ahcdn.com" />
+	<target host="ip53801869.ahcdn.com" />
+	<target host="ip53816682.ahcdn.com" />
+	<target host="ip54664429.ahcdn.com" />
+	<target host="ip88783927.ahcdn.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

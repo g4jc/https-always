@@ -1,0 +1,42 @@
+
+<!--
+Disabled by https-everywhere-checker because:
+Fetch error: http://adk2.com/ => https://adk2.com/: (7, 'Failed to connect to adk2.com port 443: Connection refused')
+
+Disabled by https-everywhere-checker because:
+Fetch error: http://adk2.com/ => https://adk2.com/: (60, 'SSL certificate problem: unable to get local issuer certificate')
+	For other PLYmedia coverage, see PLYmedia.com.xml.
+
+
+	Nonfunctional subdomains:
+
+		- docs	(times out)
+		- www
+
+
+	Fully covered subdomains:
+
+		- ads
+		- adstract
+		- cpmrocket
+
+-->
+<ruleset name="adk2 (partial)" default_off="failed ruleset test">
+
+	<target host="adk2.com" />
+	<target host="ads.adk2.com" />
+	<target host="adstract.adk2.com" />
+	<target host="cpmrocket.adk2.com" />
+	<target host="cdn.adk2.com" />
+
+
+	<securecookie host="^\.?ads\.adk2\.com$" name=".+" />
+
+
+	<rule from="^http:" to="https:" />
+
+	<!--	Included on 3rd-party websites.
+						-->
+
+
+</ruleset>

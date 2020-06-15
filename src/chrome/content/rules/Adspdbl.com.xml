@@ -1,0 +1,22 @@
+<!--
+	Web bugs.
+
+
+	CDN buckets:
+
+		- d3ijm230svej28.cloudfront.net
+
+			- files
+
+
+	(www.): dropped
+
+-->
+<ruleset name="adspdbl.com (partial)">
+
+	<target host="files.adspdbl.com" />
+
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

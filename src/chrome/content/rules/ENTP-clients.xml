@@ -6,9 +6,6 @@
 <ruleset name="ENTP clients" default_off="mismatched">
 
 	<!--	Cert: *.tenderapp.com	-->
-	<target host="support.arpnetworks.com" />
-		<!--	Handled in ARPNetworks.com.xml.	-->
-		<exclusion pattern="^http://support\.arpnetworks\.com/(?:help|pkg|stylesheets)/" />
 	<target host="help.flavors.me" />
 		<!--	Handled in Flavors.me.xml.	-->
 		<exclusion pattern="^http://help\.flavors\.me/(?:help|pkg|stylesheets)/" />

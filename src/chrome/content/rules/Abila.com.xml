@@ -1,0 +1,8 @@
+<ruleset name="Abila.com (partial)">
+	<target host="abila.com" />
+	<target host="www.abila.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

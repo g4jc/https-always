@@ -1,0 +1,26 @@
+<!--
+	Refused:
+		- ^
+
+	Timeout:
+		- support
+
+	Mismatched:
+		- a
+-->
+<ruleset name="AdRoll (partial)">
+	<target host="adroll.com" />
+	<target host="www.adroll.com" />
+	<target host="blog.adroll.com" />
+	<target host="d.adroll.com" />
+	<target host="feedback.adroll.com" />
+	<target host="help.adroll.com" />
+	<target host="s.adroll.com" />
+	<target host="support.adroll.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http://adroll\.com/" to="https://www.adroll.com/" />
+	<rule from="^http://support\.adroll\.com/" to="https://help.adroll.com/" />
+	<rule from="^http:" to="https:" />
+</ruleset>

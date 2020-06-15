@@ -1,0 +1,23 @@
+<!--
+	Other ABC Online rulesets:
+
+		- ABC-Music-Publishing.xml
+
+	Non-functional hosts in *.abc.net.au
+		Timeout:
+		- shop.abc.net.au
+-->
+<ruleset name="ABC Online (partial)">
+
+	<!-- *.abc.net.au -->
+	<target host="abc.net.au" />
+	<target host="www.abc.net.au" />
+	<target host="about.abc.net.au" />
+
+	<!-- *.abccommercial.com -->
+	<target host="abccommercial.com" />
+	<target host="www.abccommercial.com" />
+
+	<rule from="^http:" to="https:" />
+
+</ruleset>

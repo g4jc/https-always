@@ -1,0 +1,10 @@
+<ruleset name="AdFoc.us">
+	<target host="adfoc.us" />
+	<target host="www.adfoc.us" />
+	<target host="cdn.adfoc.us" />
+	<target host="forum.adfoc.us" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http:" to="https:" />
+</ruleset>

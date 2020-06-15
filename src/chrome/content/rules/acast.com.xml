@@ -1,0 +1,24 @@
+<!--
+	Timeout:
+		- ^
+
+	Mismatched:
+		- status
+
+	HTTP != HTTPS (due to link signatures):
+		- stitcher
+-->
+<ruleset name="acast.com">
+	<target host="acast.com" />
+	<target host="www.acast.com" />
+	<target host="ads-creative-cdn.acast.com" />
+	<target host="embed.acast.com" />
+	<target host="flex.acast.com" />
+	<target host="media.acast.com" />
+	<target host="rss.acast.com" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http://acast\.com/" to="https://www.acast.com/" />
+	<rule from="^http:" to="https:" />
+</ruleset>

@@ -1,0 +1,19 @@
+<!--
+	Expired:
+		- capris.no
+
+	Mismatched:
+		- www.capris.no
+-->
+<ruleset name="Adlibris">
+	<target host="adlibris.com" />
+	<target host="www.adlibris.com" />
+
+	<target host="capris.no" />
+	<target host="www.capris.no" />
+
+	<securecookie host=".+" name=".+" />
+
+	<rule from="^http://(www\.)?capris\.no/" to="https://www.adlibris.com/" />
+	<rule from="^http:" to="https:" />
+</ruleset>
